@@ -1,0 +1,116 @@
+/*tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap');
+
+/* custom checkbox */
+.checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* ocultamos el checkbox por Defecto*/
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* checkbox personalido para Backtrack*/
+.check {
+    position: absolute;
+    top: 6px;
+    left:10px;
+    height: 15px;
+    width: 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #cecece;
+    border-radius:50%;
+}
+
+/* pasar por encima del checkbox */
+.checkbox:hover input ~ .check {
+    border: 1px solid #aaa;
+}
+
+/* color de fondo de Exploit */
+.color-exploit input:checked ~ .check {
+    background-color: #ff1343;
+    border: 1px solid transparent;
+    top: 6px;
+}
+
+/* color de fondo de data */
+.color-data input:checked ~ .check {
+    background-color: #ff7e4c;
+    border: 1px solid transparent;
+    top: 6px;
+}
+
+/* color de fondo de Phishing */
+.color-phishing input:checked ~ .check {
+    background-color: #fec300;
+    border: 1px solid transparent;
+    top: 6px;
+}
+
+/* color de fondo de User Console */
+.color-console input:checked ~ .check {
+    background-color: #0f79ed;
+    border: 1px solid transparent;
+    top: 6px;
+}
+
+.check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox input:checked ~ .check:after {
+    display: block;
+}
+
+/* checkmark style */
+.checkbox .check:after {
+    -webkit-border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: -6px;
+    top: -6px;
+    animation: pulsate 1.5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0;
+}
+
+.color-exploit .check:after {
+    border: 3px solid #ff1343;
+}
+
+.color-data .check:after {
+    border: 3px solid #ff7e4c;
+}
+
+.color-phishing .check:after {
+    border: 3px solid #fec300;
+}
+
+.color-console .check:after {
+    border: 3px solid #0f79ed;
+}
+
+/*animación*/
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}

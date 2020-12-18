@@ -1,0 +1,23 @@
+.xmx-input {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  padding: 6px 30px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "Inconsolata", monospace;
+  border-color: #565982 !important;
+  color: hsla(0,0%,74.9%,.87);
+  background: none;
+  border: 1px solid #565982;
+  border-radius: 2px;
+}
+.mx-datepicker-range{
+  width: 100%;
+}
+.mx-icon-calendar, .mx-icon-clear{
+  color: #565982;
+  padding-right: 4px;
+}

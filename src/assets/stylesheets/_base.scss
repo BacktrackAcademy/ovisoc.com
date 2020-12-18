@@ -1,0 +1,186 @@
+h1 {
+  font-family: "Oswald";
+  text-rendering: optimizelegibility;
+  font-size: 48px;
+}
+h2 {
+  font-family: "Oswald";
+  text-rendering: optimizelegibility;
+  font-size: 36px;
+}
+h3, .h3 {
+  font-family: "Oswald";
+  font-size: 28px;
+  margin-bottom: 0rem;
+}
+h4 {
+  font-family: "Oswald";
+  font-size: 22px;
+}
+h5 {
+  font-family: "Oswald";
+  font-size: 20px;
+}
+p {
+  text-rendering: optimizelegibility;
+  font-size: 16px;
+  line-height: 1.675;
+  margin: 0;
+  color: #565982;
+  /*padding-top: 8px;*/
+  font-family: "Inconsolata", monospace;
+}
+label{
+  text-rendering: optimizelegibility;
+  font-size: 16px;
+  line-height: 1.675;
+  color: #565982;
+  font-family: "Inconsolata", monospace;
+}
+a {
+  font-family: "Inconsolata", monospace;
+/*  color: #e83e8c;*/
+}
+:focus {
+  outline: none;
+}
+.navbar {
+  margin-bottom: 24px;
+}
+.small-text {
+  font-size: 10px;
+}
+.mapboxgl-popup {
+  color: #565982;
+}
+.mapboxgl-popup-content {
+  word-wrap: break-word;
+}
+.btn-scan {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 12px 22px;
+  background: #ff1343;
+  transition: all .2s cubic-bezier(.785,.135,.15,.86);
+}
+.btn-scan:hover{
+  color: white;
+  background-color: #ff1343;
+  border-radius: 0px;
+}
+.text-muted{
+  color: #565982 !important;
+}
+/* icon */
+.ring-container {
+  position: relative;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: #f51243;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.circle-effect {
+  animation: pulsate 1s ease-out;
+  animation-iteration-count: infinite; 
+  -webkit-animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite; 
+  opacity: 0.0
+}
+
+.ringring {
+  border: 3px solid #f51243;
+  -webkit-border-radius: 30px;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  -webkit-animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite; 
+  opacity: 0.0
+}
+
+@-webkit-keyframes pulsate {
+  0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+  50% {opacity: 1.0;}
+  100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+.icono {
+  webkit-animation: blink-1 2s cubic-bezier(.55,.085,.68,.53) 10 infinite both;
+  animation: blink-1 2s cubic-bezier(.55,.085,.68,.53) infinite reverse both;
+}
+
+.white{
+  color: white;
+}
+.critical{
+  color: #ff1343;
+}
+.high {
+  color: #ff7e4c;
+}
+.medium {
+  color: #fec300;
+}
+.low {
+  color: #15cd90;
+}
+.list-group-item{
+  background: #070916;
+  border: 1px solid rgb(54 54 77);
+}
+.table{
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+}
+.table th, .table td {
+  border-top: 1px solid #36364d;
+}
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  font-family: "Inconsolata", monospace;;
+  border: 1px solid #ff1343;
+  -webkit-text-fill-color: white;
+  transition: background-color 5000s ease-in-out 0s;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  font-weight: 400;
+  opacity: 1; /* Firefox */
+}
+.form-control {
+  width: 100%;
+  padding: 0 16px;
+  outline: none;
+  font-family: inconsolata,monospace;
+  color: #fff;
+  font-size: 18px;
+  margin: 14px 0;
+  font-weight: 100;
+  background: #070a16;
+  height: 55px;
+  letter-spacing: 1px;
+}
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled){
+  padding: 8px;
+}

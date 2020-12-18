@@ -1,0 +1,17 @@
+<svg id="Grupo_355" data-name="Grupo 355" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+  <g id="Consola">
+    <g id="icono">
+      <g id="Elipse_20" data-name="Elipse 20" fill="none" stroke="#fff" stroke-width="2">
+        <circle cx="20.5" cy="20.5" r="20.5" stroke="none"/>
+        <circle cx="20.5" cy="20.5" r="19.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g id="_012-password" data-name="012-password" transform="translate(7.001 10.765)">
+    <ellipse id="Elipse_55" data-name="Elipse 55" cx="0.794" cy="0.791" rx="0.794" ry="0.791" transform="translate(3.176 6.323)" fill="#fff"/>
+    <ellipse id="Elipse_56" data-name="Elipse 56" cx="0.794" cy="0.791" rx="0.794" ry="0.791" transform="translate(6.353 6.323)" fill="#fff"/>
+    <path id="Trazado_306" data-name="Trazado 306" d="M26.206,35.143H22.619a7.17,7.17,0,0,0-11.886,0H.794A.793.793,0,0,0,0,35.934v6.328a.793.793,0,0,0,.794.791h9.939a7.082,7.082,0,0,0,.936,1.125L7.894,52.233a2.381,2.381,0,0,0,4.318,2.008l3.778-8.061a7.148,7.148,0,0,0,6.63-3.128h3.586A.793.793,0,0,0,27,42.262V35.934A.793.793,0,0,0,26.206,35.143ZM1.588,41.471V36.725H9.939a7.139,7.139,0,0,0,0,4.746Zm9.184,12.1a.794.794,0,0,1-1.44-.669L11.6,48.065l1.44.669ZM13.712,47.3l-1.44-.669.682-1.456a7.11,7.11,0,0,0,1.44.667Zm-.966-4.287a5.548,5.548,0,1,1,7.861,0A5.528,5.528,0,0,1,12.746,43.013Zm12.666-1.542h-2a7.139,7.139,0,0,0,0-4.746h2v4.746Z" transform="translate(0 -31.984)" fill="#fff"/>
+    <path id="Trazado_307" data-name="Trazado 307" d="M241.735,121.882a.793.793,0,0,0-.794.791v3.164a.794.794,0,0,0,1.588,0v-3.164A.793.793,0,0,0,241.735,121.882Z" transform="translate(-228.235 -117.141)" fill="#fff"/>
+    <path id="Trazado_308" data-name="Trazado 308" d="M303.558,121.882H301.97a.793.793,0,0,0-.794.791v3.164a.793.793,0,0,0,.794.791h1.588a2.373,2.373,0,1,0,0-4.746Zm0,3.164h-.794v-1.582h.794a.791.791,0,1,1,0,1.582Z" transform="translate(-285.294 -117.141)" fill="#fff"/>
+  </g>
+</svg>
