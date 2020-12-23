@@ -13,10 +13,7 @@ export default new Router({
     {
       path: "/",
       component: Public,
-      children: PublicRoutes,
-      meta: {
-        auth: false
-      }
+      children: PublicRoutes
     },
   ]
 });

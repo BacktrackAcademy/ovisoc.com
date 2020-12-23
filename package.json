@@ -12,7 +12,6 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/pro-duotone-svg-icons": "^5.15.1",
     "@fortawesome/vue-fontawesome": "^0.1.10",
-    "@websanova/vue-auth": "^2.21.14-beta",
     "apexcharts": "^3.22.1",
     "autoprefixer": "^9.8.6",
     "axios": "^0.19.2",
