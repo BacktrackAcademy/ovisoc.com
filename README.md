@@ -13,7 +13,7 @@ Estamos abiertos a todo tipo de aportaciones. Si quieres:
 - :book: Mejorar la documentación
 - :man_technologist: Contribuir al código
 
-Usted es más que bienvenido. Antes de contribuir, consulte nuestra [guía de contribuciones](https://github.com/BacktrackAcademy/enterprise/blob/main/CONTRIBUTING).
+Usted es más que bienvenido. Antes de contribuir, consulte nuestra [guía de contribuciones](https://github.com/BacktrackAcademy/enterprise/blob/main/CONTRIBUTING.md).
 
 ## :bookmark_tabs: Licencia
 
