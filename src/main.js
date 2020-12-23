@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import VueMapbox from "vue-mapbox";
-import Mapbox from "mapbox-gl";
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -64,7 +62,6 @@ Vue.use(VueCookie);
 Vue.use(VueAxios, axios);
 Vue.use(Vuelidate);
 Vue.use(VueFeather);
-Vue.use(VueMapbox, { mapboxgl: Mapbox });
 // infinite Scroll
 Vue.use(infiniteScroll)
 
