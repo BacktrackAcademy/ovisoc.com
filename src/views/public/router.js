@@ -87,5 +87,7 @@ export const PublicRoutes = [
     component: Educational,
     props: true,
     name: 'Educational'
-  }
+  },
+  // keep this line last to redirect all invalid URLs to the landing
+  { path: '*', redirect: { name: 'Landing' }}
 ];
