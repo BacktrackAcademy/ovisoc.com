@@ -28,7 +28,6 @@
     "sass": "^1.27.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
     "vue": "^2.6.12",
-    "vue-apexcharts": "^1.6.0",
     "vue-axios": "^2.1.5",
     "vue-cookie": "^1.1.4",
     "vue-feather": "^1.0.1",

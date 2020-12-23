@@ -11,7 +11,6 @@ import vSelect from 'vue-select'
 import PulseLoader from "vue-spinner/src/PulseLoader.vue";
 import infiniteScroll from 'vue-infinite-scroll';
 import VueFeather from 'vue-feather';
-import VueApexCharts from "vue-apexcharts";
 import Vuelidate from "vuelidate";
 import VueSweetalert2 from "vue-sweetalert2";
 // If you don't need the styles, do not connect
@@ -27,7 +26,6 @@ var VueCookie = require("vue-cookie");
 Vue.component("v-select", vSelect);
 Vue.component("moon-loader", PulseLoader);
 Vue.component("font-awesome-icon", FontAwesomeIcon);
-Vue.component("apexchart", VueApexCharts);
 Vue.component("jw-pagination", JwPagination);
 Vue.component("v-select", vSelect);
 library.add(
