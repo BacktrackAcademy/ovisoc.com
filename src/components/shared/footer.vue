@@ -50,11 +50,11 @@
             Monitoreo deep web
           </router-link>
         </li>
-        <!-- <li>
+        <li>
           <router-link to="/kildstress" class="font-inconsalata border-b border-transparent hover:border-bta-blue hover:text-bta-blue">
             Test de stress
           </router-link>
-        </li> -->
+        </li>
         <li>
           <router-link to="/academy" class="font-inconsalata border-b border-transparent hover:border-bta-blue hover:text-bta-blue">
             Educación continua
