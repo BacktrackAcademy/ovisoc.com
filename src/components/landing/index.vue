@@ -93,11 +93,6 @@
       </div>
       <br class="md:hidden" /> 
       <div class="hidden relative w-full lg:w-2/6 lg:flex justify-center items-center">
-        <!-- <img
-          class="w-full h-full"
-          src="../../assets/img/laptop.png"
-          alt="Banner7"
-        /> -->
         <img
           class="absolute bottom-3.5 left-0 w-3/5"
           src="../../assets/img/celular.png"
