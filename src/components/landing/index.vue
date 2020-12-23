@@ -172,7 +172,8 @@
         </div>
       </div>
     </section>
-    <!-- <section id="services" class="container mx-auto my-20">
+
+    <section id="services" class="container mx-auto my-20">
       <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
           <div class="flex mb-3">
@@ -359,60 +360,6 @@
 
       </div>
     </section>
-
-    <section id="threats" class="container mx-auto my-20 flex flex-col lg:flex-row justify-center">
-      <div class="w-full md:w-4/12 lg:w-3/12 my-2 py-6 px-4 bg-dark bg-opacity-25">
-        <h3 class="uppercase font-oswald font-bold text-2xl mb-5">Últimas amenazas</h3>
-        <div v-for="(cve, index) of cves" :key="index">
-          <div class="flex justify-between items-baseline">
-            <div>
-              <label class="block font-oswald font-semibold text-2xl text-white leading-5">{{cve.title}}</label>
-              <span class="font-oswald capitalize">{{formatDate(cve.published_date)}}</span>
-            </div>
-            <div class="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center">
-              <span class="font-oswald font-bold">{{cve.cvss}}</span>
-            </div>
-          </div>
-          <p class="font-inconsalata text-white pt-2 pb-3 leading-4">{{cve.summary.substring(0, 50)}}...</p>
-          <hr class="border-white mb-3"/>
-        </div>
-      </div>
-
-      <div class="w-full md:w-4/12 lg:w-3/12 my-2 lg:mx-4 py-6 px-4 bg-dark bg-opacity-25">
-        <h3 class="uppercase font-oswald font-bold text-2xl mb-5">top 5 cpe</h3>
-        <div v-for="(cpe, index) of cpes" :key="index">
-          <div class="flex justify-between items-baseline">
-            <div>
-              <label class="block font-oswald font-semibold text-2xl text-white leading-5 capitalize">{{cpe.product_name.replace('_', ' ')}}</label>
-              <span class="font-oswald capitalize">{{formatDate(cpe.updated_at)}}</span>
-            </div>
-            <div class="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center">
-              <span class="font-oswald font-bold">{{numberWithCommas(cpe.count_cve)}}</span>
-            </div>
-          </div>
-          <p class="font-inconsalata text-white pt-2 pb-3 leading-4">{{cpe.name}} {{cpe.vendor_name}} {{cpe.product_name}}</p>
-          <hr class="border-white mb-3"/>
-        </div>
-      </div>
-
-      <div class="w-full md:w-4/12 lg:w-3/12 my-2 py-6 px-4 bg-dark bg-opacity-25">
-        <h3 class="uppercase font-oswald font-bold text-2xl mb-5">top 5 vendor</h3>
-        <div v-for="(vendor, index) of vendors" :key="index">
-          <div class="flex justify-between items-baseline">
-            <div>
-              <label class="block font-oswald font-semibold text-2xl text-white leading-5 capitalize">{{vendor.name}}</label>
-              <span class="font-oswald capitalize">{{formatDate(vendor.updated_at)}}</span>
-            </div>
-            <div class="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center">
-              <span class="font-oswald font-bold">{{numberWithCommas(vendor.count_cve)}}</span>
-            </div>
-          </div>
-          <p class="font-inconsalata text-white pt-2 pb-3 leading-4">Product {{vendor.count_product}} {{vendor.count_cve}}</p>
-          <hr class="border-white mb-3"/>
-        </div>
-      </div>
-
-    </section> -->
 
     <ContactForm />
   </main>
