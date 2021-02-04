@@ -175,72 +175,51 @@
         <img class="w-2/12 h-full" src="../../assets/icons/t2.svg"/>
         <img class="w-2/12 h-full" src="../../assets/icons/t3.svg"/>
       </div>
-            <div class="w-3/6 md:w-4/6">
-              <label class="block font-inconsalata tracking-widest font-semibold leading-3">CYBOPS</label>
-              <h2 class="font-oswald text-xl md:text-2xl lg:text-3xl font-semibold mb-2">ALERTA DE VULNERABILIDADES</h2>
-            </div>
+    <section id="features" class="py-40 px-2 lg:px-0 md:px-24 lg:pl-48 lg:pr-40 w-full">
+        <h2 class="uppercase text-center">¿porqué elegirnos?</h2>
+        <div class="flex flex-row my-10">
+          <div class="w-1/2 mt-10">
+            <img class="w-8/12" src="../../assets/landing2/a.jpg"/>
           </div>
-          <p class="font-inconsalata tracking-wide text-white h-56">
-            Es un sistema alerta temprana de vulnerabilidades basados en
-            estándares representados mediante el Protocolo de automatización
-            de contenido de seguridad (SCAP).
-          </p>
-          <div class="text-right mt-2">
-            <router-link to="/vulnerability" class="uppercase font-bold font-inconsalata tracking-wider border-2 border-bta-pink hover:text-bta-pink px-3 py-2">
-              más información
-            </router-link>
-          </div>
-        </div>
-
-        <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
-          <div class="flex mb-3">
-            <div class="overflow-auto h-24 w-3/6 md:w-2/6 mr-2">
-              <img
-                class="w-full h-full"
-                src="../../assets/img/icon-color/ovisoc.svg"
-                alt="Icon ovisoc"
-              />
+          <div class="w-1/2 mt-10">
+            <h2 class="uppercase">protegemos tus activos de posibles ataques</h2>
+            <p class="text-white text-xl font-inconsalata my-6">
+              Nos situamos desde un sistema reciproco <br>
+              de seguridad preventiva, gestionando las <br>
+              amenazas de manera continua y propiciando <br>
+              un entorno mas confiable que asegura la <br>
+              operatividad de tu negocio
+            </p>
+            <div class="mt-2 w-3/12 h-12 border-2 border-bta-pink bg-bta-pink flex rounded-xl justify-center">
+              <a class="text-white  text-xl font-bold py-2">
+                Link <span class="text-sm"> >> </span>  
+              </a>
             </div>
-            <div class="w-3/6 md:w-4/6">
-              <label class="block font-inconsalata tracking-widest font-semibold leading-3">
-                OVISOC
-              </label>
-              <h2 class="font-oswald text-xl md:text-2xl lg:text-3xl font-semibold mb-2">
-                <span class="block">PRUEBAS</span>
-                <span>DE PENETRACIÓN</span>
-              </h2>
-            </div>
-          </div>
-          <p class="font-inconsalata tracking-wide text-white h-56">
-            Solución que evalúa aplicaciones web, servidores y dominios de una
-            empresa funcionando continuamente y diagnosticando el estado de
-            seguridad general de la empresa.
-          </p>
-          <div class="text-right mt-2">
-            <router-link to="/pentesting" class="uppercase font-bold font-inconsalata tracking-wider border-2 border-bta-pink hover:text-bta-pink px-3 py-2">
-              más información
-            </router-link>
           </div>
         </div>
-
-        <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
-          <div class="flex mb-3">
-            <div class="overflow-auto h-24 w-3/6 md:w-2/6 mr-2">
-              <img
-                class="w-full h-full"
-                src="../../assets/img/icon-color/blockphi.svg"
-                alt="Icon blockphi"
-              />
+        <div class="flex flex-row my-10">
+          <div class="w-1/2 mt-10">
+            <h2 class="uppercase">Monitoreamos la actividad maliciosa que pueda afectar tu empresa</h2>
+            <p class="text-white text-xl font-inconsalata my-6">
+              Nos situamos deswde un sistema reciproco <br>
+              de seguridad preventiva, gestionando las <br>
+              amenazas de manera continua y propiciando <br>
+              un entorno mas confiable que asegura la <br>
+              operatividad de tu negocio
+            </p>
+            <div class="mt-2 w-3/12 h-12 border-2 border-bta-pink bg-bta-pink flex rounded-xl justify-center">
+              <a class="text-white  text-xl font-bold py-2">
+                Link <span class="text-sm"> >> </span>  
+              </a>
             </div>
-            <div class="w-3/6 md:w-4/6">
-              <label class="block font-inconsalata tracking-widest font-semibold leading-3">
-                BLOCKPHI
-              </label>
-              <h2 class="font-oswald text-xl lg:text-3xl font-semibold mb-2">
-                <span class="block">DETECCIÓN</span>
-                <span>DE PHISHING</span>
-              </h2>
-            </div>
+          </div>
+          <div class="w-1/2 mt-10">
+            <img class=" w-8/12" src="../../assets/landing2/b.jpg"/>
+          </div>
+        </div>
+        <div class="flex flex-row my-10">
+          <div class="w-1/2 mt-10">
+            <img class="w-8/12" src="../../assets/landing2/c.jpg"/>
           </div>
           <p class="font-inconsalata tracking-wide text-white h-56">
             Sistema de alerta en tiempo real, sobre análisis de tráfico
@@ -254,8 +233,8 @@
           </div>
         </div>
 
-      </div>
-      <div class="flex flex-col lg:flex-row">
+        </div>
+    </section>
 
         <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
           <div class="flex mb-3">
