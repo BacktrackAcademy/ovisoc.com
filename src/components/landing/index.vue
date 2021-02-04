@@ -159,30 +159,32 @@
           <div class="w-1/2 mt-10">
             <img class="w-8/12" src="../../assets/landing2/c.jpg"/>
           </div>
-          <p class="font-inconsalata tracking-wide text-white h-56">
-            Sistema de alerta en tiempo real, sobre análisis de tráfico
-            malintencionado y detección de phishing, implementación en corto
-            tiempo en cualquier tipo de infraestructura web.
-          </p>
-          <div class="text-right mt-2">
-            <router-link to="/phishing" class="uppercase font-bold font-inconsalata tracking-wider border-2 border-bta-pink hover:text-bta-pink px-3 py-2">
-              más información
-            </router-link>
+          <div class="w-1/2 mt-10">
+            <h2 class="uppercase">protegemos tus activos de posibles ataques</h2>
+            <p class="text-white text-xl font-inconsalata my-6">
+              Nos situamos deswde un sistema reciproco <br>
+              de seguridad preventiva, gestionando las <br>
+              amenazas de manera continua y propiciando <br>
+              un entorno mas confiable que asegura la <br>
+              operatividad de tu negocio
+            </p>
+            <div class="mt-2 w-3/12 h-12 border-2 border-bta-pink bg-bta-pink flex rounded-xl justify-center">
+              <a class="text-white  text-xl font-bold py-2">
+                Link <span class="text-sm"> >> </span>  
+              </a>
+            </div>
           </div>
-        </div>
-
         </div>
     </section>
 
-        <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
-          <div class="flex mb-3">
-            <div class="overflow-auto h-24 w-3/6 md:w-2/6 mr-2">
-              <img
-                class="w-full h-full"
-                src="../../assets/img/icon-color/deep-search.svg"
-                alt="Icon deep-search"
-              />
-            </div>
+    <section id="alerts" class="py-30 px-2 lg:px-0 md:px-24 lg:pl-32 lg:pr-32 w-full">
+      <h2 class="font-oswald uppercase text-center mb-3 text-4xl leading-10 px-2 md:px-24 lg:px-48">Conoce nuestros testimonios</h2>
+      <div class="w-full h-full flex flex-row ">
+      <div class="h-154 w-1/3 flex flex-row justify-center">
+        <div class="my-10 w-3/4 h-full flex flex-col items-center">
+          <div class="random border-2 border-bta-pink flex flex-col justify-center">
+            <p class="text-center">tu foto aqui</p>
+          </div>
             <div class="w-3/6 md:w-4/6">
               <label class="block font-inconsalata tracking-widest font-semibold leading-3">DEEP SEARCH</label>
               <h2 class="font-oswald text-xl md:text-2xl lg:text-3xl font-semibold mb-2">
