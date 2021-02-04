@@ -180,97 +180,57 @@
     <section id="alerts" class="py-30 px-2 lg:px-0 md:px-24 lg:pl-32 lg:pr-32 w-full">
       <h2 class="font-oswald uppercase text-center mb-3 text-4xl leading-10 px-2 md:px-24 lg:px-48">Conoce nuestros testimonios</h2>
       <div class="w-full h-full flex flex-row ">
-      <div class="h-154 w-1/3 flex flex-row justify-center">
-        <div class="my-10 w-3/4 h-full flex flex-col items-center">
-          <div class="random border-2 border-bta-pink flex flex-col justify-center">
-            <p class="text-center">tu foto aqui</p>
-          </div>
-            <div class="w-3/6 md:w-4/6">
-              <label class="block font-inconsalata tracking-widest font-semibold leading-3">DEEP SEARCH</label>
-              <h2 class="font-oswald text-xl md:text-2xl lg:text-3xl font-semibold mb-2">
-                <span class="block">MONITOREO</span> 
-                <span>DEEP WEB</span>
-              </h2>
+        <div class="h-154 w-1/3 flex flex-row justify-center">
+          <div class="my-10 w-3/4 h-full flex flex-col items-center">
+            <div class="random border-2 border-bta-pink flex flex-col justify-center">
+              <p class="text-center">tu foto aqui</p>
             </div>
-          </div>
-          <p class="font-inconsalata tracking-wide text-white h-56">
-            Motor de búsqueda real de Dark Web, actualmente contamos con 3
-            millones de sitios web indexados exitosamente, que permiten a las
-            empresas investigar y acceder directamente a sitios onion, para
-            proteger sus activos.
-          </p>
-          <div class="text-right mt-2">
-            <router-link to="/deepweb" class="uppercase font-bold font-inconsalata tracking-wider border-2 border-bta-pink hover:text-bta-pink px-3 py-2">
-              más información
-            </router-link>
+            <div class="box-text h-7/12 w-full border-2 border-bta-pink">
+              <h2 class="mt-24 text-center">Felipe Barrios</h2>
+              <p class="text-xl text-center text-gray-400">
+                "Nos situamos desde <br> 
+                  un sistema reciproco  <br>
+                  de seguridad <br> 
+                  preventiva, <br> 
+                  gestionando"
+              </p>
+            </div>
           </div>
         </div>
-
-        <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
-          <div class="flex mb-3">
-            <div class="overflow-auto h-24 w-3/6 md:w-2/6 mr-2">
-              <img
-                class="w-full h-full"
-                src="../../assets/img/icon-color/kildstress.svg"
-                alt="Icon kildstress"
-              />
+        <div class="h-154 w-1/3 flex flex-row justify-center">
+          <div class="my-10 w-3/4 h-full  flex flex-col items-center">
+            <div class="random border-2 border-bta-pink flex flex-col justify-center">
+              <p class="text-center">tu foto aqui</p>
             </div>
-            <div class="w-3/6 md:w-4/6">
-              <label class="block font-inconsalata tracking-widest font-semibold leading-3">
-                KILDSTRESS
-              </label>
-              <h2 class="font-oswald text-xl md:text-2xl lg:text-3xl font-semibold mb-2">
-                <span class="block">TEST</span>
-                <span>DE STRESS</span>
-              </h2>
-            </div>
-          </div>
-          <p class="font-inconsalata tracking-wide text-white h-56">
-            Solución que evalúa los sitios web, servidores y dominios de una
-            empresa funcionando continuamente y diagnosticando el estado de
-            seguridad general de la empresa desde la perspectiva de un
-            atacante que esté dentro o fuera de su red en cuestión de minutos.
-          </p>
-          <div class="text-right mt-2">
-            <router-link to="/kildstress" class="uppercase font-bold font-inconsalata tracking-wider border-2 border-bta-pink hover:text-bta-pink px-3 py-2">
-              más información
-            </router-link>
+            <div class="box-text h-7/12 w-full border-2 border-bta-pink">
+            <h2 class="mt-24 text-center">Felipe Barrios</h2>
+              <p class="text-xl text-center text-gray-400">
+                "Nos situamos desde <br> 
+                  un sistema reciproco  <br>
+                  de seguridad <br> 
+                  preventiva, <br> 
+                  gestionando"
+              </p></div>
           </div>
         </div>
-
-        <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
-          <div class="flex mb-3">
-            <div class="overflow-auto h-24 w-3/6 md:w-2/6 mr-2">
-              <img
-                class="w-full h-full"
-                src="../../assets/img/icon-color/academy.svg"
-                alt="Icon academy"
-              />
+        <div class="h-154 w-1/3 flex flex-row justify-center">
+          <div class="my-10 w-3/4 h-full  flex flex-col items-center">
+            <div class="random border-2 border-bta-pink flex flex-col justify-center">
+              <p class="text-center">tu foto aqui</p>
             </div>
-            <div class="w-3/6 md:w-4/6">
-              <label class="block font-inconsalata tracking-widest font-semibold leading-3">
-                ACADEMY
-              </label>
-              <h2 class="font-oswald text-xl md:text-2xl lg:text-3xl font-semibold mb-2">
-                <span class="block">EDUCACIÓN</span>
-                <span>CONTINUA</span>
-              </h2>
-            </div>
-          </div>
-          <p class="font-inconsalata tracking-wide text-white h-56">
-            Plataforma E-learning de ciberseguridad preparamos a las nuevas
-            generaciones de profesionales para el mundo laboral.
-          </p>
-          <div class="text-right mt-2">
-            <router-link to="/academy" class="uppercase font-bold font-inconsalata tracking-wider border-2 border-bta-pink hover:text-bta-pink px-3 py-2">
-              más información
-            </router-link>
+            <div class="box-text h-7/12 w-full border-2 border-bta-pink">
+            <h2 class="mt-24 text-center">Felipe Barrios</h2>
+              <p class="text-xl text-center text-gray-400">
+                "Nos situamos desde <br> 
+                  un sistema reciproco  <br>
+                  de seguridad <br> 
+                  preventiva, <br> 
+                  gestionando"
+              </p></div>
           </div>
         </div>
-
       </div>
     </section>
-
     <ContactForm />
   </main>
 </template>
@@ -331,4 +291,19 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.random{
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  position:static;
+  background-color: white;
+  z-index: 2;
+}
+.box-text{
+  z-index: 1;
+  margin-top: -75px;
+  border-radius: 15px;
+}
+</style>
