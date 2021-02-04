@@ -23,7 +23,7 @@ export default {
 
 <style scope>
 .bt {
-  background: transparent linear-gradient(180deg, #070916 0%, #1A1F61 47%, #EC1075 100%) 0% 0% no-repeat padding-box;
+  background-color: #070916;
   color: white;
   margin: 0;
   padding: 0;
