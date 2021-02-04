@@ -167,18 +167,14 @@
         </div>
       </div>
     </section>
-
-    <section id="services" class="container mx-auto my-20">
-      <div class="flex flex-col md:flex-row">
-        <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
-          <div class="flex mb-3">
-            <div class="overflow-auto w-3/6 md:w-2/6 mr-2">
-              <img
-                class="w-full h-full"
-                src="../../assets/img/icon-color/cve.svg"
-                alt="Icon cve"
-              />
-            </div>
+     <div class="flex flex-row bg-bta-pink h-36">
+        <img class="w-2/12 h-full" src="../../assets/icons/t6.svg"/>
+        <img class="w-2/12 h-full" src="../../assets/icons/t5.svg"/>
+        <img class="w-2/12 h-full" src="../../assets/icons/t4.svg"/>
+        <img class="w-2/12 h-full" src="../../assets/icons/t1.svg"/>
+        <img class="w-2/12 h-full" src="../../assets/icons/t2.svg"/>
+        <img class="w-2/12 h-full" src="../../assets/icons/t3.svg"/>
+      </div>
             <div class="w-3/6 md:w-4/6">
               <label class="block font-inconsalata tracking-widest font-semibold leading-3">CYBOPS</label>
               <h2 class="font-oswald text-xl md:text-2xl lg:text-3xl font-semibold mb-2">ALERTA DE VULNERABILIDADES</h2>
