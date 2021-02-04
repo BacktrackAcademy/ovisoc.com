@@ -1,6 +1,6 @@
 <template>
   <main class="">
-    <section class="px-2 lg:px-0 md:px-24 lg:pl-48 py-16 flex justify-between items-center">
+    <section class="h-screen px-2 lg:px-0 md:px-24 lg:pl-48 py-16 flex justify-between items-center bg-img">
       <div class="w-full lg:w-5/12">
         <h1 class="font-oswald font-bold">
           <span class="block text-6xl leading-none">Enfrenta las <br>amenazas públicas</span>
