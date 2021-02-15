@@ -1,361 +1,236 @@
 <template>
   <main class="">
-    <section class="px-2 lg:px-0 md:px-24 lg:pl-48 py-16 flex justify-between items-center">
+    <section class="h-screen px-2 lg:px-0 md:px-24 lg:pl-48 py-16 flex justify-between items-center bg-img">
       <div class="w-full lg:w-5/12">
-        <h1 class="font-oswald font-bold">
-          <span class="block text-6xl leading-none">Enfrenta las <br>amenazas públicas</span>
+        <h1 class="font-oswald ">
+          <span class="block text-6xl leading-none uppercase">Enfrenta las <br>amenazas públicas</span>
         </h1>
         <p class="font-inconsalata text-white py-10 text-2xl">
           Descubre y previene amenazas visualizando el estado general de seguridad de tu empresa.
         </p>
-        <a href="/#contact" class="font-oswald tracking-widest uppercase text-xl py-2 px-10 lg:px-8 bg-bta-pink" >
+        <a href="/#contact" class="text-black font-oswald tracking-widest uppercase text-xl py-2 px-10 lg:px-8 bg-white" >
           Contáctanos »
         </a>
-      </div>
-      <div class="hidden lg:block w-6/12">
-        <img
-          class="w-full h-full"
-          src="../../assets/img/bt2.png"
-          alt="Banner"
-        />
       </div>
     </section>
 
     <section id="about-us" class="flex flex-col container mx-auto px-2 md:px-32 py-40 text-center">
-      <h2 class="font-oswald uppercase font-bold mb-3 text-4xl">NO ESPERES A SER VÍCTIMA DE UN CIBERATAQUE</h2>
+      <h2 class="font-oswald uppercase mb-3 text-4xl">NO ESPERES A SER VÍCTIMA DE UN CIBERATAQUE</h2>
       <p class="text-white text-2xl font-inconsalata mb-8">
         76.1% de las compañías esperan que en 2021 aumenten los ciberataques a infraestructuras y el 75% espera un aumento de los ataques en busca de dinero o datos.
       </p>
+      <h2 class="font-oswald uppercase mb-3 text-4xl">Conoce nuestras soluciones</h2>
+        <div class="flex ">
+          <div class="m-2 mr-10 flex flex-col items-center w-3/12">
+            <div class="border-2 p-4 rounded-full border-bta-pink w-full mb-4">
+              <img class="w-full"
+                src="../../assets/icons/s1.svg"
+              />
+            </div>
+            <a class="font-bold uppercase text-center text-base">
+              Alerta de <br />
+              vulnerabilidades
+            </a>
+            <p>
+              CYBOPS
+            </p>
+          </div>
+          <div class="m-2 mr-10 flex flex-col items-center w-3/12">
+            <div class="border-2 p-3 rounded-full border-bta-pink w-full mb-4">
+              <img class="w-full"
+                src="../../assets/icons/s2.svg"
+              />
+            </div>
+            <a class="font-bold uppercase text-center text-lg ">
+              pruebas de <br />
+              penetración
+            </a>
+            <p>
+              OVISOC
+            </p>
+          </div>
+          <div class="m-2 mr-10 flex flex-col items-center w-3/12">
+            <div class="border-2 p-3 rounded-full border-bta-pink w-full mb-4">
+              <img class="w-full"
+                src="../../assets/icons/s3.svg"
+              />
+            </div>
+            <a class="font-bold text-lg uppercase text-center">
+              detección <br />
+              de phishing
+            </a>
+            <p>
+              BLOCKPHI
+            </p>
+          </div>
+          <div class="m-2 mr-10 flex flex-col items-center w-3/12">
+            <div class="border-2 p-3 rounded-full border-bta-pink w-full mb-4">
+              <img class="w-full"
+                src="../../assets/icons/s4.svg"
+              />
+            </div>
+            <a class="font-bold text-lg uppercase text-center">
+              monitorio <br />
+              deep weeb
+            </a>
+            <p>
+              DEEP SEARCH
+            </p>
+          </div>
+          <div class="m-2 mr-10 flex flex-col items-center w-3/12">
+            <div class="border-2 p-3 rounded-full border-bta-pink w-full mb-4">
+              <img class="w-full"
+                src="../../assets/icons/s5.svg"
+              />
+            </div>
+            <a class="font-bold text-lg uppercase text-center">
+              test de <br />
+              stress
+            </a>
+            <p>
+              KILDSTRESS
+            </p>
+          </div>
+          <div class="m-2 mr-10 flex flex-col items-center w-3/12">
+            <div class="border-2 p-3 rounded-full border-bta-pink w-full mb-4">
+              <img class="w-full"
+                src="../../assets/icons/s6.svg"
+              />
+            </div>
+            <a class="font-bold text-lg uppercase text-center">
+              educacion  <br />
+              continua
+            </a>
+            <p>ACADEMY</p>
+          </div>
+        </div>
+    </section>
+     <div class="flex flex-row bg-bta-pink h-36">
+        <img class="w-2/12 h-full" src="../../assets/icons/t6.svg"/>
+        <img class="w-2/12 h-full" src="../../assets/icons/t5.svg"/>
+        <img class="w-2/12 h-full" src="../../assets/icons/t4.svg"/>
+        <img class="w-2/12 h-full" src="../../assets/icons/t1.svg"/>
+        <img class="w-2/12 h-full" src="../../assets/icons/t2.svg"/>
+        <img class="w-2/12 h-full" src="../../assets/icons/t3.svg"/>
+      </div>
+    <section id="features" class="py-40 px-2 lg:px-0 md:px-24 lg:pl-48 lg:pr-40 w-full">
+        <h2 class="uppercase text-center">¿porqué elegirnos?</h2>
+        <div class="flex flex-row my-10">
+          <div class="w-1/2 mt-10">
+            <img class="w-8/12" src="../../assets/landing2/a.jpg"/>
+          </div>
+          <div class="w-1/2 mt-10">
+            <h2 class="uppercase">protegemos tus activos de posibles ataques</h2>
+            <p class="text-white text-xl font-inconsalata my-6">
+              Nos situamos desde un sistema reciproco <br>
+              de seguridad preventiva, gestionando las <br>
+              amenazas de manera continua y propiciando <br>
+              un entorno mas confiable que asegura la <br>
+              operatividad de tu negocio
+            </p>
+            <div class="mt-2 w-3/12 h-12 border-2 border-bta-pink bg-bta-pink flex rounded-xl justify-center">
+              <a class="text-white  text-xl font-bold py-2">
+                Link <span class="text-sm"> >> </span>  
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-row my-10">
+          <div class="w-1/2 mt-10">
+            <h2 class="uppercase">Monitoreamos la actividad maliciosa que pueda afectar tu empresa</h2>
+            <p class="text-white text-xl font-inconsalata my-6">
+              Nos situamos deswde un sistema reciproco <br>
+              de seguridad preventiva, gestionando las <br>
+              amenazas de manera continua y propiciando <br>
+              un entorno mas confiable que asegura la <br>
+              operatividad de tu negocio
+            </p>
+            <div class="mt-2 w-3/12 h-12 border-2 border-bta-pink bg-bta-pink flex rounded-xl justify-center">
+              <a class="text-white  text-xl font-bold py-2">
+                Link <span class="text-sm"> >> </span>  
+              </a>
+            </div>
+          </div>
+          <div class="w-1/2 mt-10">
+            <img class=" w-8/12" src="../../assets/landing2/b.jpg"/>
+          </div>
+        </div>
+        <div class="flex flex-row my-10">
+          <div class="w-1/2 mt-10">
+            <img class="w-8/12" src="../../assets/landing2/c.jpg"/>
+          </div>
+          <div class="w-1/2 mt-10">
+            <h2 class="uppercase">protegemos tus activos de posibles ataques</h2>
+            <p class="text-white text-xl font-inconsalata my-6">
+              Nos situamos deswde un sistema reciproco <br>
+              de seguridad preventiva, gestionando las <br>
+              amenazas de manera continua y propiciando <br>
+              un entorno mas confiable que asegura la <br>
+              operatividad de tu negocio
+            </p>
+            <div class="mt-2 w-3/12 h-12 border-2 border-bta-pink bg-bta-pink flex rounded-xl justify-center">
+              <a class="text-white  text-xl font-bold py-2">
+                Link <span class="text-sm"> >> </span>  
+              </a>
+            </div>
+          </div>
+        </div>
     </section>
 
-    <section id="features" class="py-40 px-2 lg:px-0 md:px-24 lg:pl-48 flex flex-col md:flex-row">
-      <div class="w-full lg:w-4/6 lg:pr-40">
-        <h2 class="font-oswald uppercase text-center md:text-justify font-medium mb-3 text-4xl leading-10">Protegemos tus activos <span class="md:block">de posibles ataques</span></h2>
-        <p class="text-white text-center md:text-justify text-2xl font-inconsalata mb-8">
-          Nos situamos desde un sistema recíproco de seguridad preventiva, gestionando las amenazas de manera continua y propiciando un entorno más confiable que asegura la operatividad de tu negocio.
-        </p>
-        <ul class="pt-4">
-          <li class="font-inconsalata text-white text-xl mb-4 md:text-2xl">
-            <div class="relative">
-              <span class="absolute bg-bta-gray circle-effect h-8 w-8 rounded-full"></span>
-              <span class="absolute bg-bta-gray left-2 mt-2 h-4 w-4 rounded-full"></span>
+    <section id="alerts" class="py-30 px-2 lg:px-0 md:px-24 lg:pl-32 lg:pr-32 w-full">
+      <h2 class="font-oswald uppercase text-center mb-3 text-4xl leading-10 px-2 md:px-24 lg:px-48">Conoce nuestros testimonios</h2>
+      <div class="w-full h-full flex flex-row ">
+        <div class="h-154 w-1/3 flex flex-row justify-center">
+          <div class="my-10 w-3/4 h-full flex flex-col items-center">
+            <div class="random border-2 border-bta-pink flex flex-col justify-center">
+              <p class="text-center">tu foto aqui</p>
             </div>
-            <span class="ml-10">
-              Monitoreo y análisis continuo.
-            </span>
-          </li>
-          <li class="font-inconsalata text-white text-xl mb-4 md:text-2xl">
-            <div class="relative">
-              <span class="absolute bg-bta-gray circle-effect h-8 w-8 rounded-full"></span>
-              <span class="absolute bg-bta-gray left-2 mt-2 h-4 w-4 rounded-full"></span>
+            <div class="box-text h-7/12 w-full border-2 border-bta-pink">
+              <h2 class="mt-24 text-center">Felipe Barrios</h2>
+              <p class="text-xl text-center text-gray-400">
+                "Nos situamos desde <br> 
+                  un sistema reciproco  <br>
+                  de seguridad <br> 
+                  preventiva, <br> 
+                  gestionando"
+              </p>
             </div>
-            <span class="ml-10">
-              Detección de intrusos.
-            </span>
-          </li>
-          <li class="font-inconsalata text-white text-xl mb-4 md:text-2xl">
-            <div class="relative">
-              <span class="absolute bg-bta-gray circle-effect h-8 w-8 rounded-full"></span>
-              <span class="absolute bg-bta-gray left-2 mt-2 h-4 w-4 rounded-full"></span>
-            </div>
-            <span class="ml-10">
-              Proceso automatizado 24/7.
-            </span>
-          </li>
-          <li class="font-inconsalata text-white text-xl mb-4 md:text-2xl">
-            <div class="relative">
-              <span class="absolute bg-bta-gray circle-effect h-8 w-8 rounded-full"></span>
-              <span class="absolute bg-bta-gray left-2 mt-2 h-4 w-4 rounded-full"></span>
-            </div>
-            <span class="ml-10">
-              Combina múltiples técnicas y potentes herramientas.
-            </span>
-          </li>
-          <li class="font-inconsalata text-white text-xl mb-4 md:text-2xl">
-            <div class="relative">
-              <span class="absolute bg-bta-gray circle-effect h-8 w-8 rounded-full"></span>
-              <span class="absolute bg-bta-gray left-2 mt-2 h-4 w-4 rounded-full"></span>
-            </div>
-            <span class="ml-10">
-              Motores de búsqueda que rastrea información maliciosa.
-            </span>
-          </li>
-          <li class="font-inconsalata text-white text-xl mb-4 md:text-2xl">
-            <div class="relative">
-              <span class="absolute bg-bta-gray circle-effect h-8 w-8 rounded-full"></span>
-              <span class="absolute bg-bta-gray left-2 mt-2 h-4 w-4 rounded-full"></span>
-            </div>
-            <span class="ml-10">
-              Análisis de tráfico malicioso.
-            </span>
-          </li>
-        </ul>
-      </div>
-      <br class="md:hidden" /> 
-      <div class="hidden relative w-full lg:w-2/6 lg:flex justify-center items-center">
-        <img
-          class="absolute bottom-3.5 left-0 w-3/5"
-          src="../../assets/img/celular.png"
-          alt="Banner7"
-        />
-      </div>
-    </section>
-
-    <section id="alerts" class="py-40">
-      <h2 class="font-oswald uppercase text-center md:text-justify font-medium mb-3 text-4xl leading-10 px-2 md:px-24 lg:px-48">Monitoreamos la actividad maliciosa <span class="md:block">que pueda afectar tu empresa</span></h2>
-      <br>
-      <div class="flex flex-col md:flex-row justify-around px-16">
-        <div>
-          <div class="m-2 flex items-center py-4">
-            <img class="w-16 mr-5"
-              src="../../assets/img/iconos svg/User-console.svg"
-            />
-            <h4 class="text-1xl">
-              Intentos <br />
-              de fraude
-            </h4>
-          </div>
-          <div class="m-2 flex items-center py-4">
-            <img class="w-16 mr-5"
-            src="../../assets/img/iconos svg/Fuga-de-informacion.svg"
-            />
-            <h4 class="text-1xl">
-              Fuga de <br />
-              información
-            </h4>
           </div>
         </div>
-        <div>
-          <div class="m-2 flex items-center py-4">
-            <img class="w-16 mr-5"
-              src="../../assets/img/iconos svg/Suplantacion-de-Identidad.svg"
-            />
-            <h4 class="text-1xl">
-              Suplantación <br />
-              de identidad
-            </h4>
-          </div>
-          <div class="m-2 flex items-center py-4">
-            <img class="w-16 mr-5"
-              src="../../assets/img/iconos svg/exploits.svg"
-            />
-            <h4 class="text-1xl">
-              Exploits <br />
-              Disponibles
-            </h4>
+        <div class="h-154 w-1/3 flex flex-row justify-center">
+          <div class="my-10 w-3/4 h-full  flex flex-col items-center">
+            <div class="random border-2 border-bta-pink flex flex-col justify-center">
+              <p class="text-center">tu foto aqui</p>
+            </div>
+            <div class="box-text h-7/12 w-full border-2 border-bta-pink">
+            <h2 class="mt-24 text-center">Felipe Barrios</h2>
+              <p class="text-xl text-center text-gray-400">
+                "Nos situamos desde <br> 
+                  un sistema reciproco  <br>
+                  de seguridad <br> 
+                  preventiva, <br> 
+                  gestionando"
+              </p></div>
           </div>
         </div>
-        <div>
-          <div class="m-2 flex items-center py-4">
-            <img class="w-16 mr-5"
-              src="../../assets/img/iconos svg/Ataquesmaliciosos.svg"
-            />
-            <h4 class="text-1xl">
-              Ataques <br />
-              Maliciosos
-            </h4>
-          </div>
-          <div class="m-2 flex items-center py-4">
-            <img class="w-16 mr-5"
-              src="../../assets/img/iconos svg/CVE.svg"
-            />
-            <h4 class="text-1xl">
-              Vulnerabilidades <br />
-              Expuestas
-            </h4>
+        <div class="h-154 w-1/3 flex flex-row justify-center">
+          <div class="my-10 w-3/4 h-full  flex flex-col items-center">
+            <div class="random border-2 border-bta-pink flex flex-col justify-center">
+              <p class="text-center">tu foto aqui</p>
+            </div>
+            <div class="box-text h-7/12 w-full border-2 border-bta-pink">
+            <h2 class="mt-24 text-center">Felipe Barrios</h2>
+              <p class="text-xl text-center text-gray-400">
+                "Nos situamos desde <br> 
+                  un sistema reciproco  <br>
+                  de seguridad <br> 
+                  preventiva, <br> 
+                  gestionando"
+              </p></div>
           </div>
         </div>
       </div>
     </section>
-
-    <section id="services" class="container mx-auto my-20">
-      <div class="flex flex-col md:flex-row">
-        <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
-          <div class="flex mb-3">
-            <div class="overflow-auto w-3/6 md:w-2/6 mr-2">
-              <img
-                class="w-full h-full"
-                src="../../assets/img/icon-color/cve.svg"
-                alt="Icon cve"
-              />
-            </div>
-            <div class="w-3/6 md:w-4/6">
-              <label class="block font-inconsalata tracking-widest font-semibold leading-3">CYBOPS</label>
-              <h2 class="font-oswald text-xl md:text-2xl lg:text-3xl font-semibold mb-2">ALERTA DE VULNERABILIDADES</h2>
-            </div>
-          </div>
-          <p class="font-inconsalata tracking-wide text-white h-56">
-            Es un sistema alerta temprana de vulnerabilidades basados en
-            estándares representados mediante el Protocolo de automatización
-            de contenido de seguridad (SCAP).
-          </p>
-          <div class="text-right mt-2">
-            <router-link to="/vulnerability" class="uppercase font-bold font-inconsalata tracking-wider border-2 border-bta-pink hover:text-bta-pink px-3 py-2">
-              más información
-            </router-link>
-          </div>
-        </div>
-
-        <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
-          <div class="flex mb-3">
-            <div class="overflow-auto h-24 w-3/6 md:w-2/6 mr-2">
-              <img
-                class="w-full h-full"
-                src="../../assets/img/icon-color/ovisoc.svg"
-                alt="Icon ovisoc"
-              />
-            </div>
-            <div class="w-3/6 md:w-4/6">
-              <label class="block font-inconsalata tracking-widest font-semibold leading-3">
-                OVISOC
-              </label>
-              <h2 class="font-oswald text-xl md:text-2xl lg:text-3xl font-semibold mb-2">
-                <span class="block">PRUEBAS</span>
-                <span>DE PENETRACIÓN</span>
-              </h2>
-            </div>
-          </div>
-          <p class="font-inconsalata tracking-wide text-white h-56">
-            Solución que evalúa aplicaciones web, servidores y dominios de una
-            empresa funcionando continuamente y diagnosticando el estado de
-            seguridad general de la empresa.
-          </p>
-          <div class="text-right mt-2">
-            <router-link to="/pentesting" class="uppercase font-bold font-inconsalata tracking-wider border-2 border-bta-pink hover:text-bta-pink px-3 py-2">
-              más información
-            </router-link>
-          </div>
-        </div>
-
-        <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
-          <div class="flex mb-3">
-            <div class="overflow-auto h-24 w-3/6 md:w-2/6 mr-2">
-              <img
-                class="w-full h-full"
-                src="../../assets/img/icon-color/blockphi.svg"
-                alt="Icon blockphi"
-              />
-            </div>
-            <div class="w-3/6 md:w-4/6">
-              <label class="block font-inconsalata tracking-widest font-semibold leading-3">
-                BLOCKPHI
-              </label>
-              <h2 class="font-oswald text-xl lg:text-3xl font-semibold mb-2">
-                <span class="block">DETECCIÓN</span>
-                <span>DE PHISHING</span>
-              </h2>
-            </div>
-          </div>
-          <p class="font-inconsalata tracking-wide text-white h-56">
-            Sistema de alerta en tiempo real, sobre análisis de tráfico
-            malintencionado y detección de phishing, implementación en corto
-            tiempo en cualquier tipo de infraestructura web.
-          </p>
-          <div class="text-right mt-2">
-            <router-link to="/phishing" class="uppercase font-bold font-inconsalata tracking-wider border-2 border-bta-pink hover:text-bta-pink px-3 py-2">
-              más información
-            </router-link>
-          </div>
-        </div>
-
-      </div>
-      <div class="flex flex-col lg:flex-row">
-
-        <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
-          <div class="flex mb-3">
-            <div class="overflow-auto h-24 w-3/6 md:w-2/6 mr-2">
-              <img
-                class="w-full h-full"
-                src="../../assets/img/icon-color/deep-search.svg"
-                alt="Icon deep-search"
-              />
-            </div>
-            <div class="w-3/6 md:w-4/6">
-              <label class="block font-inconsalata tracking-widest font-semibold leading-3">DEEP SEARCH</label>
-              <h2 class="font-oswald text-xl md:text-2xl lg:text-3xl font-semibold mb-2">
-                <span class="block">MONITOREO</span> 
-                <span>DEEP WEB</span>
-              </h2>
-            </div>
-          </div>
-          <p class="font-inconsalata tracking-wide text-white h-56">
-            Motor de búsqueda real de Dark Web, actualmente contamos con 3
-            millones de sitios web indexados exitosamente, que permiten a las
-            empresas investigar y acceder directamente a sitios onion, para
-            proteger sus activos.
-          </p>
-          <div class="text-right mt-2">
-            <router-link to="/deepweb" class="uppercase font-bold font-inconsalata tracking-wider border-2 border-bta-pink hover:text-bta-pink px-3 py-2">
-              más información
-            </router-link>
-          </div>
-        </div>
-
-        <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
-          <div class="flex mb-3">
-            <div class="overflow-auto h-24 w-3/6 md:w-2/6 mr-2">
-              <img
-                class="w-full h-full"
-                src="../../assets/img/icon-color/kildstress.svg"
-                alt="Icon kildstress"
-              />
-            </div>
-            <div class="w-3/6 md:w-4/6">
-              <label class="block font-inconsalata tracking-widest font-semibold leading-3">
-                KILDSTRESS
-              </label>
-              <h2 class="font-oswald text-xl md:text-2xl lg:text-3xl font-semibold mb-2">
-                <span class="block">TEST</span>
-                <span>DE STRESS</span>
-              </h2>
-            </div>
-          </div>
-          <p class="font-inconsalata tracking-wide text-white h-56">
-            Solución que evalúa los sitios web, servidores y dominios de una
-            empresa funcionando continuamente y diagnosticando el estado de
-            seguridad general de la empresa desde la perspectiva de un
-            atacante que esté dentro o fuera de su red en cuestión de minutos.
-          </p>
-          <div class="text-right mt-2">
-            <router-link to="/kildstress" class="uppercase font-bold font-inconsalata tracking-wider border-2 border-bta-pink hover:text-bta-pink px-3 py-2">
-              más información
-            </router-link>
-          </div>
-        </div>
-
-        <div class="w-full md:w-1/3 md:mx-1 lg:mx-2 py-6 px-4 my-3 bg-dark bg-opacity-25">
-          <div class="flex mb-3">
-            <div class="overflow-auto h-24 w-3/6 md:w-2/6 mr-2">
-              <img
-                class="w-full h-full"
-                src="../../assets/img/icon-color/academy.svg"
-                alt="Icon academy"
-              />
-            </div>
-            <div class="w-3/6 md:w-4/6">
-              <label class="block font-inconsalata tracking-widest font-semibold leading-3">
-                ACADEMY
-              </label>
-              <h2 class="font-oswald text-xl md:text-2xl lg:text-3xl font-semibold mb-2">
-                <span class="block">EDUCACIÓN</span>
-                <span>CONTINUA</span>
-              </h2>
-            </div>
-          </div>
-          <p class="font-inconsalata tracking-wide text-white h-56">
-            Plataforma E-learning de ciberseguridad preparamos a las nuevas
-            generaciones de profesionales para el mundo laboral.
-          </p>
-          <div class="text-right mt-2">
-            <router-link to="/academy" class="uppercase font-bold font-inconsalata tracking-wider border-2 border-bta-pink hover:text-bta-pink px-3 py-2">
-              más información
-            </router-link>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
     <ContactForm />
   </main>
 </template>
@@ -416,4 +291,19 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.random{
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  position:static;
+  background-color: white;
+  z-index: 2;
+}
+.box-text{
+  z-index: 1;
+  margin-top: -75px;
+  border-radius: 15px;
+}
+</style>

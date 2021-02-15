@@ -102,9 +102,9 @@
       <div class="w-full ">
         <VuePhoneNumberInput
           v-model="$v.phone.$model"
-          color="pink"
+          color="black"
           type="integer"
-          dark-color="#a91870"
+          dark-color="#070916"
           size="2000"
           :translations="{
             countrySelectorLabel: 'Codigo del pais',
@@ -143,7 +143,7 @@
 
       <div class="text-center">
         <input
-          class="px-16 py-2 font-bold font-inconsalata tracking-widest bg-bta-pink border-2 border-white"
+          class="px-16 py-2 font-bold font-inconsalata tracking-widest bg-bta-black border-2 border-white"
           type="submit"
           value="Solicita Demo"
           :disabled="submitStatus === 'PENDING'"
