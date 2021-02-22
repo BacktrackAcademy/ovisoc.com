@@ -3,7 +3,7 @@
     <section class="h-screen px-2 lg:px-0 md:px-24 lg:pl-48 py-16 flex justify-between items-center bg-img">
       <div class="w-full lg:w-5/12">
         <h1 class="font-oswald ">
-          <span class="block text-6xl leading-none uppercase">Enfrenta las <br>amenazas públicas</span>
+          <span class="block text-6xl leading-none uppercase">Ciberseguridad para<br> empresas</span>
         </h1>
         <p class="font-inconsalata text-white py-10 text-2xl">
           Descubre y previene amenazas visualizando el estado general de seguridad de tu empresa.
@@ -28,8 +28,8 @@
               />
             </div>
             <a class="font-bold uppercase text-center text-base">
-              Alerta de <br />
-              vulnerabilidades
+              Vulnerability <br />
+              Assessment
             </a>
             <p>
               CYBOPS
@@ -42,8 +42,7 @@
               />
             </div>
             <a class="font-bold uppercase text-center text-lg ">
-              pruebas de <br />
-              penetración
+              Penetration testing
             </a>
             <p>
               OVISOC
@@ -70,11 +69,10 @@
               />
             </div>
             <a class="font-bold text-lg uppercase text-center">
-              monitorio <br />
-              deep weeb
+              DevSecOps <br> Desarrollo seguro <br />
             </a>
             <p>
-              DEEP SEARCH
+              DEVTEAM
             </p>
           </div>
           <div class="m-2 mr-10 flex flex-col items-center w-3/12">
@@ -84,8 +82,7 @@
               />
             </div>
             <a class="font-bold text-lg uppercase text-center">
-              test de <br />
-              stress
+              Web Test Stress Service <br />
             </a>
             <p>
               KILDSTRESS
