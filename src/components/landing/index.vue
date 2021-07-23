@@ -1,6 +1,6 @@
 <template>
   <main class="">
-    <section class="h-screen px-2 lg:px-0 md:px-24 lg:pl-48 py-16 flex justify-between items-center bg-img">
+    <section class="h-top-hero-mobile lg:h-top-hero px-2 lg:px-0 md:px-24 lg:pl-48 py-16 flex justify-between items-center bg-img">
       <div class="w-full lg:w-5/12">
         <h1 class="font-oswald ">
           <span class="block text-6xl leading-none uppercase">Ciberseguridad para<br> empresas</span>
@@ -127,7 +127,7 @@
             </p>
             <div class="mt-2 w-3/12 h-12 border-2 border-bta-pink bg-bta-pink flex rounded-xl justify-center">
               <a class="text-white  text-xl font-bold py-2">
-                Link <span class="text-sm"> >> </span>  
+                Link <span class="text-sm"> >> </span>
               </a>
             </div>
           </div>
@@ -144,7 +144,7 @@
             </p>
             <div class="mt-2 w-3/12 h-12 border-2 border-bta-pink bg-bta-pink flex rounded-xl justify-center">
               <a class="text-white  text-xl font-bold py-2">
-                Link <span class="text-sm"> >> </span>  
+                Link <span class="text-sm"> >> </span>
               </a>
             </div>
           </div>
@@ -167,7 +167,7 @@
             </p>
             <div class="mt-2 w-3/12 h-12 border-2 border-bta-pink bg-bta-pink flex rounded-xl justify-center">
               <a class="text-white  text-xl font-bold py-2">
-                Link <span class="text-sm"> >> </span>  
+                Link <span class="text-sm"> >> </span>
               </a>
             </div>
           </div>
@@ -185,10 +185,10 @@
             <div class="box-text h-7/12 w-full border-2 border-bta-pink">
               <h2 class="mt-24 text-center">Felipe Barrios</h2>
               <p class="text-xl text-center text-gray-400">
-                "Nos situamos desde <br> 
+                "Nos situamos desde <br>
                   un sistema reciproco  <br>
-                  de seguridad <br> 
-                  preventiva, <br> 
+                  de seguridad <br>
+                  preventiva, <br>
                   gestionando"
               </p>
             </div>
@@ -202,10 +202,10 @@
             <div class="box-text h-7/12 w-full border-2 border-bta-pink">
             <h2 class="mt-24 text-center">Felipe Barrios</h2>
               <p class="text-xl text-center text-gray-400">
-                "Nos situamos desde <br> 
+                "Nos situamos desde <br>
                   un sistema reciproco  <br>
-                  de seguridad <br> 
-                  preventiva, <br> 
+                  de seguridad <br>
+                  preventiva, <br>
                   gestionando"
               </p></div>
           </div>
@@ -218,10 +218,10 @@
             <div class="box-text h-7/12 w-full border-2 border-bta-pink">
             <h2 class="mt-24 text-center">Felipe Barrios</h2>
               <p class="text-xl text-center text-gray-400">
-                "Nos situamos desde <br> 
+                "Nos situamos desde <br>
                   un sistema reciproco  <br>
-                  de seguridad <br> 
-                  preventiva, <br> 
+                  de seguridad <br>
+                  preventiva, <br>
                   gestionando"
               </p></div>
           </div>
