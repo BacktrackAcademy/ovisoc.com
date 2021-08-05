@@ -58,7 +58,7 @@ module.exports = {
         "top-hero-mobile": "calc(100vh - 4rem)",
       },
       spacing: {
-        "over-screen": "1000px",
+        "over-screen": "100vh",
       },
     },
     fontFamily: {
