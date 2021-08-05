@@ -91,9 +91,9 @@ a {
 
 .circle-effect {
   animation: pulsate 1s ease-out;
-  animation-iteration-count: infinite; 
+  animation-iteration-count: infinite;
   -webkit-animation: pulsate 1s ease-out;
-  -webkit-animation-iteration-count: infinite; 
+  -webkit-animation-iteration-count: infinite;
   opacity: 0.0
 }
 
@@ -106,7 +106,7 @@ a {
   left: 15px;
   top: 15px;
   -webkit-animation: pulsate 1s ease-out;
-  -webkit-animation-iteration-count: infinite; 
+  -webkit-animation-iteration-count: infinite;
   opacity: 0.0
 }
 
@@ -185,5 +185,5 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
   padding: 8px;
 }
 .bg-img{
-  background-image: url("../landing2/portada.jpg");
+  background-image: url("../landing2/city-bg-hq.jpg");
 }
