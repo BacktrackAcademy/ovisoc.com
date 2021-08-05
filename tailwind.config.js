@@ -29,6 +29,9 @@ module.exports = {
         "blue-text": "#5652CC",
         "principal-purple":"#807DFA",
       },
+      fill:{
+        shield: "#050611"
+      },
       fontFamily: {
         "ibm": [" IBM Plex Mono", "monospace"],
         "roboto": ['Roboto', "sans-serif"]
@@ -55,7 +58,7 @@ module.exports = {
         "top-hero-mobile": "calc(100vh - 4rem)",
       },
       spacing: {
-        "over-screen": "1000px",
+        "over-screen": "100vh",
       },
     },
     fontFamily: {
@@ -82,6 +85,10 @@ module.exports = {
       "12xl": "10rem"
     },
   },
-  variants: {},
+  variants: {
+    extend: {
+      fill: ['hover']
+    }
+  },
   plugins: []
 };
