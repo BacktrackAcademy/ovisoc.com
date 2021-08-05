@@ -168,30 +168,30 @@
     <section class="bg-total-back py-20">
       <div class="flex flex-col items-center gap-14">
         <span class="text-principal-purple text-xl font-ibm uppercase">Complice & certification</span>
-        <ul class="flex gap-x-24 gap-y-10 max-w-screen-xl w-full px-24 justify-center flex-wrap">
-          <li class="flex flex-col items-center gap-2">
+        <ul class="flex gap-x-44 gap-y-10 max-w-screen-xl w-full px-24 justify-center flex-wrap">
+          <li class="flex flex-col items-center gap-3">
             <svg class="text-transparent fill-current hover:fill-shield transition-all" width="63.684" height="62.58" viewBox="0 0 63.684 62.58">
               <path id="Path_1578" data-name="Path 1578" d="M23.561,33.978l6.854,6.854L44.122,27.124M63.374,13.362A40.968,40.968,0,0,1,33.842,2.944,40.968,40.968,0,0,1,4.309,13.362,41.181,41.181,0,0,0,33.842,63.524,41.181,41.181,0,0,0,63.374,13.362Z" transform="translate(-2 -1.944)" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
             </svg>
-            <span class="font-roboto font-bold text-xl">SOC2</span>
+            <span class="font-roboto font-bold text-2xl">SOC2</span>
           </li>
-          <li class="flex flex-col items-center gap-2">
+          <li class="flex flex-col items-center gap-3">
             <svg class="text-transparent fill-current hover:fill-shield transition-all" width="63.684" height="62.58" viewBox="0 0 63.684 62.58">
               <path id="Path_1578" data-name="Path 1578" d="M23.561,33.978l6.854,6.854L44.122,27.124M63.374,13.362A40.968,40.968,0,0,1,33.842,2.944,40.968,40.968,0,0,1,4.309,13.362,41.181,41.181,0,0,0,33.842,63.524,41.181,41.181,0,0,0,63.374,13.362Z" transform="translate(-2 -1.944)" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
             </svg>
-            <span class="font-roboto font-bold text-xl">ISO 27001</span>
+            <span class="font-roboto font-bold text-2xl">ISO 27001</span>
           </li>
-          <li class="flex flex-col items-center gap-2">
+          <li class="flex flex-col items-center gap-3">
             <svg class="text-transparent fill-current hover:fill-shield transition-all" width="63.684" height="62.58" viewBox="0 0 63.684 62.58">
               <path id="Path_1578" data-name="Path 1578" d="M23.561,33.978l6.854,6.854L44.122,27.124M63.374,13.362A40.968,40.968,0,0,1,33.842,2.944,40.968,40.968,0,0,1,4.309,13.362,41.181,41.181,0,0,0,33.842,63.524,41.181,41.181,0,0,0,63.374,13.362Z" transform="translate(-2 -1.944)" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
             </svg>
-            <span class="font-roboto font-bold text-xl">PCI</span>
+            <span class="font-roboto font-bold text-2xl">PCI</span>
           </li>
-          <li class="flex flex-col items-center gap-2">
+          <li class="flex flex-col items-center gap-3">
             <svg class="text-transparent fill-current hover:fill-shield transition-all" width="63.684" height="62.58" viewBox="0 0 63.684 62.58">
               <path id="Path_1578" data-name="Path 1578" d="M23.561,33.978l6.854,6.854L44.122,27.124M63.374,13.362A40.968,40.968,0,0,1,33.842,2.944,40.968,40.968,0,0,1,4.309,13.362,41.181,41.181,0,0,0,33.842,63.524,41.181,41.181,0,0,0,63.374,13.362Z" transform="translate(-2 -1.944)" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
             </svg>
-            <span class="font-roboto font-bold text-xl">NIST</span>
+            <span class="font-roboto font-bold text-2xl">NIST</span>
           </li>
         </ul>
       </div>
