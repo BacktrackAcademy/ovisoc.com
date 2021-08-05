@@ -2,7 +2,7 @@
   <div class="bt" >
     <Navbar />
     <!-- body views - START -->
-      <router-view class="pt-24"></router-view>
+      <router-view class="pt-16 lg:pt-24"></router-view>
     <!-- body views - END -->
     <Footer />
   </div>

@@ -23,6 +23,15 @@ module.exports = {
         "bta-gray": "#565982",
         "bta-filter": "#bfbfbfde",
         "bta-black": "#070916",
+        "total-back": "#181929",
+        "blue-light-dark": "#1F1E3C",
+        "blue-light": "#06F1E2",
+        "blue-text": "#5652CC",
+        "principal-purple":"#807DFA",
+      },
+      fontFamily: {
+        "ibm": [" IBM Plex Mono", "monospace"],
+        "roboto": ['Roboto', "sans-serif"]
       },
       listStyleType: {
         roman: "lower-roman"
@@ -41,8 +50,13 @@ module.exports = {
         "8/12": "66.666667%",
         "9/12": "75%",
         "10/12": "83.333333%",
-        "11/12": "91.666667%"
-      }
+        "11/12": "91.666667%",
+        "top-hero": "calc(100vh - 6rem)",
+        "top-hero-mobile": "calc(100vh - 4rem)",
+      },
+      spacing: {
+        "over-screen": "1000px",
+      },
     },
     fontFamily: {
       inconsalata: ["Inconsolata", "monospace"],
@@ -66,7 +80,7 @@ module.exports = {
       "10xl": "8rem",
       "11xl": "9rem",
       "12xl": "10rem"
-    }
+    },
   },
   variants: {},
   plugins: []

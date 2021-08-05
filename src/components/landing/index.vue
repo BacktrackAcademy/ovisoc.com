@@ -1,19 +1,73 @@
 <template>
   <main class="">
-    <section class="h-screen px-2 lg:px-0 md:px-24 lg:pl-48 py-16 flex justify-between items-center bg-img">
-      <div class="w-full lg:w-5/12">
+    <section class="h-top-hero-mobile lg:h-top-hero px-5 lg:px-0 md:px-24 py-16 flex justify-between items-center bg-img bg-cover">
+      <div class="w-full lg:max-w-screen-xl text-center m-auto">
         <h1 class="font-oswald ">
-          <span class="block text-6xl leading-none uppercase">Ciberseguridad para<br> empresas</span>
+          <span class="block font-roboto text-4xl sm:text-6xl leading-none">Continuously monitor the cybersecurity posture of any enterprise.</span>
         </h1>
-        <p class="font-inconsalata text-white py-10 text-2xl">
-          Descubre y previene amenazas visualizando el estado general de seguridad de tu empresa.
+        <p class="font-ibm font-light text-white py-10 text-lg sm:text-2xl w-4/5 m-auto">
+          Don’t wait to be a victim of a cyber attack, know our suite of solutions that will provide a layer of security to your enterprise.
         </p>
-        <a href="/#contact" class="text-black font-oswald tracking-widest uppercase text-xl py-2 px-10 lg:px-8 bg-white" >
+        <!-- <a href="/#contact" class="text-black font-oswald tracking-widest uppercase text-xl py-2 px-10 lg:px-8 bg-white" >
           Contáctanos »
-        </a>
+        </a> -->
+        <div class="flex flex-col sm:flex-row justify-center items-center flex-wrap gap-5">
+          <button
+            class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-white hover:bg-blue-text text-blue-text hover:text-white transition font-ibm"
+          >
+            Get Started
+          </button>
+          <button
+            class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm"
+          >
+            Live demo
+          </button>
+        </div>
       </div>
     </section>
 
+    <section class="bg-blue-light-dark">
+      <div class="flex flex-col md:flex-row justify-between m-auto max-w-screen-2xl pt-20 pb-10 overflow-hidden">
+        <div class="p-5 sm:pl-24 flex flex-col justify-center text-center sm:text-left">
+          <div class="font-roboto text-4xl uppercase m-auto sm:m-0 mb-6 sm:mb-6 max-w-sm leading-10">Don't wait to be a victim of a cyber attack</div>
+          <ul class="text-principal-purple font-ibm flex flex-col items-center sm:items-baseline gap-2">
+            <li class="flex gap-4 items-center text-lg">
+              <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
+                <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              Discover
+            </li>
+            <li class="flex gap-4 items-center text-lg">
+              <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
+                <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              Management
+            </li>
+            <li class="flex gap-4 items-center text-lg">
+              <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
+                <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              Research
+            </li>
+            <li class="flex gap-4 items-center text-lg">
+              <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
+                <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              Validate
+            </li>
+            <li class="flex gap-4 items-center text-lg">
+              <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
+                <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              Monitoring
+            </li>
+          </ul>
+        </div>
+        <img class="w-full max-w-3xl transform md:scale-125 md:translate-x-36 flex-shrink-0" src="../../assets/img/mockup-blockphi-hq.png" alt="">
+      </div>
+    </section>
+
+    <!-- TO CHECK -->
     <section id="about-us" class="flex flex-col container mx-auto px-2 md:px-32 py-40 text-center">
       <h2 class="font-oswald uppercase mb-3 text-4xl">NO ESPERES A SER VÍCTIMA DE UN CIBERATAQUE</h2>
       <p class="text-white text-2xl font-inconsalata mb-8">
@@ -102,14 +156,14 @@
           </div>
         </div>
     </section>
-     <div class="flex flex-row bg-bta-pink h-36">
-        <img class="w-2/12 h-full" src="../../assets/icons/t6.svg"/>
-        <img class="w-2/12 h-full" src="../../assets/icons/t5.svg"/>
-        <img class="w-2/12 h-full" src="../../assets/icons/t4.svg"/>
-        <img class="w-2/12 h-full" src="../../assets/icons/t1.svg"/>
-        <img class="w-2/12 h-full" src="../../assets/icons/t2.svg"/>
-        <img class="w-2/12 h-full" src="../../assets/icons/t3.svg"/>
-      </div>
+    <div class="flex flex-row bg-bta-pink h-36">
+      <img class="w-2/12 h-full" src="../../assets/icons/t6.svg"/>
+      <img class="w-2/12 h-full" src="../../assets/icons/t5.svg"/>
+      <img class="w-2/12 h-full" src="../../assets/icons/t4.svg"/>
+      <img class="w-2/12 h-full" src="../../assets/icons/t1.svg"/>
+      <img class="w-2/12 h-full" src="../../assets/icons/t2.svg"/>
+      <img class="w-2/12 h-full" src="../../assets/icons/t3.svg"/>
+    </div>
     <section id="features" class="py-40 px-2 lg:px-0 md:px-24 lg:pl-48 lg:pr-40 w-full">
         <h2 class="uppercase text-center">¿porqué elegirnos?</h2>
         <div class="flex flex-row my-10">
@@ -127,7 +181,7 @@
             </p>
             <div class="mt-2 w-3/12 h-12 border-2 border-bta-pink bg-bta-pink flex rounded-xl justify-center">
               <a class="text-white  text-xl font-bold py-2">
-                Link <span class="text-sm"> >> </span>  
+                Link <span class="text-sm"> >> </span>
               </a>
             </div>
           </div>
@@ -144,7 +198,7 @@
             </p>
             <div class="mt-2 w-3/12 h-12 border-2 border-bta-pink bg-bta-pink flex rounded-xl justify-center">
               <a class="text-white  text-xl font-bold py-2">
-                Link <span class="text-sm"> >> </span>  
+                Link <span class="text-sm"> >> </span>
               </a>
             </div>
           </div>
@@ -167,7 +221,7 @@
             </p>
             <div class="mt-2 w-3/12 h-12 border-2 border-bta-pink bg-bta-pink flex rounded-xl justify-center">
               <a class="text-white  text-xl font-bold py-2">
-                Link <span class="text-sm"> >> </span>  
+                Link <span class="text-sm"> >> </span>
               </a>
             </div>
           </div>
@@ -185,10 +239,10 @@
             <div class="box-text h-7/12 w-full border-2 border-bta-pink">
               <h2 class="mt-24 text-center">Felipe Barrios</h2>
               <p class="text-xl text-center text-gray-400">
-                "Nos situamos desde <br> 
+                "Nos situamos desde <br>
                   un sistema reciproco  <br>
-                  de seguridad <br> 
-                  preventiva, <br> 
+                  de seguridad <br>
+                  preventiva, <br>
                   gestionando"
               </p>
             </div>
@@ -202,10 +256,10 @@
             <div class="box-text h-7/12 w-full border-2 border-bta-pink">
             <h2 class="mt-24 text-center">Felipe Barrios</h2>
               <p class="text-xl text-center text-gray-400">
-                "Nos situamos desde <br> 
+                "Nos situamos desde <br>
                   un sistema reciproco  <br>
-                  de seguridad <br> 
-                  preventiva, <br> 
+                  de seguridad <br>
+                  preventiva, <br>
                   gestionando"
               </p></div>
           </div>
@@ -218,10 +272,10 @@
             <div class="box-text h-7/12 w-full border-2 border-bta-pink">
             <h2 class="mt-24 text-center">Felipe Barrios</h2>
               <p class="text-xl text-center text-gray-400">
-                "Nos situamos desde <br> 
+                "Nos situamos desde <br>
                   un sistema reciproco  <br>
-                  de seguridad <br> 
-                  preventiva, <br> 
+                  de seguridad <br>
+                  preventiva, <br>
                   gestionando"
               </p></div>
           </div>
