@@ -197,6 +197,18 @@
       </div>
     </section>
 
+    <section class="bg-total-back pt-20 pb-40">
+      <div class="max-w-screen-lg flex flex-col items-center m-auto">
+        <span class="inline-block max-w-xl text-3xl md:text-5xl font-roboto font-bold uppercase text-center">Monitor in real time your ecosystem</span>
+        <img class="w-full" src="../../assets/img/mockup-blockphi-hq.png" alt="mockup-ovisoc" />
+        <div
+            class="px-8 max-w-xs w-auto sm:w-64 py-1 sm:py-3 text-lg sm:text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm text-center mt-4"
+          >
+            Get started
+        </div>
+      </div>
+    </section>
+
     <!-- TO CHECK -->
     <section id="about-us" class="flex flex-col container mx-auto px-2 md:px-32 py-40 text-center">
       <h2 class="font-oswald uppercase mb-3 text-4xl">NO ESPERES A SER VÍCTIMA DE UN CIBERATAQUE</h2>
