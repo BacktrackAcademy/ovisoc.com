@@ -26,7 +26,59 @@
       </div>
     </section>
 
-    <section class="bg-blue-light-dark">
+    <section class="bg-blue-light-dark py-44">
+      <div class="m-auto max-w-screen-2xl flex justify-center items-center">
+        <div class="w-1/2 pl-24">
+          <h2 class="uppercase font-bold font-roboto text-5xl leading-none mb-6">Monitor risk across <br> your <span class="text-principal-purple">Ecosystem</span></h2>
+          <p class="w-9/12 text-white font-ibm text-xl leading-tight mb-4">Continuous visibility that allows you to manage and make infrastructure changes visible when they occur in the local infrastructure and in the cloud.</p>
+          <div class="text-principal-purple font-ibm text-xl font-bold">Visualize > Prioritize > Validate</div>
+        </div>
+        <div class="w-1/2 flex-shrink-0">
+          <ul class="pl-10 flex flex-col gap-20 w-min">
+            <li class="flex items-end">
+              <svg class="flex-shrink-0" width="82" height="74" viewBox="0 0 124 96.903">
+                <path id="Path_1571" data-name="Path 1571" d="M3,72.7A27.187,27.187,0,0,0,30.187,99.888h61.17a33.983,33.983,0,1,0-.68-67.962A33.994,33.994,0,1,0,24.2,46.175,27.193,27.193,0,0,0,3,72.7Z" transform="translate(-2 -3.984)" fill="none" stroke="#7773f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              <div class="flex items-center gap-3 mb-2 -ml-6 w-full">
+                <div class="flex items-center">
+                  <div class="w-2 h-2 bg-principal-purple rounded-full"></div>
+                  <div class="border-b border-t border-principal-purple w-40"></div>
+                </div>
+                <p class="text-white text-lg font-ibm w-max ml-auto">External Assets</p>
+              </div>
+            </li>
+
+            <li class="flex items-end">
+              <svg class="flex-shrink-0" width="86" height="80" viewBox="0 0 124 121.468">
+                <path id="Path_1570" data-name="Path 1570" d="M111.444,122.468V16.274A13.417,13.417,0,0,0,97.889,3H30.111A13.417,13.417,0,0,0,16.556,16.274V122.468m94.889,0H125m-13.556,0H77.556m-61,0H3m13.556,0H50.444M43.667,29.548h6.778M43.667,56.1h6.778M77.556,29.548h6.778M77.556,56.1h6.778M50.444,122.468V89.282a6.709,6.709,0,0,1,6.778-6.637H70.778a6.709,6.709,0,0,1,6.778,6.637v33.185m-27.111,0H77.556" transform="translate(-2 -2)" fill="none" stroke="#7773f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              <div class="flex items-center gap-3 mb-2 -ml-6 w-full">
+                <div class="flex items-center">
+                  <div class="w-2 h-2 bg-principal-purple rounded-full"></div>
+                  <div class="border-b border-t border-principal-purple w-40"></div>
+                </div>
+                <p class="text-white text-lg font-ibm w-max ml-auto">Internal Assets</p>
+              </div>
+            </li>
+
+            <li class="flex items-end">
+              <svg class="-mb-4 flex-shrink-0" width="86" height="82" viewBox="0 0 121.984 118.413">
+                <path id="Path_1572" data-name="Path 1572" d="M40.864,69.818a18.9,18.9,0,0,0,0-17.34m0,17.34A20.2,20.2,0,0,1,18.395,80.011a19.253,19.253,0,0,1,0-37.724A20.2,20.2,0,0,1,40.864,52.479m0,17.34L85.049,91.241M40.864,52.479,85.049,31.056m0,0a20.285,20.285,0,0,0,26.819,8.667,19.113,19.113,0,0,0,8.938-26.006A20.285,20.285,0,0,0,93.987,5.05a19.113,19.113,0,0,0-8.938,26.006Zm0,60.184A19.116,19.116,0,0,0,93.99,117.25a20.288,20.288,0,0,0,26.823-8.67,19.116,19.116,0,0,0-8.941-26.009,20.288,20.288,0,0,0-26.823,8.67Z" transform="translate(123.985 120.356) rotate(180)" fill="none" stroke="#7773f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              <div class="flex items-center gap-3 mb-2 -ml-4 w-full">
+                <div class="flex items-center">
+                  <div class="w-2 h-2 bg-principal-purple rounded-full"></div>
+                  <div class="border-b border-t border-principal-purple w-40"></div>
+                </div>
+                <p class="text-white text-lg font-ibm ml-auto">Stakeholders</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-total-back">
       <div class="flex flex-col md:flex-row justify-between m-auto max-w-screen-2xl pt-20 pb-10 overflow-hidden">
         <div class="p-5 sm:pl-24 flex flex-col justify-center text-center sm:text-left">
           <div class="font-roboto text-4xl uppercase m-auto sm:m-0 mb-6 sm:mb-6 max-w-sm leading-10">Don't wait to be a victim of a cyber attack</div>
