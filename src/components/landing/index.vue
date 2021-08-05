@@ -119,6 +119,52 @@
       </div>
     </section>
 
+    <section class="bg-total-back py-36">
+      <div>
+        <div class="flex flex-col items-center">
+          <span class="font-roboto text-white text-5xl font-bold">Our services</span>
+          <p class="font-ibm text-white text-xl max-w-3xl text-center font-light">Don’t wait to be a victim of a cyber attack, know our suite of solutions.</p>
+        </div>
+        <div class="flex justify-center items-center">
+          <div class="flex flex-col gap-20 font-light">
+            <a class="flex gap-8 items-center ml-1" href="#">
+              <svg class="w-20" viewBox="0 0 51.717 38.473">
+                <g id="Group_1725" data-name="Group 1725" transform="translate(-1.458 -4)">
+                  <path id="Path_1557" data-name="Path 1557" d="M24.631,16.816A7.816,7.816,0,1,1,16.816,9a7.816,7.816,0,0,1,7.816,7.816Z" transform="translate(10.501 6.421)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                  <path id="Path_1558" data-name="Path 1558" d="M2.458,23.236a26.061,26.061,0,0,1,49.717,0,26.061,26.061,0,0,1-49.717,0Z" transform="translate(0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </g>
+              </svg>
+              <div class="flex flex-col gap-3">
+                <h2 class="text-principal-purple text-xl font-ibm leading-7">OVI Discover</h2>
+                <p class="text-white text-xl font-ibm w-60 leading-5">Unmask assets in real time</p>
+              </div>
+            </a>
+            <a class="flex gap-8 items-center ml-1" href="#">
+              <svg class="w-16 px-2 box-content" viewBox="0 0 45.687 45.687">
+                <path id="Path_1559" data-name="Path 1559" d="M25.843,9.461V4m0,5.461a5.461,5.461,0,0,0,0,10.922m0-10.922a5.461,5.461,0,1,1,0,10.922M9.461,42.226a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,1,1,0-10.922m0,10.922v5.461m0-16.382V4M25.843,20.382v27.3m16.382-5.461a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,0,1,0-10.922m0,10.922v5.461m0-16.382V4" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              <div class="flex flex-col gap-3">
+                <h2 class="text-principal-purple text-xl font-ibm leading-7">OVI Management</h2>
+                <p class="text-white text-xl font-ibm w-60 leading-5">Transform data into answer</p>
+              </div>
+            </a>
+            <a class="flex gap-8 items-center ml-1" href="#">
+              <svg class="w-16 px-2 box-content" viewBox="0 0 45.687 45.687">
+                <path id="Path_1560" data-name="Path 1560" d="M3,5.427A2.427,2.427,0,0,1,5.427,3H44.259a2.427,2.427,0,0,1,2.427,2.427V11.7a2.427,2.427,0,0,1-.711,1.716L30.408,28.986A2.427,2.427,0,0,0,29.7,30.7v6.276l-9.708,9.708V30.7a2.427,2.427,0,0,0-.711-1.716L3.711,13.419A2.427,2.427,0,0,1,3,11.7Z" transform="translate(-2 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              <div class="flex flex-col gap-3">
+                <h2 class="text-principal-purple text-xl font-ibm leading-7">OVI Validate</h2>
+                <p class="text-white text-xl font-ibm w-72 leading-5">Quantitative risk throw real attack scenarios</p>
+              </div>
+            </a>
+          </div>
+          <div class="relative max-w-screen-md w-full">
+            <img class="w-full" src="../../assets/img/hero-ovisoc.png" alt="mockup-ovisoc" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- TO CHECK -->
     <section id="about-us" class="flex flex-col container mx-auto px-2 md:px-32 py-40 text-center">
       <h2 class="font-oswald uppercase mb-3 text-4xl">NO ESPERES A SER VÍCTIMA DE UN CIBERATAQUE</h2>
