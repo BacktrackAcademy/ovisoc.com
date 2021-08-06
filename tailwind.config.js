@@ -60,6 +60,9 @@ module.exports = {
       spacing: {
         "over-screen": "100vh",
       },
+      screens: {
+        'mb': '425px'
+      }
     },
     fontFamily: {
       inconsalata: ["Inconsolata", "monospace"],
