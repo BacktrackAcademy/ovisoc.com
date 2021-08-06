@@ -209,76 +209,90 @@
       </div>
     </section>
 
-    <section class="bg-blue-light-dark py-20" id="contactForm">
-      <div class="inline-grid grid-cols-4 font-ibm">
-        <div></div>
-        <div class="flex flex-col items-center">
-          <span class="text-4xl">$99</span>
-          <span class="text-xl">Starter</span>
+    <section class="bg-blue-light-dark py-20 flex justify-center" id="contactForm">
+      <div class="flex flex-col gap-10 items-end">
+        <div class="inline-grid grid-cols-4 font-ibm font-light text-principal-purple">
+          <div></div>
+          <div class="flex flex-col items-center gap-4 text-white mb-10">
+            <span class="text-4xl">$99</span>
+            <span class="text-xl">Starter</span>
+          </div>
+          <div class="flex flex-col items-center gap-4 text-white mb-10">
+            <span class="text-4xl">$999</span>
+            <span class="text-xl">Professional</span>
+          </div>
+          <div class="flex flex-col items-center gap-4 text-white mb-10">
+            <span class="text-transparent text-4xl">?</span>
+            <span class="text-xl">Enterprise</span>
+          </div>
+
+          <div class="justify-self-end text-white py-4 mr-20">Users</div>
+          <div class="grid-value">1</div>
+          <div class="grid-value">10</div>
+          <div class="grid-value"> >25 </div>
+
+          <div class="justify-self-end text-white py-4 mr-20">API Premium Access</div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="justify-self-end text-white py-4 mr-20">SLA Support</div>
+          <div class="grid-value">4 Hours</div>
+          <div class="grid-value">2 Hours</div>
+          <div class="grid-value">1 Hour</div>
+
+          <div class="justify-self-end text-white py-4 mr-20">Number of Reports</div>
+          <div class="grid-value">1 IP</div>
+          <div class="grid-value">10 IP</div>
+          <div class="grid-value"> >25 IP </div>
+
+          <div class="justify-self-end text-white py-4 mr-20">Security ratings</div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="justify-self-end text-white py-4 mr-20">Risk assessment</div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="justify-self-end text-white py-4 mr-20">Report format PDF</div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="justify-self-end text-white py-4 mr-20">Continuous monitoring</div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="justify-self-end text-white py-4 mr-20">Attack surface reduction</div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="justify-self-end text-white py-4 mr-20">Integration CI/CD </div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="justify-self-end text-white py-4 mr-20">Specific functionality</div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
         </div>
-        <div class="flex flex-col items-center">
-          <span class="text-4xl">$999</span>
-          <span class="text-xl">Professional</span>
+        <div class="flex gap-5">
+          <button
+            class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm"
+          >
+            Get started
+          </button>
+          <button
+            class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm"
+          >
+            Get started
+          </button>
         </div>
-        <div class="flex flex-col items-center">
-          <span class="text-transparent text-4xl">?</span>
-          <span class="text-xl">Enterprise</span>
-        </div>
-
-        <div>Users</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>API Premium Access</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>SLA Support</div>
-        <div>4 Hours</div>
-        <div>2 Hours</div>
-        <div>1 Hour</div>
-
-        <div>Number of Reports</div>
-        <div>1 IP</div>
-        <div>10 IP</div>
-        <div> >25 IP </div>
-
-        <div>Security ratings</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>Risk assessment</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>Report format PDF</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>Continuous monitoring</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>Attack surface reduction</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>Integration CI/CD </div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>Specific functionality</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
       </div>
     </section>
     <ContactForm />
@@ -348,8 +362,43 @@ export default {
 </script>
 
 <style>
+.grid-value{
+  @apply w-full flex justify-center items-center border-l border-principal-purple border-opacity-50
+}
 html{
   scroll-behavior: smooth;
+}
+.check.icon {
+  margin-left: 3px;
+  margin-top: -6px;
+  width: 25px;
+  height: 12px;
+  @apply text-principal-purple absolute border-b border-l border-principal-purple transform -rotate-45
+}
+.close.icon {
+  width: 31px;
+  height: 31px;
+  @apply text-principal-purple absolute mt-0 ml-0
+}
+.close.icon:before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  width: 31px;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.close.icon:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  width: 31px;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 .random{
   border-radius: 100%;
