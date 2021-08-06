@@ -119,6 +119,77 @@
       </div>
     </section>
 
+    <section class="bg-blue-light-dark flex justify-center items-center pt-24 pb-28">
+      <div>
+        <div class="text-center font-roboto font-bold text-5xl mb-14">Get your rating</div>
+        <div class="m-auto w-52 md:w-full md:max-w-screen-sm xl:max-w-screen-lg">
+          <carousel
+            navigationEnabled = true
+            paginationEnabled = true
+            loop = true
+            perPage = 1
+            :perPageCustom="[[768, 3], [1280, 6]]"
+          >
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+          </carousel>
+        </div>
+      </div>
+    </section>
+
     <section class="bg-total-back py-36">
       <div>
         <div class="flex flex-col items-center">
@@ -301,11 +372,14 @@
 
 <script>
 import ContactForm from "../shared/ContactForm";
+import { Carousel, Slide } from 'vue-carousel';
 
 export default {
   name: "Main",
   components: {
     ContactForm,
+    Carousel,
+    Slide
   },
   data() {
     return {
@@ -362,8 +436,17 @@ export default {
 </script>
 
 <style>
+.VueCarousel-dot-container{
+  display: none !important;
+}
+.VueCarousel-slide{
+  @apply flex justify-center
+}
 .grid-value{
   @apply w-full flex justify-center items-center border-l border-principal-purple border-opacity-50
+}
+.bg-bta{
+  background-image: url("../../assets/img/logo.svg");
 }
 html{
   scroll-behavior: smooth;
