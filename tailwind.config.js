@@ -61,7 +61,7 @@ module.exports = {
         "over-screen": "100vh",
       },
       screens: {
-        'mb': '425px'
+        'mobile': '425px'
       }
     },
     fontFamily: {
