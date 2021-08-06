@@ -3,10 +3,10 @@
     <section class="lg:h-top-hero px-5 lg:px-0 md:px-24 py-16 flex justify-between items-center bg-img bg-cover">
       <div class="w-full lg:max-w-screen-xl text-center m-auto">
         <h1 class="font-oswald ">
-          <span class="block font-roboto text-4xl sm:text-6xl leading-none">Continuously monitor the cybersecurity posture of any enterprise.</span>
+          <span class="block font-roboto text-4xl sm:text-6xl leading-none">Supervisor continuo de la postura de ciberseguridad de cualquier empresa</span>
         </h1>
         <p class="font-ibm font-light text-white py-10 text-lg sm:text-2xl w-4/5 m-auto">
-          Don’t wait to be a victim of a cyber attack, know our suite of solutions that will provide a layer of security to your enterprise.
+          No esperes a ser víctima de un ciberataque, conoce nuestro paquete de soluciones que proveerán una barrera de seguridad para tu empresa.
         </p>
         <!-- <a href="/#contact" class="text-black font-oswald tracking-widest uppercase text-xl py-2 px-10 lg:px-8 bg-white" >
           Contáctanos »
@@ -15,12 +15,12 @@
           <button
             class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-white hover:bg-blue-text text-blue-text hover:text-white transition font-ibm"
           >
-            Get Started
+            Comencemos
           </button>
           <button
             class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm"
           >
-            Live demo
+            Quiero una demo
           </button>
         </div>
       </div>
@@ -29,9 +29,9 @@
     <section class="bg-blue-light-dark py-28 lg:py-44">
       <div class="m-auto flex flex-col lg:flex-row lg:max-w-screen-lg xl:max-w-screen-2xl justify-center items-center gap-12 lg:gap-0">
         <div class="w-2/3 lg:w-1/2 lg:pl-24">
-          <h2 class="uppercase font-bold font-roboto text-4xl sm:text-5xl leading-none mb-6">Monitor risk across <br> your <span class="text-principal-purple">Ecosystem</span></h2>
-          <p class="lg:w-9/12 text-white font-ibm text-xl leading-tight mb-8 lg:mb-4">Continuous visibility that allows you to manage and make infrastructure changes visible when they occur in the local infrastructure and in the cloud.</p>
-          <div class="text-center lg:text-left text-principal-purple font-ibm text-xl font-bold">Visualize > Prioritize > Validate</div>
+          <h2 class="uppercase font-bold font-roboto text-4xl sm:text-5xl leading-none mb-6">Monitorea el riesgo en todo su <span class="text-principal-purple">Ecosistema</span></h2>
+          <p class="lg:w-9/12 text-white font-ibm text-xl leading-tight mb-8 lg:mb-4">Seguimiento continuo que te permite administrar y hacer visibles los cambios de infraestructura cuando ocurren en la infraestructura local y en la nube.</p>
+          <div class="text-center lg:text-left text-principal-purple font-ibm text-xl font-bold">Visualiza > Prioriza > Valida</div>
         </div>
         <div class="w-10/12 md:w-2/3 lg:w-1/2 flex-shrink-0">
           <ul class="m-auto lg:m-0 lg:pl-10 flex flex-col gap-20 w-min">
@@ -44,7 +44,7 @@
                   <div class="w-2 h-2 bg-principal-purple rounded-full"></div>
                   <div class="border-b border-t border-principal-purple w-8 sm:w-40"></div>
                 </div>
-                <p class="text-white text-lg font-ibm w-max ml-auto">External Assets</p>
+                <p class="text-white text-lg font-ibm w-max ml-auto">Activos externos</p>
               </div>
             </li>
 
@@ -57,7 +57,7 @@
                   <div class="w-2 h-2 bg-principal-purple rounded-full"></div>
                   <div class="border-b border-t border-principal-purple w-8 sm:w-40"></div>
                 </div>
-                <p class="text-white text-lg font-ibm w-max ml-auto">Internal Assets</p>
+                <p class="text-white text-lg font-ibm w-max ml-auto">Activos internos</p>
               </div>
             </li>
 
@@ -70,7 +70,7 @@
                   <div class="w-2 h-2 bg-principal-purple rounded-full"></div>
                   <div class="border-b border-t border-principal-purple w-8 sm:w-40"></div>
                 </div>
-                <p class="text-white text-lg font-ibm ml-auto">Stakeholders</p>
+                <p class="text-white text-lg font-ibm ml-auto">Interlocutores</p>
               </div>
             </li>
           </ul>
@@ -81,7 +81,7 @@
     <section class="bg-total-back">
       <div class="flex flex-col md:flex-row justify-between m-auto max-w-screen-2xl pt-20 pb-10 overflow-hidden">
         <div class="p-5 sm:pl-24 flex flex-col justify-center text-center sm:text-left">
-          <div class="font-roboto text-4xl uppercase m-auto sm:m-0 mb-6 sm:mb-6 max-w-sm leading-10">Don't wait to be a victim of a cyber attack</div>
+          <div class="font-roboto text-4xl uppercase m-auto sm:m-0 mb-6 sm:mb-6 max-w-sm leading-10">No esperes a ser víctima de un ciberataque</div>
           <ul class="text-principal-purple font-ibm flex flex-col items-center sm:items-baseline gap-2">
             <li class="flex gap-4 items-center text-lg">
               <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
@@ -121,7 +121,7 @@
 
     <section class="bg-blue-light-dark flex justify-center items-center pt-24 pb-28">
       <div>
-        <div class="text-center font-roboto font-bold text-5xl mb-14">Get your rating</div>
+        <div class="text-center font-roboto font-bold text-5xl mb-14">Obtén tu calificación</div>
         <div class="m-auto w-52 md:w-full md:max-w-screen-sm xl:max-w-screen-lg">
           <carousel
             navigationEnabled = true
@@ -193,8 +193,8 @@
     <section class="bg-total-back py-36">
       <div>
         <div class="flex flex-col items-center px-5 mobile:px-20 mb-10 md:mb-20">
-          <span class="font-roboto text-white text-5xl font-bold text-center mobile:text-left">Our services</span>
-          <p class="font-ibm text-white text-xl max-w-3xl text-center font-light">Don’t wait to be a victim of a cyber attack, know our suite of solutions.</p>
+          <span class="font-roboto text-white text-5xl font-bold text-center mobile:text-left">Mira nuestros Servicios</span>
+          <p class="font-ibm text-white text-xl max-w-3xl text-center font-light">Y no esperes a ser víctima de un ciberataque, conoce nuestro paquete de soluciones</p>
         </div>
         <div class="flex flex-col md:flex-row justify-center items-center md:px-10">
           <div class="flex flex-col gap-20 font-light mb-10 md:mb-0">
@@ -207,7 +207,7 @@
               </svg>
               <div class="flex flex-col gap-3 text-center mobile:text-left">
                 <h2 class="text-principal-purple text-xl font-ibm leading-7">OVI Discover</h2>
-                <p class="text-white text-xl font-ibm w-60 leading-5">Unmask assets in real time</p>
+                <p class="text-white text-xl font-ibm w-60 leading-5">Descubre activos en tiempo real</p>
               </div>
             </a>
             <a class="flex gap-8 flex-col mobile:flex-row items-center ml-1" href="#">
@@ -216,7 +216,7 @@
               </svg>
               <div class="flex flex-col gap-3 text-center mobile:text-left">
                 <h2 class="text-principal-purple text-xl font-ibm leading-7">OVI Management</h2>
-                <p class="text-white text-xl font-ibm w-60 leading-5">Transform data into answer</p>
+                <p class="text-white text-xl font-ibm w-60 leading-5">Transforma datos en respuestas</p>
               </div>
             </a>
             <a class="flex gap-8 flex-col mobile:flex-row items-center ml-1" href="#">
@@ -225,7 +225,7 @@
               </svg>
               <div class="flex flex-col gap-3 text-center mobile:text-left">
                 <h2 class="text-principal-purple text-xl font-ibm leading-7">OVI Validate</h2>
-                <p class="text-white text-xl font-ibm w-60 md:w-72 leading-5">Quantitative risk throw real attack scenarios</p>
+                <p class="text-white text-xl font-ibm w-60 md:w-72 leading-5">El riesgo cuantitativo arroja escenarios de ataque reales</p>
               </div>
             </a>
           </div>
@@ -238,7 +238,7 @@
 
     <section class="bg-total-back py-20">
       <div class="flex flex-col items-center gap-14">
-        <span class="text-principal-purple text-xl font-ibm uppercase">Complice & certification</span>
+        <span class="text-principal-purple text-xl font-ibm uppercase">Cumplimiento y certificación</span>
         <ul class="flex gap-x-44 gap-y-10 max-w-screen-xl w-full px-24 justify-center flex-wrap">
           <li class="flex flex-col items-center gap-3">
             <svg class="text-transparent fill-current hover:fill-shield transition-all" width="63.684" height="62.58" viewBox="0 0 63.684 62.58">
@@ -270,7 +270,7 @@
 
     <section class="bg-total-back pt-20 pb-40">
       <div class="max-w-screen-lg flex flex-col items-center m-auto">
-        <span class="inline-block max-w-xl text-3xl md:text-5xl font-roboto font-bold uppercase text-center">Monitor in real time your ecosystem</span>
+        <span class="inline-block px-10 max-w-3xl text-3xl md:text-5xl font-roboto font-bold uppercase text-center">Monitorea tu ecosistema en tiempo real</span>
         <img class="w-full" src="../../assets/img/mockup-blockphi-hq.png" alt="mockup-ovisoc" />
         <div
             class="px-8 max-w-xs w-auto sm:w-64 py-1 sm:py-3 text-lg sm:text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm text-center mt-4"
@@ -286,68 +286,68 @@
           <div></div>
           <div class="flex flex-col items-center gap-4 text-white mobile:mb-10">
             <span class="text-2xl mobile:text-4xl">$99</span>
-            <span class="text-md mobile:text-xl">Starter</span>
+            <span class="text-md mobile:text-xl">Básico</span>
           </div>
           <div class="flex flex-col items-center gap-4 text-white mb-10">
             <span class="text-2xl mobile:text-4xl">$999</span>
-            <span class="text-md mobile:text-xl">Professional</span>
+            <span class="text-md mobile:text-xl">Profesional</span>
           </div>
           <div class="flex flex-col items-center gap-4 text-white mb-10">
             <span class="text-transparent text-2xl mobile:text-4xl">?</span>
             <span class="text-md mobile:text-xl">Enterprise</span>
           </div>
 
-          <div class="grid-label">Users</div>
+          <div class="grid-label">Usuarios</div>
           <div class="grid-value">1</div>
           <div class="grid-value">10</div>
           <div class="grid-value"> >25 </div>
 
-          <div class="grid-label">API Premium Access</div>
+          <div class="grid-label">Acceso Premium a API</div>
           <div class="grid-value"><div class="close icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
 
-          <div class="grid-label">SLA Support</div>
+          <div class="grid-label">Soporte SLA</div>
           <div class="grid-value">4 Hours</div>
           <div class="grid-value">2 Hours</div>
           <div class="grid-value">1 Hour</div>
 
-          <div class="grid-label">Number of Reports</div>
+          <div class="grid-label">Número de reportes</div>
           <div class="grid-value">1 IP</div>
           <div class="grid-value">10 IP</div>
           <div class="grid-value"> >25 IP </div>
 
-          <div class="grid-label">Security ratings</div>
+          <div class="grid-label">Clasificaciones de seguridad</div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
 
-          <div class="grid-label">Risk assessment</div>
+          <div class="grid-label">Evaluación de riesgo</div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
 
-          <div class="grid-label">Report format PDF</div>
+          <div class="grid-label">Reporte formato PDF</div>
           <div class="grid-value"><div class="close icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
 
-          <div class="grid-label">Continuous monitoring</div>
+          <div class="grid-label">Monitoreo continuo</div>
           <div class="grid-value"><div class="close icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
 
-          <div class="grid-label">Attack surface reduction</div>
+          <div class="grid-label">Reducción de la superficie de ataque</div>
           <div class="grid-value"><div class="close icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
 
-          <div class="grid-label">Integration CI/CD </div>
+          <div class="grid-label">Integración CI/CD</div>
           <div class="grid-value"><div class="close icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
 
-          <div class="grid-label">Specific functionality</div>
+          <div class="grid-label">Funcionalidad específica</div>
           <div class="grid-value"><div class="close icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
@@ -356,12 +356,12 @@
           <button
             class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm"
           >
-            Get started
+            Quiero iniciar
           </button>
           <button
             class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm"
           >
-            Get started
+            Quiero iniciar
           </button>
         </div>
       </div>

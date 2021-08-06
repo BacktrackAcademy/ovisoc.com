@@ -26,7 +26,7 @@
             class="dropdown relative py-4 mx-3 flex"
           >
             <button class="font-ibm">
-              <span class="text-white mr-1">Products</span>
+              <span class="text-white mr-1">Productos</span>
               <feather fill="#fff" size="13" type="chevron-down" class=""></feather>
             </button>
 
@@ -35,7 +35,7 @@
             class="dropdown relative py-4 mx-3 flex"
           >
             <button class="font-ibm">
-              <span class="text-white mr-1 bg-principal-purple hover:bg-blue-text transition px-6 py-1 rounded-full">Demo</span>
+              <span class="text-white mr-1 bg-principal-purple hover:bg-blue-text transition px-6 py-1 rounded-full">Quiero una Demo</span>
             </button>
           </div>
           <div
@@ -102,7 +102,7 @@
               </svg>
               <div class="flex flex-col gap-1">
                 <h2 class="text-principal-purple text-base font-ibm leading-7">Database Malicious IP</h2>
-                <p class="text-white font-ibm text-sm w-52 leading-4">Unmask assets in real time</p>
+                <p class="text-white font-ibm text-sm w-52 leading-4">Descubre activos en tiempo real</p>
               </div>
             </a>
             <a class="flex gap-6 items-center ml-1" href="#">
@@ -111,7 +111,7 @@
               </svg>
               <div class="flex flex-col gap-1">
                 <h2 class="text-principal-purple text-base font-ibm leading-7">Database Malicious IP</h2>
-                <p class="text-white font-ibm text-sm w-52 leading-4">Unmask assets in real time</p>
+                <p class="text-white font-ibm text-sm w-52 leading-4">Descubre activos en tiempo real</p>
               </div>
             </a>
             <a class="flex gap-6 items-center ml-1" href="#">
@@ -120,7 +120,7 @@
               </svg>
               <div class="flex flex-col gap-1">
                 <h2 class="text-principal-purple text-base font-ibm leading-7">Database Company Rating</h2>
-                <p class="text-white font-ibm text-sm w-52 leading-4">Transform data into answer</p>
+                <p class="text-white font-ibm text-sm w-52 leading-4">Transforma datos en respuestas</p>
               </div>
             </a>
             <a class="flex gap-6 items-center ml-1" href="#">
@@ -129,13 +129,13 @@
               </svg>
               <div class="flex flex-col gap-1">
                 <h2 class="text-principal-purple text-base font-ibm leading-7">Database Global Security</h2>
-                <p class="text-white font-ibm text-sm w-52 leading-4">Unmask assets in real time</p>
+                <p class="text-white font-ibm text-sm w-52 leading-4">Descubre activos en tiempo real</p>
               </div>
             </a>
           </div>
         </div>
       </div>
-      <div class="block bg-principal-purple hover:bg-opacity-80 transition-all py-4 text-xl text-white text-center rounded-b-lg font-light">Get started</div>
+      <div class="block bg-principal-purple hover:bg-opacity-80 transition-all py-4 text-xl text-white text-center rounded-b-lg font-light">Quiero iniciar</div>
     </div>
     <!-- PRODUCTS SUBMENU -->
     <div
@@ -161,7 +161,7 @@
               </svg>
               <div class="flex flex-col">
                 <h2 class="text-principal-purple text-base font-ibm leading-7">OVI Discover</h2>
-                <p class="text-white text-sm font-ibm w-52 leading-4">Unmask assets in real time</p>
+                <p class="text-white text-sm font-ibm w-52 leading-4">Descubre activos en tiempo real</p>
               </div>
             </a>
             <a class="flex gap-6 items-center ml-1" href="https://monitoring.ovisoc.com/">
@@ -170,7 +170,7 @@
               </svg>
               <div class="flex flex-col">
                 <h2 class="text-principal-purple text-base font-ibm leading-7">OVI Monitoring</h2>
-                <p class="text-white text-sm font-ibm w-52 leading-4">Utility for discovery and auditing.</p>
+                <p class="text-white text-sm font-ibm w-52 leading-4">Utilidad para descubrimiento y auditoría</p>
               </div>
             </a>
             <a class="flex gap-6 items-center ml-1" href="https://internal.ovisoc.com">
@@ -179,17 +179,17 @@
               </svg>
               <div class="flex flex-col">
                 <h2 class="text-principal-purple text-base font-ibm leading-7">OVI Validate</h2>
-                <p class="text-white text-sm font-ibm w-52 leading-4">Quantitative risk throw real attack scenarios</p>
+                <p class="text-white text-sm font-ibm w-52 leading-4">El riesgo cuantitativo arroja escenarios de ataque reales</p>
               </div>
             </a>
           </div>
           <a class="flex flex-col items-center justify-center mt-2 mb-1" href="#">
             <img class="w-80" src="../../assets/img/mockup-blockphi.png" alt="app-mockup">
-            <p class="text-center text-sm text-principal-purple w-56 tracking-tight leading-4">Reduce the risk of Shadow IT impact.</p>
+            <p class="text-center text-sm text-principal-purple w-56 tracking-tight leading-4">Reduzca el riesgo de impacto de la TI en la sombra.</p>
           </a>
         </div>
       </div>
-      <a class="block bg-principal-purple hover:bg-opacity-80 transition-all py-4 text-xl text-white text-center rounded-b-lg font-light" v-on:click="redirection">Get started</a>
+      <a class="block bg-principal-purple hover:bg-opacity-80 transition-all py-4 text-xl text-white text-center rounded-b-lg font-light" v-on:click="redirection">Quiero iniciar</a>
     </div>
   </nav>
 </template>
