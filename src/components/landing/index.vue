@@ -1,12 +1,12 @@
 <template>
   <main class="">
-    <section class="h-top-hero-mobile lg:h-top-hero px-5 lg:px-0 md:px-24 py-16 flex justify-between items-center bg-img bg-cover">
+    <section class="lg:h-top-hero px-5 lg:px-0 md:px-24 py-16 flex justify-between items-center bg-img bg-cover">
       <div class="w-full lg:max-w-screen-xl text-center m-auto">
         <h1 class="font-oswald ">
-          <span class="block font-roboto text-4xl sm:text-6xl leading-none">Continuously monitor the cybersecurity posture of any enterprise.</span>
+          <span class="block font-roboto text-4xl sm:text-6xl leading-none">Supervisor continuo de la postura de ciberseguridad de cualquier empresa</span>
         </h1>
         <p class="font-ibm font-light text-white py-10 text-lg sm:text-2xl w-4/5 m-auto">
-          Don’t wait to be a victim of a cyber attack, know our suite of solutions that will provide a layer of security to your enterprise.
+          No esperes a ser víctima de un ciberataque, conoce nuestro paquete de soluciones que proveerán una barrera de seguridad para tu empresa.
         </p>
         <!-- <a href="/#contact" class="text-black font-oswald tracking-widest uppercase text-xl py-2 px-10 lg:px-8 bg-white" >
           Contáctanos »
@@ -15,62 +15,62 @@
           <button
             class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-white hover:bg-blue-text text-blue-text hover:text-white transition font-ibm"
           >
-            Get Started
+            Comencemos
           </button>
           <button
             class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm"
           >
-            Live demo
+            Quiero una demo
           </button>
         </div>
       </div>
     </section>
 
-    <section class="bg-blue-light-dark py-44">
-      <div class="m-auto max-w-screen-2xl flex justify-center items-center">
-        <div class="w-1/2 pl-24">
-          <h2 class="uppercase font-bold font-roboto text-5xl leading-none mb-6">Monitor risk across <br> your <span class="text-principal-purple">Ecosystem</span></h2>
-          <p class="w-9/12 text-white font-ibm text-xl leading-tight mb-4">Continuous visibility that allows you to manage and make infrastructure changes visible when they occur in the local infrastructure and in the cloud.</p>
-          <div class="text-principal-purple font-ibm text-xl font-bold">Visualize > Prioritize > Validate</div>
+    <section class="bg-blue-light-dark py-28 lg:py-44">
+      <div class="m-auto flex flex-col lg:flex-row lg:max-w-screen-lg xl:max-w-screen-2xl justify-center items-center gap-12 lg:gap-0">
+        <div class="w-2/3 lg:w-1/2 lg:pl-24">
+          <h2 class="uppercase font-bold font-roboto text-4xl sm:text-5xl leading-none mb-6">Monitorea el riesgo en todo su <span class="text-principal-purple">Ecosistema</span></h2>
+          <p class="lg:w-9/12 text-white font-ibm text-xl leading-tight mb-8 lg:mb-4">Seguimiento continuo que te permite administrar y hacer visibles los cambios de infraestructura cuando ocurren en la infraestructura local y en la nube.</p>
+          <div class="text-center lg:text-left text-principal-purple font-ibm text-xl font-bold">Visualiza > Prioriza > Valida</div>
         </div>
-        <div class="w-1/2 flex-shrink-0">
-          <ul class="pl-10 flex flex-col gap-20 w-min">
+        <div class="w-10/12 md:w-2/3 lg:w-1/2 flex-shrink-0">
+          <ul class="m-auto lg:m-0 lg:pl-10 flex flex-col gap-20 w-min">
             <li class="flex items-end">
-              <svg class="flex-shrink-0" width="82" height="74" viewBox="0 0 124 96.903">
+              <svg class="flex-shrink-0 w-14 sm:w-20" viewBox="0 0 124 96.903">
                 <path id="Path_1571" data-name="Path 1571" d="M3,72.7A27.187,27.187,0,0,0,30.187,99.888h61.17a33.983,33.983,0,1,0-.68-67.962A33.994,33.994,0,1,0,24.2,46.175,27.193,27.193,0,0,0,3,72.7Z" transform="translate(-2 -3.984)" fill="none" stroke="#7773f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
-              <div class="flex items-center gap-3 mb-2 -ml-6 w-full">
+              <div class="flex items-center gap-3 mb-0 sm:mb-2 -ml-4 sm:-ml-6 w-full">
                 <div class="flex items-center">
                   <div class="w-2 h-2 bg-principal-purple rounded-full"></div>
-                  <div class="border-b border-t border-principal-purple w-40"></div>
+                  <div class="border-b border-t border-principal-purple w-8 sm:w-40"></div>
                 </div>
-                <p class="text-white text-lg font-ibm w-max ml-auto">External Assets</p>
+                <p class="text-white text-lg font-ibm w-max ml-auto">Activos externos</p>
               </div>
             </li>
 
             <li class="flex items-end">
-              <svg class="flex-shrink-0" width="86" height="80" viewBox="0 0 124 121.468">
+              <svg class="flex-shrink-0 w-14 sm:w-20" viewBox="0 0 124 121.468">
                 <path id="Path_1570" data-name="Path 1570" d="M111.444,122.468V16.274A13.417,13.417,0,0,0,97.889,3H30.111A13.417,13.417,0,0,0,16.556,16.274V122.468m94.889,0H125m-13.556,0H77.556m-61,0H3m13.556,0H50.444M43.667,29.548h6.778M43.667,56.1h6.778M77.556,29.548h6.778M77.556,56.1h6.778M50.444,122.468V89.282a6.709,6.709,0,0,1,6.778-6.637H70.778a6.709,6.709,0,0,1,6.778,6.637v33.185m-27.111,0H77.556" transform="translate(-2 -2)" fill="none" stroke="#7773f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
-              <div class="flex items-center gap-3 mb-2 -ml-6 w-full">
+              <div class="flex items-center gap-3 mb-0 sm:mb-2 -ml-4 sm:-ml-6 w-full">
                 <div class="flex items-center">
                   <div class="w-2 h-2 bg-principal-purple rounded-full"></div>
-                  <div class="border-b border-t border-principal-purple w-40"></div>
+                  <div class="border-b border-t border-principal-purple w-8 sm:w-40"></div>
                 </div>
-                <p class="text-white text-lg font-ibm w-max ml-auto">Internal Assets</p>
+                <p class="text-white text-lg font-ibm w-max ml-auto">Activos internos</p>
               </div>
             </li>
 
             <li class="flex items-end">
-              <svg class="-mb-4 flex-shrink-0" width="86" height="82" viewBox="0 0 121.984 118.413">
+              <svg class="-mb-1 sm:-mb-4 flex-shrink-0 w-14 sm:w-20" viewBox="0 0 121.984 118.413">
                 <path id="Path_1572" data-name="Path 1572" d="M40.864,69.818a18.9,18.9,0,0,0,0-17.34m0,17.34A20.2,20.2,0,0,1,18.395,80.011a19.253,19.253,0,0,1,0-37.724A20.2,20.2,0,0,1,40.864,52.479m0,17.34L85.049,91.241M40.864,52.479,85.049,31.056m0,0a20.285,20.285,0,0,0,26.819,8.667,19.113,19.113,0,0,0,8.938-26.006A20.285,20.285,0,0,0,93.987,5.05a19.113,19.113,0,0,0-8.938,26.006Zm0,60.184A19.116,19.116,0,0,0,93.99,117.25a20.288,20.288,0,0,0,26.823-8.67,19.116,19.116,0,0,0-8.941-26.009,20.288,20.288,0,0,0-26.823,8.67Z" transform="translate(123.985 120.356) rotate(180)" fill="none" stroke="#7773f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
-              <div class="flex items-center gap-3 mb-2 -ml-4 w-full">
+              <div class="flex items-center gap-3 mb-2 -ml-3 sm:-ml-4 w-full">
                 <div class="flex items-center">
                   <div class="w-2 h-2 bg-principal-purple rounded-full"></div>
-                  <div class="border-b border-t border-principal-purple w-40"></div>
+                  <div class="border-b border-t border-principal-purple w-8 sm:w-40"></div>
                 </div>
-                <p class="text-white text-lg font-ibm ml-auto">Stakeholders</p>
+                <p class="text-white text-lg font-ibm ml-auto">Interlocutores</p>
               </div>
             </li>
           </ul>
@@ -81,7 +81,7 @@
     <section class="bg-total-back">
       <div class="flex flex-col md:flex-row justify-between m-auto max-w-screen-2xl pt-20 pb-10 overflow-hidden">
         <div class="p-5 sm:pl-24 flex flex-col justify-center text-center sm:text-left">
-          <div class="font-roboto text-4xl uppercase m-auto sm:m-0 mb-6 sm:mb-6 max-w-sm leading-10">Don't wait to be a victim of a cyber attack</div>
+          <div class="font-roboto text-4xl uppercase m-auto sm:m-0 mb-6 sm:mb-6 max-w-sm leading-10">No esperes a ser víctima de un ciberataque</div>
           <ul class="text-principal-purple font-ibm flex flex-col items-center sm:items-baseline gap-2">
             <li class="flex gap-4 items-center text-lg">
               <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
@@ -119,46 +119,117 @@
       </div>
     </section>
 
+    <section class="bg-blue-light-dark flex justify-center items-center pt-24 pb-28">
+      <div>
+        <div class="text-center font-roboto font-bold text-5xl mb-14">Obtén tu calificación</div>
+        <div class="m-auto w-52 md:w-full md:max-w-screen-sm xl:max-w-screen-lg">
+          <carousel
+            navigationEnabled = true
+            paginationEnabled = true
+            loop = true
+            perPage = 1
+            :perPageCustom="[[768, 3], [1280, 6]]"
+          >
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+            <slide>
+              <div class="rounded-full h-24 w-24 bg-black">
+                <div class="rounded-full bg-bta bg-contain bg-no-repeat bg-center w-full h-full"></div>
+              </div>
+            </slide>
+          </carousel>
+        </div>
+      </div>
+    </section>
+
     <section class="bg-total-back py-36">
       <div>
-        <div class="flex flex-col items-center">
-          <span class="font-roboto text-white text-5xl font-bold">Our services</span>
-          <p class="font-ibm text-white text-xl max-w-3xl text-center font-light">Don’t wait to be a victim of a cyber attack, know our suite of solutions.</p>
+        <div class="flex flex-col items-center px-5 mobile:px-20 mb-10 md:mb-20">
+          <span class="font-roboto text-white text-5xl font-bold text-center mobile:text-left">Mira nuestros Servicios</span>
+          <p class="font-ibm text-white text-xl max-w-3xl text-center font-light">Y no esperes a ser víctima de un ciberataque, conoce nuestro paquete de soluciones</p>
         </div>
-        <div class="flex justify-center items-center">
-          <div class="flex flex-col gap-20 font-light">
-            <a class="flex gap-8 items-center ml-1" href="#">
+        <div class="flex flex-col md:flex-row justify-center items-center md:px-10">
+          <div class="flex flex-col gap-20 font-light mb-10 md:mb-0">
+            <a class="flex gap-8 flex-col mobile:flex-row items-center ml-1" href="#">
               <svg class="w-20" viewBox="0 0 51.717 38.473">
                 <g id="Group_1725" data-name="Group 1725" transform="translate(-1.458 -4)">
                   <path id="Path_1557" data-name="Path 1557" d="M24.631,16.816A7.816,7.816,0,1,1,16.816,9a7.816,7.816,0,0,1,7.816,7.816Z" transform="translate(10.501 6.421)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
                   <path id="Path_1558" data-name="Path 1558" d="M2.458,23.236a26.061,26.061,0,0,1,49.717,0,26.061,26.061,0,0,1-49.717,0Z" transform="translate(0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
                 </g>
               </svg>
-              <div class="flex flex-col gap-3">
+              <div class="flex flex-col gap-3 text-center mobile:text-left">
                 <h2 class="text-principal-purple text-xl font-ibm leading-7">OVI Discover</h2>
-                <p class="text-white text-xl font-ibm w-60 leading-5">Unmask assets in real time</p>
+                <p class="text-white text-xl font-ibm w-60 leading-5">Descubre activos en tiempo real</p>
               </div>
             </a>
-            <a class="flex gap-8 items-center ml-1" href="#">
+            <a class="flex gap-8 flex-col mobile:flex-row items-center ml-1" href="#">
               <svg class="w-16 px-2 box-content" viewBox="0 0 45.687 45.687">
                 <path id="Path_1559" data-name="Path 1559" d="M25.843,9.461V4m0,5.461a5.461,5.461,0,0,0,0,10.922m0-10.922a5.461,5.461,0,1,1,0,10.922M9.461,42.226a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,1,1,0-10.922m0,10.922v5.461m0-16.382V4M25.843,20.382v27.3m16.382-5.461a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,0,1,0-10.922m0,10.922v5.461m0-16.382V4" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
-              <div class="flex flex-col gap-3">
+              <div class="flex flex-col gap-3 text-center mobile:text-left">
                 <h2 class="text-principal-purple text-xl font-ibm leading-7">OVI Management</h2>
-                <p class="text-white text-xl font-ibm w-60 leading-5">Transform data into answer</p>
+                <p class="text-white text-xl font-ibm w-60 leading-5">Transforma datos en respuestas</p>
               </div>
             </a>
-            <a class="flex gap-8 items-center ml-1" href="#">
+            <a class="flex gap-8 flex-col mobile:flex-row items-center ml-1" href="#">
               <svg class="w-16 px-2 box-content" viewBox="0 0 45.687 45.687">
                 <path id="Path_1560" data-name="Path 1560" d="M3,5.427A2.427,2.427,0,0,1,5.427,3H44.259a2.427,2.427,0,0,1,2.427,2.427V11.7a2.427,2.427,0,0,1-.711,1.716L30.408,28.986A2.427,2.427,0,0,0,29.7,30.7v6.276l-9.708,9.708V30.7a2.427,2.427,0,0,0-.711-1.716L3.711,13.419A2.427,2.427,0,0,1,3,11.7Z" transform="translate(-2 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
-              <div class="flex flex-col gap-3">
+              <div class="flex flex-col gap-3 text-center mobile:text-left">
                 <h2 class="text-principal-purple text-xl font-ibm leading-7">OVI Validate</h2>
-                <p class="text-white text-xl font-ibm w-72 leading-5">Quantitative risk throw real attack scenarios</p>
+                <p class="text-white text-xl font-ibm w-60 md:w-72 leading-5">El riesgo cuantitativo arroja escenarios de ataque reales</p>
               </div>
             </a>
           </div>
-          <div class="relative max-w-screen-md w-full">
+          <div class="relative max-w-7xl xl:max-w-screen-md w-full px-8 mobile:px-0">
             <img class="w-full" src="../../assets/img/hero-ovisoc.png" alt="mockup-ovisoc" />
           </div>
         </div>
@@ -167,7 +238,7 @@
 
     <section class="bg-total-back py-20">
       <div class="flex flex-col items-center gap-14">
-        <span class="text-principal-purple text-xl font-ibm uppercase">Complice & certification</span>
+        <span class="text-principal-purple text-xl font-ibm uppercase">Cumplimiento y certificación</span>
         <ul class="flex gap-x-44 gap-y-10 max-w-screen-xl w-full px-24 justify-center flex-wrap">
           <li class="flex flex-col items-center gap-3">
             <svg class="text-transparent fill-current hover:fill-shield transition-all" width="63.684" height="62.58" viewBox="0 0 63.684 62.58">
@@ -199,7 +270,7 @@
 
     <section class="bg-total-back pt-20 pb-40">
       <div class="max-w-screen-lg flex flex-col items-center m-auto">
-        <span class="inline-block max-w-xl text-3xl md:text-5xl font-roboto font-bold uppercase text-center">Monitor in real time your ecosystem</span>
+        <span class="inline-block px-10 max-w-3xl text-3xl md:text-5xl font-roboto font-bold uppercase text-center">Monitorea tu ecosistema en tiempo real</span>
         <img class="w-full" src="../../assets/img/mockup-blockphi-hq.png" alt="mockup-ovisoc" />
         <div
             class="px-8 max-w-xs w-auto sm:w-64 py-1 sm:py-3 text-lg sm:text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm text-center mt-4"
@@ -209,76 +280,90 @@
       </div>
     </section>
 
-    <section class="bg-blue-light-dark py-20" id="contactForm">
-      <div class="inline-grid grid-cols-4 font-ibm">
-        <div></div>
-        <div class="flex flex-col items-center">
-          <span class="text-4xl">$99</span>
-          <span class="text-xl">Starter</span>
+    <section class="bg-blue-light-dark py-20 flex justify-center" id="pricesGrid">
+      <div class="flex flex-col gap-10 items-end">
+        <div class="grid font-ibm font-light text-principal-purple prices mx-10">
+          <div></div>
+          <div class="flex flex-col items-center gap-4 text-white mobile:mb-10">
+            <span class="text-2xl mobile:text-4xl">$99</span>
+            <span class="text-md mobile:text-xl">Básico</span>
+          </div>
+          <div class="flex flex-col items-center gap-4 text-white mb-10">
+            <span class="text-2xl mobile:text-4xl">$999</span>
+            <span class="text-md mobile:text-xl">Profesional</span>
+          </div>
+          <div class="flex flex-col items-center gap-4 text-white mb-10">
+            <span class="text-transparent text-2xl mobile:text-4xl">?</span>
+            <span class="text-md mobile:text-xl">Enterprise</span>
+          </div>
+
+          <div class="grid-label">Usuarios</div>
+          <div class="grid-value">1</div>
+          <div class="grid-value">10</div>
+          <div class="grid-value"> >25 </div>
+
+          <div class="grid-label">Acceso Premium a API</div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="grid-label">Soporte SLA</div>
+          <div class="grid-value">4 Hours</div>
+          <div class="grid-value">2 Hours</div>
+          <div class="grid-value">1 Hour</div>
+
+          <div class="grid-label">Número de reportes</div>
+          <div class="grid-value">1 IP</div>
+          <div class="grid-value">10 IP</div>
+          <div class="grid-value"> >25 IP </div>
+
+          <div class="grid-label">Clasificaciones de seguridad</div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="grid-label">Evaluación de riesgo</div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="grid-label">Reporte formato PDF</div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="grid-label">Monitoreo continuo</div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="grid-label">Reducción de la superficie de ataque</div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="grid-label">Integración CI/CD</div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="grid-label">Funcionalidad específica</div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
         </div>
-        <div class="flex flex-col items-center">
-          <span class="text-4xl">$999</span>
-          <span class="text-xl">Professional</span>
+        <div class="flex gap-5 flex-wrap px-10 m-auto mobile:m-0">
+          <button
+            class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm"
+          >
+            Quiero iniciar
+          </button>
+          <button
+            class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm"
+          >
+            Quiero iniciar
+          </button>
         </div>
-        <div class="flex flex-col items-center">
-          <span class="text-transparent text-4xl">?</span>
-          <span class="text-xl">Enterprise</span>
-        </div>
-
-        <div>Users</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>API Premium Access</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>SLA Support</div>
-        <div>4 Hours</div>
-        <div>2 Hours</div>
-        <div>1 Hour</div>
-
-        <div>Number of Reports</div>
-        <div>1 IP</div>
-        <div>10 IP</div>
-        <div> >25 IP </div>
-
-        <div>Security ratings</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>Risk assessment</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>Report format PDF</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>Continuous monitoring</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>Attack surface reduction</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>Integration CI/CD </div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
-
-        <div>Specific functionality</div>
-        <div>1</div>
-        <div>10</div>
-        <div> >25 </div>
       </div>
     </section>
     <ContactForm />
@@ -287,11 +372,14 @@
 
 <script>
 import ContactForm from "../shared/ContactForm";
+import { Carousel, Slide } from 'vue-carousel';
 
 export default {
   name: "Main",
   components: {
     ContactForm,
+    Carousel,
+    Slide
   },
   data() {
     return {
@@ -311,7 +399,7 @@ export default {
   },
   methods: {
     redirectionGrid: function () {
-      window.location.href = "#contactForm"
+      window.location.href = "#pricesGrid"
     },
     scrollTop: function() {
       window.scroll(0, 0)
@@ -348,8 +436,57 @@ export default {
 </script>
 
 <style>
+.VueCarousel-dot-container{
+  display: none !important;
+}
+.VueCarousel-slide{
+  @apply flex justify-center
+}
+.grid-label{
+  @apply justify-self-end text-white py-4 mr-4 text-right
+}
+.grid-value{
+  @apply w-full flex justify-center items-center border-l border-principal-purple border-opacity-50 text-center
+}
+.bg-bta{
+  background-image: url("../../assets/img/logo.svg");
+}
 html{
   scroll-behavior: smooth;
+}
+.check.icon {
+  margin-left: 3px;
+  margin-top: -6px;
+  width: 25px;
+  height: 12px;
+  @apply text-principal-purple absolute border-b border-l border-principal-purple transform -rotate-45
+}
+.close.icon {
+  width: 31px;
+  height: 31px;
+  @apply text-principal-purple absolute mt-0 ml-0
+}
+.close.icon:before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  width: 31px;
+  left: 0px;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.close.icon:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  width: 31px;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 .random{
   border-radius: 100%;
@@ -365,4 +502,36 @@ html{
   margin-top: -75px;
   border-radius: 15px;
 }
+
+/* PRICES GRID */
+.prices{
+  overflow: hidden;
+  grid-template-columns: 1fr minmax(4rem, 1fr) 0 0
+}
+.prices>div:nth-child(4n-1),
+.prices>div:nth-child(4n){
+  visibility: hidden;
+}
+/* .prices>div:nth-child(3n){
+  visibility: hidden;
+} */
+
+@media (min-width: 768px) {
+  .prices{
+    grid-template-columns: 1fr minmax(4rem, 1fr) minmax(4rem, 1fr) minmax(4rem, 1fr);
+  }
+  .prices>div:nth-child(4n),
+  .prices>div:nth-child(4n-1){
+    visibility: inherit;
+  }
+}
+
+/* @media (min-width: 768px) {
+  .prices{
+    grid-template-columns: 1fr minmax(4rem, 1fr) minmax(4rem, 1fr) minmax(4rem, 1fr);
+  }
+  .prices>div:nth-child(4n){
+    visibility: inherit;
+  }
+} */
 </style>
