@@ -35,7 +35,7 @@
             class="dropdown relative py-4 mx-3 flex"
           >
             <button class="font-ibm">
-              <span class="text-white mr-1 bg-principal-purple hover:bg-blue-text transition px-6 py-1 rounded-full">Quiero una Demo</span>
+              <div class="text-white mr-1 bg-principal-purple hover:bg-blue-text transition px-6 py-1 rounded-full">Quiero una Demo</div>
             </button>
           </div>
           <div
@@ -57,7 +57,8 @@
         <ul class="flex flex-col h-screen justify-center items-center text-white uppercase text-2xl gap-5">
           <li>Open data</li>
           <li>Products</li>
-          <li class="text-principal-purple">Demo</li>
+          <li class="text-principal-purple"
+          v-on:click="redirection">Demo</li>
           <li>Login</li>
         </ul>
       </div>
@@ -95,8 +96,8 @@
         <label class="text-base pt-5 pb-3 text-white transform uppercase">Database</label>
         <div class="line-separator mb-4"></div>
         <div class="flex gap-7 mb-10">
-          <div class="grid grid-cols-2 gap-y-10 gap-x-4 font-light">
-            <a class="flex gap-6 items-center ml-1" href="#">
+          <div class="grid grid-cols-2 font-light">
+            <a class="submenu-product-item" href="#">
               <svg class="w-10" width="43.068" height="48.202" viewBox="0 0 43.068 48.202">
                 <path id="Path_1573" data-name="Path 1573" d="M4,13.267V38.935C4,44.607,13.194,49.2,24.534,49.2s20.534-4.595,20.534-10.267V13.267M4,13.267c0,5.673,9.194,10.267,20.534,10.267S45.068,18.94,45.068,13.267M4,13.267C4,7.595,13.194,3,24.534,3S45.068,7.595,45.068,13.267m0,12.834c0,5.673-9.194,10.267-20.534,10.267S4,31.774,4,26.1" transform="translate(-3 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
@@ -105,7 +106,7 @@
                 <p class="text-white font-ibm text-sm w-52 leading-4">Descubre activos en tiempo real</p>
               </div>
             </a>
-            <a class="flex gap-6 items-center ml-1" href="#">
+            <a class="submenu-product-item" href="#">
               <svg class="w-10" width="43.068" height="48.202" viewBox="0 0 43.068 48.202">
                 <path id="Path_1573" data-name="Path 1573" d="M4,13.267V38.935C4,44.607,13.194,49.2,24.534,49.2s20.534-4.595,20.534-10.267V13.267M4,13.267c0,5.673,9.194,10.267,20.534,10.267S45.068,18.94,45.068,13.267M4,13.267C4,7.595,13.194,3,24.534,3S45.068,7.595,45.068,13.267m0,12.834c0,5.673-9.194,10.267-20.534,10.267S4,31.774,4,26.1" transform="translate(-3 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
@@ -114,7 +115,7 @@
                 <p class="text-white font-ibm text-sm w-52 leading-4">Descubre activos en tiempo real</p>
               </div>
             </a>
-            <a class="flex gap-6 items-center ml-1" href="#">
+            <a class="submenu-product-item" href="#">
               <svg class="w-10" width="43.068" height="48.202" viewBox="0 0 43.068 48.202">
                 <path id="Path_1573" data-name="Path 1573" d="M4,13.267V38.935C4,44.607,13.194,49.2,24.534,49.2s20.534-4.595,20.534-10.267V13.267M4,13.267c0,5.673,9.194,10.267,20.534,10.267S45.068,18.94,45.068,13.267M4,13.267C4,7.595,13.194,3,24.534,3S45.068,7.595,45.068,13.267m0,12.834c0,5.673-9.194,10.267-20.534,10.267S4,31.774,4,26.1" transform="translate(-3 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
@@ -123,7 +124,7 @@
                 <p class="text-white font-ibm text-sm w-52 leading-4">Transforma datos en respuestas</p>
               </div>
             </a>
-            <a class="flex gap-6 items-center ml-1" href="#">
+            <a class="submenu-product-item" href="#">
               <svg class="w-10" width="43.068" height="48.202" viewBox="0 0 43.068 48.202">
                 <path id="Path_1573" data-name="Path 1573" d="M4,13.267V38.935C4,44.607,13.194,49.2,24.534,49.2s20.534-4.595,20.534-10.267V13.267M4,13.267c0,5.673,9.194,10.267,20.534,10.267S45.068,18.94,45.068,13.267M4,13.267C4,7.595,13.194,3,24.534,3S45.068,7.595,45.068,13.267m0,12.834c0,5.673-9.194,10.267-20.534,10.267S4,31.774,4,26.1" transform="translate(-3 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
@@ -135,7 +136,7 @@
           </div>
         </div>
       </div>
-      <div class="block bg-principal-purple hover:bg-opacity-80 transition-all py-4 text-xl text-white text-center rounded-b-lg font-light">Quiero iniciar</div>
+      <div class="block bg-principal-purple hover:bg-opacity-80 transition-all py-4 text-xl text-white text-center rounded-b-lg font-light" v-on:click="redirection">Quiero iniciar</div>
     </div>
     <!-- PRODUCTS SUBMENU -->
     <div
@@ -151,8 +152,8 @@
         <label class="text-base pt-5 pb-3 text-white transform uppercase">Products</label>
         <div class="line-separator mb-4"></div>
         <div class="flex gap-8 mb-5">
-          <div class="flex flex-col gap-5 font-light">
-            <a class="flex gap-6 items-center ml-1" href="https://discover.ovisoc.com/">
+          <div class="flex flex-col font-light">
+            <a class="submenu-product-item" href="https://discover.ovisoc.com/">
               <svg class="w-10" width="51.717" height="38.473" viewBox="0 0 51.717 38.473">
                 <g id="Group_1725" data-name="Group 1725" transform="translate(-1.458 -4)">
                   <path id="Path_1557" data-name="Path 1557" d="M24.631,16.816A7.816,7.816,0,1,1,16.816,9a7.816,7.816,0,0,1,7.816,7.816Z" transform="translate(10.501 6.421)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
@@ -164,7 +165,7 @@
                 <p class="text-white text-sm font-ibm w-52 leading-4">Descubre activos en tiempo real</p>
               </div>
             </a>
-            <a class="flex gap-6 items-center ml-1" href="https://monitoring.ovisoc.com/">
+            <a class="submenu-product-item" href="https://monitoring.ovisoc.com/">
               <svg class="w-10" width="45.687" height="45.687" viewBox="0 0 45.687 45.687">
                 <path id="Path_1559" data-name="Path 1559" d="M25.843,9.461V4m0,5.461a5.461,5.461,0,0,0,0,10.922m0-10.922a5.461,5.461,0,1,1,0,10.922M9.461,42.226a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,1,1,0-10.922m0,10.922v5.461m0-16.382V4M25.843,20.382v27.3m16.382-5.461a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,0,1,0-10.922m0,10.922v5.461m0-16.382V4" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
@@ -173,7 +174,7 @@
                 <p class="text-white text-sm font-ibm w-52 leading-4">Utilidad para descubrimiento y auditoría</p>
               </div>
             </a>
-            <a class="flex gap-6 items-center ml-1" href="https://internal.ovisoc.com">
+            <a class="submenu-product-item" href="https://internal.ovisoc.com">
               <svg class="w-10" width="45.687" height="45.687" viewBox="0 0 45.687 45.687">
                 <path id="Path_1560" data-name="Path 1560" d="M3,5.427A2.427,2.427,0,0,1,5.427,3H44.259a2.427,2.427,0,0,1,2.427,2.427V11.7a2.427,2.427,0,0,1-.711,1.716L30.408,28.986A2.427,2.427,0,0,0,29.7,30.7v6.276l-9.708,9.708V30.7a2.427,2.427,0,0,0-.711-1.716L3.711,13.419A2.427,2.427,0,0,1,3,11.7Z" transform="translate(-2 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
@@ -183,13 +184,13 @@
               </div>
             </a>
           </div>
-          <a class="flex flex-col items-center justify-center mt-2 mb-1" href="#">
-            <img class="w-80" src="../../assets/img/mockup-blockphi.png" alt="app-mockup">
-            <p class="text-center text-sm text-principal-purple w-56 tracking-tight leading-4">Reduzca el riesgo de impacto de la TI en la sombra.</p>
+          <a class="group flex flex-col items-center justify-center mt-2 mb-1 transition-all hover:bg-total-back" v-on:click="redirection">
+            <img class="w-80 transform group-hover:animate-test" src="../../assets/img/mockup-blockphi.png" alt="app-mockup">
+            <p class="text-center text-sm text-principal-purple w-56 tracking-tight leading-4">Reduzca el riesgo de impacto de la TI en la sombra</p>
           </a>
         </div>
       </div>
-      <a class="block bg-principal-purple hover:bg-opacity-80 transition-all py-4 text-xl text-white text-center rounded-b-lg font-light" v-on:click="redirection">Quiero iniciar</a>
+      <a class="block bg-principal-purple hover:bg-opacity-80 transition-all py-4 text-xl text-white text-center rounded-b-lg font-light cursor-pointer" v-on:click="redirection">Quiero iniciar</a>
     </div>
   </nav>
 </template>
@@ -209,6 +210,7 @@ export default {
   methods: {
     redirection: function () {
       this.$root.$refs.Main.redirectionGrid();
+      this.navbarMobileOpened = false;
     },
     productsHover: function () {
       this.productsMenuShowed = true;
@@ -253,6 +255,9 @@ export default {
 };
 </script>
 <style scoped>
+.submenu-product-item{
+  @apply flex p-4 gap-6 items-center ml-1 rounded-sm hover:bg-total-back transition-all
+}
 html{
   scroll-behavior: smooth;
 }
