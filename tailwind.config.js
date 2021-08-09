@@ -62,7 +62,16 @@ module.exports = {
       },
       screens: {
         'mobile': '425px'
-      }
+      },
+      keyframes:{
+        test: {
+          '0%, 100%': { transform: 'scale(1)' },
+            '50%': { transform: 'scale(1.05)' },
+        }
+      },
+      animation:{
+        test: "test 1s ease-in-out infinite"
+      },
     },
     fontFamily: {
       inconsalata: ["Inconsolata", "monospace"],
@@ -90,7 +99,10 @@ module.exports = {
   },
   variants: {
     extend: {
-      fill: ['hover']
+      fill: ['hover'],
+      width: ["hover", "group-hover"],
+      scale: ["hover","group-hover"],
+      animation: ["hover", "group-hover"]
     }
   },
   plugins: []
