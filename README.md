@@ -1,7 +1,7 @@
 # Enterprise
-
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![License](https://img.shields.io/badge/license-GPLv3-red)](https://github.com/BacktrackAcademy/enterprise/blob/main/LICENSE)
+[![S3 Deploy Ovisoc](https://github.com/BacktrackAcademy/ovisoc.com/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/BacktrackAcademy/ovisoc.com/actions/workflows/ci.yml)
 
 Este repositorio contiene la página web pública de [Backtrack Enterprise](https://backtrackacademy.com/).
 
