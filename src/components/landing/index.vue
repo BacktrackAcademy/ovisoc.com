@@ -115,7 +115,7 @@
             </li>
           </ul>
         </div>
-        <img class="w-full max-w-3xl transform md:scale-125 md:translate-x-36 flex-shrink-0" src="../../assets/img/mockup-blockphi-hq.png" alt="">
+        <img class="w-full max-w-6xl " src="../../assets/img/mockup-blockphi-hq.png" alt="">
       </div>
     </section>
 
@@ -354,7 +354,7 @@
         </div>
         <div class="flex gap-5 flex-wrap px-10 m-auto mobile:m-0">
           <button
-            class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm"
+            class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm hidden"
           >
             Quiero iniciar
           </button>
