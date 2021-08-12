@@ -26,7 +26,7 @@
             class="dropdown relative py-4 mx-3 flex"
           >
             <button class="font-ibm">
-              <span class="text-white mr-1">Productos</span>
+              <span class="text-white mr-1">Products</span>
               <feather fill="#fff" size="13" type="chevron-down" class=""></feather>
             </button>
 
@@ -35,7 +35,7 @@
             class="dropdown relative py-4 mx-3 flex"
           >
             <button class="font-ibm">
-              <div class="text-white mr-1 bg-principal-purple hover:bg-blue-text transition px-6 py-1 rounded-full">Quiero una Demo</div>
+              <div class="text-white mr-1 bg-principal-purple hover:bg-blue-text transition px-6 py-1 rounded-full">Demo</div>
             </button>
           </div>
           <div
@@ -153,6 +153,15 @@
         <div class="line-separator mb-4"></div>
         <div class="flex gap-8 mb-5">
           <div class="flex flex-col font-light">
+            <a class="submenu-product-item" href="https://internal.ovisoc.com/">
+              <svg class="w-10" width="47.128" height="52.342" viewBox="0 0 47.128 52.342">
+                <path id="Path_1563" data-name="Path 1563" d="M48.444,14.111,26.222,3,4,14.111m44.444,0L26.222,25.222M48.444,14.111V41.889L26.222,53m0-27.778L4,14.111M26.222,25.222V53M4,14.111V41.889L26.222,53" transform="translate(-2.658 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              <div class="flex flex-col">
+                <h2 class="text-principal-purple text-base font-ibm leading-7">OVI Internal</h2>
+                <p class="text-white text-sm font-ibm w-52 leading-4">Evalúa de manera continua la red interna</p>
+              </div>
+            </a>
             <a class="submenu-product-item" href="https://discover.ovisoc.com/">
               <svg class="w-10" width="51.717" height="38.473" viewBox="0 0 51.717 38.473">
                 <g id="Group_1725" data-name="Group 1725" transform="translate(-1.458 -4)">
@@ -165,22 +174,13 @@
                 <p class="text-white text-sm font-ibm w-52 leading-4">Descubre activos en tiempo real</p>
               </div>
             </a>
-            <a class="submenu-product-item" href="https://monitoring.ovisoc.com/">
-              <svg class="w-10" width="45.687" height="45.687" viewBox="0 0 45.687 45.687">
-                <path id="Path_1559" data-name="Path 1559" d="M25.843,9.461V4m0,5.461a5.461,5.461,0,0,0,0,10.922m0-10.922a5.461,5.461,0,1,1,0,10.922M9.461,42.226a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,1,1,0-10.922m0,10.922v5.461m0-16.382V4M25.843,20.382v27.3m16.382-5.461a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,0,1,0-10.922m0,10.922v5.461m0-16.382V4" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <a class="submenu-product-item" href="https://monitoring.ovisoc.com">
+              <svg class="w-10" width="52" height="52" viewBox="0 0 52 52">
+                <path id="Path_1711" data-name="Path 1711" d="M3.153,25.222h5.4a5.556,5.556,0,0,1,5.556,5.556v2.778a5.556,5.556,0,0,0,5.556,5.556,5.556,5.556,0,0,1,5.556,5.556v8.181M16.889,5.6V9.944a6.944,6.944,0,0,0,6.944,6.944h1.389a5.556,5.556,0,0,1,5.556,5.556,5.556,5.556,0,0,0,11.111,0,5.556,5.556,0,0,1,5.556-5.556H50.4M36.333,51.578V44.667a5.556,5.556,0,0,1,5.556-5.556H50.4M53,28A25,25,0,1,1,28,3,25,25,0,0,1,53,28Z" transform="translate(-2 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
               <div class="flex flex-col">
                 <h2 class="text-principal-purple text-base font-ibm leading-7">OVI Monitoring</h2>
-                <p class="text-white text-sm font-ibm w-52 leading-4">Utilidad para descubrimiento y auditoría</p>
-              </div>
-            </a>
-            <a class="submenu-product-item" href="https://internal.ovisoc.com">
-              <svg class="w-10" width="45.687" height="45.687" viewBox="0 0 45.687 45.687">
-                <path id="Path_1560" data-name="Path 1560" d="M3,5.427A2.427,2.427,0,0,1,5.427,3H44.259a2.427,2.427,0,0,1,2.427,2.427V11.7a2.427,2.427,0,0,1-.711,1.716L30.408,28.986A2.427,2.427,0,0,0,29.7,30.7v6.276l-9.708,9.708V30.7a2.427,2.427,0,0,0-.711-1.716L3.711,13.419A2.427,2.427,0,0,1,3,11.7Z" transform="translate(-2 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-              </svg>
-              <div class="flex flex-col">
-                <h2 class="text-principal-purple text-base font-ibm leading-7">OVI Validate</h2>
-                <p class="text-white text-sm font-ibm w-52 leading-4">El riesgo cuantitativo arroja escenarios de ataque reales</p>
+                <p class="text-white text-sm font-ibm w-52 leading-4">Búsqueda de amenazas vinculada a tu organización</p>
               </div>
             </a>
           </div>
