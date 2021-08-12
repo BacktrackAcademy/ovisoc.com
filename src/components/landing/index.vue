@@ -1,12 +1,12 @@
 <template>
   <main class="">
     <section class="lg:h-top-hero px-5 lg:px-0 md:px-24 py-16 flex justify-between items-center bg-img bg-cover">
-      <div class="w-full lg:max-w-screen-xl text-center m-auto">
+      <div class="w-full lg:max-w-screen-xl text-center m-auto px-8">
         <h1 class="font-oswald ">
-          <span class="block font-roboto text-4xl sm:text-6xl leading-none">Supervisor continuo de la postura de ciberseguridad de cualquier empresa</span>
+          <span class="block font-roboto text-4xl sm:text-6xl leading-none">Monitoreo continuo de ciberseguridad para empresas.</span>
         </h1>
-        <p class="font-ibm font-light text-white py-10 text-lg sm:text-2xl w-4/5 m-auto">
-          No esperes a ser víctima de un ciberataque, conoce nuestro paquete de soluciones que proveerán una barrera de seguridad para tu empresa.
+        <p class="font-ibm font-light text-white py-10 text-lg sm:text-2xl w-5/6 m-auto">
+          No esperes a ser víctima de un ciberataque, conoce nuestras soluciones que proveerán una barrera de seguridad para tu empresa.
         </p>
         <!-- <a href="/#contact" class="text-black font-oswald tracking-widest uppercase text-xl py-2 px-10 lg:px-8 bg-white" >
           Contáctanos »
@@ -31,7 +31,7 @@
         <div class="w-2/3 lg:w-1/2 lg:pl-24">
           <h2 class="uppercase font-bold font-roboto text-4xl sm:text-5xl leading-none mb-6">Monitorea el riesgo en todo su <span class="text-principal-purple">Ecosistema</span></h2>
           <p class="lg:w-9/12 text-white font-ibm text-xl leading-tight mb-8 lg:mb-4">Seguimiento continuo que te permite administrar y hacer visibles los cambios de infraestructura cuando ocurren en la infraestructura local y en la nube.</p>
-          <div class="text-center lg:text-left text-principal-purple font-ibm text-xl font-bold">Visualiza > Prioriza > Valida</div>
+          <div class="text-center lg:text-left text-principal-purple font-ibm text-xl font-bold">Visualize > Prioritize > Validate</div>
         </div>
         <div class="w-10/12 md:w-2/3 lg:w-1/2 flex-shrink-0">
           <ul class="m-auto lg:m-0 lg:pl-10 flex flex-col gap-20 w-min">
@@ -44,7 +44,7 @@
                   <div class="w-2 h-2 bg-principal-purple rounded-full"></div>
                   <div class="border-b border-t border-principal-purple w-8 sm:w-40"></div>
                 </div>
-                <p class="text-white text-lg font-ibm w-max ml-auto">Activos externos</p>
+                <p class="text-white text-lg font-ibm w-max ml-auto">External assets</p>
               </div>
             </li>
 
@@ -57,7 +57,7 @@
                   <div class="w-2 h-2 bg-principal-purple rounded-full"></div>
                   <div class="border-b border-t border-principal-purple w-8 sm:w-40"></div>
                 </div>
-                <p class="text-white text-lg font-ibm w-max ml-auto">Activos internos</p>
+                <p class="text-white text-lg font-ibm w-max ml-auto">Internal assets</p>
               </div>
             </li>
 
@@ -70,7 +70,7 @@
                   <div class="w-2 h-2 bg-principal-purple rounded-full"></div>
                   <div class="border-b border-t border-principal-purple w-8 sm:w-40"></div>
                 </div>
-                <p class="text-white text-lg font-ibm ml-auto">Interlocutores</p>
+                <p class="text-white text-lg font-ibm ml-auto">Stakeholders</p>
               </div>
             </li>
           </ul>
@@ -87,31 +87,25 @@
               <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
                 <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
+              Internal
+            </li>
+            <li class="flex gap-4 items-center text-lg">
+              <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
+                <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
               Discover
             </li>
             <li class="flex gap-4 items-center text-lg">
               <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
                 <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
-              Management
+              Monitoring
             </li>
             <li class="flex gap-4 items-center text-lg">
               <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
                 <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
               Research
-            </li>
-            <li class="flex gap-4 items-center text-lg">
-              <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
-                <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-              </svg>
-              Validate
-            </li>
-            <li class="flex gap-4 items-center text-lg">
-              <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
-                <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-              </svg>
-              Monitoring
             </li>
           </ul>
         </div>
@@ -193,8 +187,8 @@
     <section class="bg-total-back py-36">
       <div>
         <div class="flex flex-col items-center px-5 mobile:px-20 mb-10 md:mb-20">
-          <span class="font-roboto text-white text-5xl font-bold text-center mobile:text-left">Mira nuestros Servicios</span>
-          <p class="font-ibm text-white text-xl max-w-3xl text-center font-light">Y no esperes a ser víctima de un ciberataque, conoce nuestro paquete de soluciones</p>
+          <span class="font-roboto text-white text-5xl font-bold text-center mobile:text-left">Nuestros Servicios</span>
+          <p class="font-ibm text-white text-xl max-w-3xl text-center font-light">Y no esperes a ser víctima de un ciberataque, conoce nuestras soluciones de ciberseguridad</p>
         </div>
         <div class="flex flex-col md:flex-row justify-center items-center md:px-10">
           <div class="flex flex-col gap-20 font-light mb-10 md:mb-0">
@@ -215,7 +209,7 @@
                 <path id="Path_1559" data-name="Path 1559" d="M25.843,9.461V4m0,5.461a5.461,5.461,0,0,0,0,10.922m0-10.922a5.461,5.461,0,1,1,0,10.922M9.461,42.226a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,1,1,0-10.922m0,10.922v5.461m0-16.382V4M25.843,20.382v27.3m16.382-5.461a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,0,1,0-10.922m0,10.922v5.461m0-16.382V4" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
               </svg>
               <div class="flex flex-col gap-3 text-center mobile:text-left">
-                <h2 class="text-principal-purple text-xl font-ibm leading-7">OVI Management</h2>
+                <h2 class="text-principal-purple text-xl font-ibm leading-7">OVI Assetment</h2>
                 <p class="text-white text-xl font-ibm w-60 leading-5">Transforma datos en respuestas</p>
               </div>
             </a>
@@ -270,12 +264,12 @@
 
     <section class="bg-total-back pt-20 pb-40">
       <div class="max-w-screen-lg flex flex-col items-center m-auto">
-        <span class="inline-block px-10 max-w-3xl text-3xl md:text-5xl font-roboto font-bold uppercase text-center">Monitorea tu ecosistema en tiempo real</span>
+        <span class="inline-block px-10 max-w-3xl text-3xl md:text-5xl font-roboto font-bold uppercase text-center">Monitorea tu eco<span class="text-principal-purple">sistema</span> en tiempo real</span>
         <img class="w-full" src="../../assets/img/mockup-blockphi-hq.png" alt="mockup-ovisoc" />
         <div
             class="px-8 max-w-xs w-auto sm:w-64 py-1 sm:py-3 text-lg sm:text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm text-center mt-4"
           >
-            Get started
+            Comencemos
         </div>
       </div>
     </section>
@@ -286,68 +280,63 @@
           <div></div>
           <div class="flex flex-col items-center gap-4 text-white mobile:mb-10">
             <span class="text-2xl mobile:text-4xl">$99</span>
-            <span class="text-md mobile:text-xl">Básico</span>
+            <span class="text-md mobile:text-xl">Starter</span>
           </div>
           <div class="flex flex-col items-center gap-4 text-white mb-10">
             <span class="text-2xl mobile:text-4xl">$999</span>
-            <span class="text-md mobile:text-xl">Profesional</span>
+            <span class="text-md mobile:text-xl">Professional</span>
           </div>
           <div class="flex flex-col items-center gap-4 text-white mb-10">
             <span class="text-transparent text-2xl mobile:text-4xl">?</span>
             <span class="text-md mobile:text-xl">Enterprise</span>
           </div>
 
-          <div class="grid-label">Usuarios</div>
-          <div class="grid-value">1</div>
-          <div class="grid-value">10</div>
-          <div class="grid-value"> >25 </div>
-
-          <div class="grid-label">Acceso Premium a API</div>
-          <div class="grid-value"><div class="close icon"></div></div>
-          <div class="grid-value"><div class="check icon"></div></div>
-          <div class="grid-value"><div class="check icon"></div></div>
-
-          <div class="grid-label">Soporte SLA</div>
-          <div class="grid-value">4 Hours</div>
-          <div class="grid-value">2 Hours</div>
-          <div class="grid-value">1 Hour</div>
-
-          <div class="grid-label">Número de reportes</div>
+          <div class="grid-label">Activos</div>
           <div class="grid-value">1 IP</div>
           <div class="grid-value">10 IP</div>
-          <div class="grid-value"> >25 IP </div>
+          <div class="grid-value"> > 25 IP</div>
 
-          <div class="grid-label">Clasificaciones de seguridad</div>
-          <div class="grid-value"><div class="check icon"></div></div>
-          <div class="grid-value"><div class="check icon"></div></div>
-          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-label">SLA Soporte</div>
+          <div class="grid-value">8 Hours</div>
+          <div class="grid-value">4 Hours</div>
+          <div class="grid-value">1 Hour</div>
 
-          <div class="grid-label">Evaluación de riesgo</div>
-          <div class="grid-value"><div class="check icon"></div></div>
-          <div class="grid-value"><div class="check icon"></div></div>
-          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-label">Número de auditorías</div>
+          <div class="grid-value">5</div>
+          <div class="grid-value">50</div>
+          <div class="grid-value"> > 100 </div>
 
-          <div class="grid-label">Reporte formato PDF</div>
+          <div class="grid-label">Evaluación de riesgos</div>
           <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="grid-label">Reportes formato PDF</div>
+          <div class="grid-value"><div class="close icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="grid-label">Auditorías Internas</div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="check icon"></div></div>
+
+          <div class="grid-label">Auditorías Externas</div>
+          <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
 
           <div class="grid-label">Monitoreo continuo</div>
           <div class="grid-value"><div class="close icon"></div></div>
-          <div class="grid-value"><div class="check icon"></div></div>
-          <div class="grid-value"><div class="check icon"></div></div>
-
-          <div class="grid-label">Reducción de la superficie de ataque</div>
           <div class="grid-value"><div class="close icon"></div></div>
-          <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
 
           <div class="grid-label">Integración CI/CD</div>
           <div class="grid-value"><div class="close icon"></div></div>
-          <div class="grid-value"><div class="check icon"></div></div>
+          <div class="grid-value"><div class="close icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
 
-          <div class="grid-label">Funcionalidad específica</div>
+          <div class="grid-label">Antiphishing</div>
           <div class="grid-value"><div class="close icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
