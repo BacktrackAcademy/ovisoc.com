@@ -1,0 +1,84 @@
+$size: 52px;
+.eye {
+  width: $size;
+  height: $size;
+  background-color: #070a16;
+  border-top-right-radius: $size * 0.5;
+  border-top-left-radius: $size * 0.5;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  transition: background-color 0s 0.85s;
+  transform: rotate(90deg);
+  &.elastic {
+    transition: cubic-bezier(0.64, 0.57, 0.67, 1.53) 1s;
+  }
+  .skin {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: spawn 1s ease-in;
+    animation-delay: -0.15s;
+    width: $size * 1.42;
+    height: $size * 1.42;
+    border-radius: 100%;
+    opacity: 0;
+  }
+  .ball {
+    z-index: 2;
+    position: absolute;
+    top: $size * 0.25;
+    left: $size * 0.25;
+    width: $size * 0.5;
+    height: $size * 0.5;
+    background-color: #f5f7fa;
+    transform: rotate(-90deg);
+    border-radius: 100%;
+    animation: blink 10s ease infinite;
+    animation-delay: -8s;
+    overflow: hidden;
+    cursor: pointer;
+    .stem {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 0px;
+      height: 0px;
+      .pupil {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: $size * 0.125;
+        height: $size * 0.125;
+        border-radius: 100%;
+        background-color: #000;
+      }
+    }
+    &:hover {
+      top: 18.5px;
+      left: 18.5px;
+      animation: none;
+      .stem {
+        height: 0px !important;
+        .pupil {
+          width: $size * 0.2 !important;
+          height: $size * 0.2 !important;
+        }
+      }
+    }
+  }
+  &:hover {
+    .ball {
+      .stem {
+        transition: height 0.1s ease;
+        .pupil {
+          transition: width 0.15s ease, height 0.15s ease;
+        }
+      }
+    }
+  }
+}
