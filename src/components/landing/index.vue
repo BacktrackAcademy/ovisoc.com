@@ -118,10 +118,10 @@
         <div class="text-center font-roboto font-bold text-5xl mb-14">Obtén tu calificación</div>
         <div class="m-auto w-52 md:w-full md:max-w-screen-sm xl:max-w-screen-lg">
           <carousel
-            navigationEnabled = true
-            paginationEnabled = true
-            loop = true
-            perPage = 1
+            :navigationEnabled = "true"
+            :paginationEnabled = "true"
+            :loop = "true"
+            :perPage = "1"
             :perPageCustom="[[768, 3], [1280, 6]]"
           >
             <slide>
@@ -232,7 +232,7 @@
 
     <section class="bg-total-back py-20">
       <div class="flex flex-col items-center gap-14">
-        <span class="text-principal-purple text-xl font-ibm uppercase">Cumplimiento y certificación</span>
+        <span class="text-principal-purple text-center text-xl font-ibm uppercase">Cumplimiento y certificación</span>
         <ul class="flex gap-x-44 gap-y-10 max-w-screen-xl w-full px-24 justify-center flex-wrap">
           <li class="flex flex-col items-center gap-3">
             <svg class="text-transparent fill-current hover:fill-shield transition-all" width="63.684" height="62.58" viewBox="0 0 63.684 62.58">
@@ -287,7 +287,9 @@
             <span class="text-md mobile:text-xl">Professional</span>
           </div>
           <div class="flex flex-col items-center gap-4 text-white mb-10">
-            <span class="text-transparent text-2xl mobile:text-4xl">?</span>
+            <svg class="flex-shrink-0 w-14 " viewBox="0 0 124 121.468">
+              <path id="Path_1570" data-name="Path 1570" d="M111.444,122.468V16.274A13.417,13.417,0,0,0,97.889,3H30.111A13.417,13.417,0,0,0,16.556,16.274V122.468m94.889,0H125m-13.556,0H77.556m-61,0H3m13.556,0H50.444M43.667,29.548h6.778M43.667,56.1h6.778M77.556,29.548h6.778M77.556,56.1h6.778M50.444,122.468V89.282a6.709,6.709,0,0,1,6.778-6.637H70.778a6.709,6.709,0,0,1,6.778,6.637v33.185m-27.111,0H77.556" transform="translate(-2 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            </svg>
             <span class="text-md mobile:text-xl">Enterprise</span>
           </div>
 
@@ -340,22 +342,38 @@
           <div class="grid-value"><div class="close icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
           <div class="grid-value"><div class="check icon"></div></div>
-        </div>
-        <div class="flex gap-5 flex-wrap px-10 m-auto mobile:m-0">
-          <button
-            class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm hidden"
+
+          <a
+            class="button-purple md:hidden col-span-2"
+            href="#contactForm"
           >
-            Quiero iniciar
-          </button>
-          <button
-            class="w-full max-w-xs sm:w-64 py-3 text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm"
+            Comencemos
+          </a>
+          <a
+            class="button-purple col-start-2 hidden md:inline-block"
+            href="#contactForm"
           >
-            Quiero iniciar
-          </button>
+            Comencemos
+          </a>
+          <a
+            class="bg-transparent button-purple col-start-3"
+            href="#contactForm"
+          >
+            Comencemos
+          </a>
+          <a
+            class="bg-transparent button-purple col-start-4"
+            href="#contactForm"
+          >
+            Comencemos
+          </a>
         </div>
+
       </div>
     </section>
-    <ContactForm />
+    <div id="contactForm">
+      <ContactForm />
+    </div>
   </main>
 </template>
 
@@ -436,6 +454,9 @@ export default {
 }
 .grid-value{
   @apply w-full flex justify-center items-center border-l border-principal-purple border-opacity-50 text-center
+}
+.button-purple{
+  @apply w-min px-8 py-2 m-auto mt-6 text-lg rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm text-center;
 }
 .bg-bta{
   background-image: url("../../assets/img/logo.svg");
