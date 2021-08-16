@@ -2,7 +2,7 @@ $size: 52px;
 .eye {
   width: $size;
   height: $size;
-  background-color: #070a16;
+  background-color: #807DFA;
   border-radius: $size * 0.5;
   overflow: hidden;
   top: 0px;
@@ -28,10 +28,10 @@ $size: 52px;
   .ball {
     z-index: 2;
     position: absolute;
-    top: $size * 0.25;
-    left: $size * 0.25;
-    width: $size * 0.5;
-    height: $size * 0.5;
+    top: $size * 0.15;
+    left: $size * 0.15;
+    width: $size * 0.7;
+    height: $size * 0.7;
     background-color: #f5f7fa;
     transform: rotate(-90deg);
     border-radius: 100%;
@@ -58,8 +58,8 @@ $size: 52px;
       }
     }
     &:hover {
-      top: 18.5px;
-      left: 18.5px;
+      top: 8px;
+      left: 8px;
       animation: none;
       .stem {
         height: 0px !important;
