@@ -8,8 +8,8 @@
       <router-link to="/" class="block py-3 hover:border-0 w-24 lg:w-32">
         <div class="eye">
           <div class="ball">
-            <div class="stem">
-              <div class="pupil"></div>
+            <div ref="stem" class="stem">
+              <div ref="pupil" class="pupil"></div>
             </div>
           </div>
         </div>
@@ -420,6 +420,22 @@ export default {
     };
   },
   methods: {
+    eyeMove: function (e) {
+      let x = e.clientX - 50;
+      let y = e.clientY - 50;
+      let a = Math.PI - Math.atan2(x,y);
+      let p = Math.sqrt(x*x + y*y)
+      let m = Math.sqrt((window.innerWidth - 50) * (window.innerWidth - 50) + ((window.innerHeight - 50) * (window.innerHeight - 50)));
+      this.$refs.stem.style.transform = `translate(-50%,-50%) rotate(${a}rad)`;
+      this.$refs.stem.style.height = `${(p*35)/m}px`;
+      this.$refs.pupil.style.height = `${12.5-(p*3)/m}px`;
+      this.$refs.pupil.style.width = `${12.5-(p*3)/m}px`;
+    },
+    eyeLeave: function () {
+      this.$refs.stem.style.height = '0px';
+      this.$refs.pupil.style.height = '12.5px';
+      this.$refs.pupil.style.width = '12.5px';
+    },
     redirection: function() {
       this.$root.$refs.Main.redirectionGrid();
       this.navbarMobileOpened = false;
@@ -463,6 +479,8 @@ export default {
   },
   created() {
     window.addEventListener("scroll", this.handleScroll);
+    document.addEventListener("mousemove", this.eyeMove);
+    document.addEventListener("mouseleave", this.eyeLeave);
   },
   destroyed() {
     window.removeEventListener("scroll", this.handleScroll);
