@@ -83,33 +83,60 @@
         <div class="p-5 sm:pl-24 flex flex-col justify-center text-center sm:text-left">
           <div class="font-roboto text-4xl uppercase m-auto sm:m-0 mb-6 sm:mb-6 max-w-sm leading-10">No esperes a ser víctima de un ciberataque</div>
           <ul class="text-principal-purple font-ibm flex flex-col items-center sm:items-baseline gap-2">
-            <li class="flex gap-4 items-center text-lg">
-              <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
-                <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-              </svg>
-              Internal
+            <li class="flex flex-col items-center sm:items-start text-lg">
+              <div @click="toggleTool('internal')" class="flex items-center gap-4 cursor-pointer">
+                <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
+                  <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+                Internal
+              </div>
+              <div
+                :class="this.currentTool === 'internal' ? '' : 'opacity-0 h-0 pointer-events-none'"
+                class="text-white"
+              >
+                OVISOC INTERNAL es una solución que evalúa de manera continua la red interna de la empresa permitiendo enfrentar amenazas.
+              </div>
             </li>
-            <li class="flex gap-4 items-center text-lg">
-              <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
-                <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-              </svg>
-              Discover
+            <li class="flex flex-col items-center sm:items-start text-lg">
+              <div @click="toggleTool('discover')" class="flex items-center gap-4 cursor-pointer">
+                <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
+                  <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+                Discover
+              </div>
+              <div
+                :class="this.currentTool === 'discover' ? '' : 'opacity-0 h-0 pointer-events-none'"
+                class="text-white">OVISOC INTERNAL es una solución que evalúa de manera continua la red interna de la empresa permitiendo enfrentar amenazas.
+              </div>
             </li>
-            <li class="flex gap-4 items-center text-lg">
-              <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
-                <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-              </svg>
-              Monitoring
+            <li class="flex flex-col items-center sm:items-start text-lg">
+              <div @click="toggleTool('monitoring')" class="flex items-center gap-4 cursor-pointer">
+                <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
+                  <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+                Monitoring
+              </div>
+              <div
+                :class="this.currentTool === 'monitoring' ? '' : 'opacity-0 h-0 pointer-events-none'"
+                class="text-white">OVISOC INTERNAL es una solución que evalúa de manera continua la red interna de la empresa permitiendo enfrentar amenazas.
+              </div>
             </li>
-            <li class="flex gap-4 items-center text-lg">
-              <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
-                <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-              </svg>
-              Research
+            <li class="flex flex-col items-center sm:items-start text-lg">
+              <div @click="toggleTool('research')" class="flex items-center gap-4 cursor-pointer">
+                <svg class="w-6" width="41.831" height="41.118" viewBox="0 0 41.831 41.118">
+                  <path id="Path_1550" data-name="Path 1550" d="M16.277,22.983,20.7,27.409l8.851-8.851M41.986,9.671a26.454,26.454,0,0,1-19.07-6.727A26.454,26.454,0,0,1,3.845,9.671a26.592,26.592,0,0,0,19.07,32.391A26.592,26.592,0,0,0,41.986,9.671Z" transform="translate(-2 -1.944)" fill="none" stroke="#5652cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+                Research
+              </div>
+              <div
+                :class="this.currentTool === 'research' ? '' : 'opacity-0 h-0 pointer-events-none'"
+                class="text-white"
+              >OVISOC INTERNAL es una solución que evalúa de manera continua la red interna de la empresa permitiendo enfrentar amenazas.
+              </div>
             </li>
           </ul>
         </div>
-        <img class="w-full max-w-6xl " src="../../assets/img/mockup-blockphi-hq.png" alt="">
+        <img class="w-full max-w-6xl h-full" src="../../assets/img/mockup-blockphi-hq.png" alt="">
       </div>
     </section>
 
@@ -394,7 +421,8 @@ export default {
       cves: [],
       cpes: [],
       vendors: [],
-      data: []
+      data: [],
+      currentTool: "",
     }
   },
   mounted() {
@@ -405,6 +433,9 @@ export default {
     this.$root.$refs.Main = this;
   },
   methods: {
+    toggleTool: function (tool) {
+      this.currentTool !== tool ? this.currentTool = tool: this.currentTool = '';
+    },
     redirectionGrid: function () {
       window.location.href = "#pricesGrid"
     },
