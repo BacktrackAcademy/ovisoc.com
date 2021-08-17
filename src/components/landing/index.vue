@@ -91,8 +91,8 @@
                 Internal
               </div>
               <div
-                :class="this.currentTool === 'internal' ? '' : 'opacity-0 h-0 pointer-events-none'"
-                class="text-white"
+                :class="this.currentTool === 'internal' ? 'opacity-1 h-full' : 'opacity-0 h-0 pointer-events-none'"
+                class="text-white transition-height"
               >
                 OVISOC INTERNAL es una solución que evalúa de manera continua la red interna de la empresa permitiendo enfrentar amenazas.
               </div>
@@ -106,7 +106,7 @@
               </div>
               <div
                 :class="this.currentTool === 'discover' ? '' : 'opacity-0 h-0 pointer-events-none'"
-                class="text-white">OVISOC INTERNAL es una solución que evalúa de manera continua la red interna de la empresa permitiendo enfrentar amenazas.
+                class="text-white transition-height">OVISOC es una solución que evalúa sitios web, servidores y dominios de la empresa funcionando continuamente y diagnosticando el estado de seguridad general de la organización.
               </div>
             </li>
             <li class="flex flex-col items-center sm:items-start text-lg">
@@ -118,7 +118,7 @@
               </div>
               <div
                 :class="this.currentTool === 'monitoring' ? '' : 'opacity-0 h-0 pointer-events-none'"
-                class="text-white">OVISOC INTERNAL es una solución que evalúa de manera continua la red interna de la empresa permitiendo enfrentar amenazas.
+                class="text-white transition-height">Gestiona bots y scraping, optimizando los tiempos de detección, recoleccion de la data vinculada a scraping y desarrollo de respuesta frente a este tipo de ataques.
               </div>
             </li>
             <li class="flex flex-col items-center sm:items-start text-lg">
@@ -130,13 +130,38 @@
               </div>
               <div
                 :class="this.currentTool === 'research' ? '' : 'opacity-0 h-0 pointer-events-none'"
-                class="text-white"
+                class="text-white transition-height"
               >OVISOC INTERNAL es una solución que evalúa de manera continua la red interna de la empresa permitiendo enfrentar amenazas.
               </div>
             </li>
           </ul>
         </div>
-        <img class="w-full max-w-6xl h-full" src="../../assets/img/mockup-blockphi-hq.png" alt="">
+        <div class="w-full max-w-6xl flex-shrink-0 flex min-h-screen">
+          <img
+            :class="this.lastToolClicked === 'internal' ? 'opacity-1':' opacity-0'"
+            class="h-full absolute transition-all"
+            src="../../assets/img/mockup-internal-hq.png"
+            alt=""
+          >
+          <img
+            :class="this.lastToolClicked === 'discover' ? 'opacity-1':' opacity-0'"
+            class="h-full absolute transition-all"
+            src="../../assets/img/hero-ovisoc.png"
+            alt=""
+          >
+          <img
+            :class="this.lastToolClicked === 'monitoring' ? 'opacity-1':' opacity-0'"
+            class="h-full absolute transition-all"
+            src="../../assets/img/mockup-monitoring-hq.png"
+            alt=""
+          >
+          <img
+            :class="this.lastToolClicked === 'research' ? 'opacity-1':' opacity-0'"
+            class="h-full absolute transition-all"
+            src="../../assets/img/mockup-research-hq.png"
+            alt=""
+          >
+        </div>
       </div>
     </section>
 
@@ -292,7 +317,7 @@
     <section class="bg-total-back pt-20 pb-40">
       <div class="max-w-screen-lg flex flex-col items-center m-auto">
         <span class="inline-block px-10 max-w-3xl text-3xl md:text-5xl font-roboto font-bold uppercase text-center">Monitorea tu eco<span class="text-principal-purple">sistema</span> en tiempo real</span>
-        <img class="w-full" src="../../assets/img/mockup-blockphi-hq.png" alt="mockup-ovisoc" />
+        <img class="w-full" src="../../assets/img/mockup-monitoring-hq.png" alt="mockup-ovisoc" />
         <div
             class="px-8 max-w-xs w-auto sm:w-64 py-1 sm:py-3 text-lg sm:text-xl rounded-full bg-principal-purple hover:bg-blue-text text-white hover:text-white transition font-ibm text-center mt-4"
           >
@@ -423,6 +448,7 @@ export default {
       vendors: [],
       data: [],
       currentTool: "",
+      lastToolClicked: "internal",
     }
   },
   mounted() {
@@ -434,6 +460,7 @@ export default {
   },
   methods: {
     toggleTool: function (tool) {
+      this.lastToolClicked = tool;
       this.currentTool !== tool ? this.currentTool = tool: this.currentTool = '';
     },
     redirectionGrid: function () {
