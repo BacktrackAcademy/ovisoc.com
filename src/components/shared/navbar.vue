@@ -47,7 +47,7 @@
             </button>
           </div>
           <div class="dropdown relative py-4 mx-3 flex">
-            <button class="font-ibm">
+            <button class="font-ibm" @click="redirection">
               <div
                 class="text-white mr-1 bg-principal-purple hover:bg-blue-text transition px-6 py-1 rounded-full"
               >
@@ -437,7 +437,7 @@ export default {
       this.$refs.pupil.style.width = '12.5px';
     },
     redirection: function() {
-      this.$root.$refs.Main.redirectionGrid();
+      this.$root.$refs.Main.redirectionForm();
       this.navbarMobileOpened = false;
     },
     productsHover: function() {
