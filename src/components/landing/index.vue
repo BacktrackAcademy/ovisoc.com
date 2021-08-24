@@ -196,7 +196,7 @@
               <div
                 :class="
                   this.currentTool === 'internal'
-                    ? 'opacity-1 max-h-96'
+                    ? 'opacity-1 max-h-96 delay-100'
                     : 'opacity-0 max-h-0 pointer-events-none'
                 "
                 class="text-white transition-all"
@@ -233,7 +233,7 @@
               <div
                 :class="
                   this.currentTool === 'discover'
-                    ? 'max-h-96'
+                    ? 'max-h-96 delay-100'
                     : 'opacity-0 max-h-0 pointer-events-none'
                 "
                 class="text-white transition-all"
@@ -272,7 +272,7 @@
               <div
                 :class="
                   this.currentTool === 'monitoring'
-                    ? 'max-h-96'
+                    ? 'max-h-96 delay-100'
                     : 'opacity-0 max-h-0 pointer-events-none'
                 "
                 class="text-white transition-all"
@@ -310,7 +310,7 @@
               <div
                 :class="
                   this.currentTool === 'research'
-                    ? 'max-h-96'
+                    ? 'max-h-96 delay-100'
                     : 'opacity-0 max-h-0 pointer-events-none'
                 "
                 class="text-white transition-all"
