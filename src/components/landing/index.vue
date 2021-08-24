@@ -196,10 +196,10 @@
               <div
                 :class="
                   this.currentTool === 'internal'
-                    ? 'opacity-1 h-full'
-                    : 'opacity-0 h-0 pointer-events-none'
+                    ? 'opacity-1 max-h-96'
+                    : 'opacity-0 max-h-0 pointer-events-none'
                 "
-                class="text-white transition-height"
+                class="text-white transition-all"
               >
                 OVISOC INTERNAL es una solución que evalúa de manera continua la
                 red interna de la empresa permitiendo enfrentar amenazas.
@@ -233,10 +233,10 @@
               <div
                 :class="
                   this.currentTool === 'discover'
-                    ? ''
-                    : 'opacity-0 h-0 pointer-events-none'
+                    ? 'max-h-96'
+                    : 'opacity-0 max-h-0 pointer-events-none'
                 "
-                class="text-white transition-height"
+                class="text-white transition-all"
               >
                 OVISOC es una solución que evalúa sitios web, servidores y
                 dominios de la empresa funcionando continuamente y
@@ -272,10 +272,10 @@
               <div
                 :class="
                   this.currentTool === 'monitoring'
-                    ? ''
-                    : 'opacity-0 h-0 pointer-events-none'
+                    ? 'max-h-96'
+                    : 'opacity-0 max-h-0 pointer-events-none'
                 "
-                class="text-white transition-height"
+                class="text-white transition-all"
               >
                 Gestiona bots y scraping, optimizando los tiempos de detección,
                 recoleccion de la data vinculada a scraping y desarrollo de
@@ -310,10 +310,10 @@
               <div
                 :class="
                   this.currentTool === 'research'
-                    ? ''
-                    : 'opacity-0 h-0 pointer-events-none'
+                    ? 'max-h-96'
+                    : 'opacity-0 max-h-0 pointer-events-none'
                 "
-                class="text-white transition-height"
+                class="text-white transition-all"
               >
                 OVISOC INTERNAL es una solución que evalúa de manera continua la
                 red interna de la empresa permitiendo enfrentar amenazas.
@@ -321,12 +321,12 @@
             </li>
           </ul>
         </div>
-        <div class="w-full max-w-6xl flex-shrink-0 flex min-h-screen">
+        <div class="w-full max-w-6xl flex-shrink-0 flex relative">
           <img
             :class="
               this.lastToolClicked === 'internal' ? 'opacity-1' : ' opacity-0'
             "
-            class="h-full absolute transition-all"
+            class="transition-all w-full"
             src="../../assets/img/mockup-internal-hq.png"
             alt=""
           />
@@ -334,7 +334,7 @@
             :class="
               this.lastToolClicked === 'discover' ? 'opacity-1' : ' opacity-0'
             "
-            class="h-full absolute transition-all"
+            class="transition-all absolute w-full"
             src="../../assets/img/hero-ovisoc.png"
             alt=""
           />
@@ -342,7 +342,7 @@
             :class="
               this.lastToolClicked === 'monitoring' ? 'opacity-1' : ' opacity-0'
             "
-            class="h-full absolute transition-all"
+            class="transition-all absolute w-full"
             src="../../assets/img/mockup-monitoring-hq.png"
             alt=""
           />
@@ -350,7 +350,7 @@
             :class="
               this.lastToolClicked === 'research' ? 'opacity-1' : ' opacity-0'
             "
-            class="h-full absolute transition-all"
+            class="transition-all absolute w-full"
             src="../../assets/img/mockup-research-hq.png"
             alt=""
           />
