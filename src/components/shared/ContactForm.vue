@@ -66,7 +66,7 @@
             <input
               class="h-10 w-full bg-transparent border-blue-text border focus:outline-none rounded-full px-2 text-white"
               type="text"
-              
+
             />
           </div> -->
           <br />
@@ -165,6 +165,7 @@
               :border-radius="30"
               default-country-code="CL"
               dark
+              valid-color= '#5652CC'
             />
           </div>
           <span v-if="$v.phone.$dirty">
