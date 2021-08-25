@@ -1,7 +1,7 @@
 <template>
   <section
     v-if="loading"
-    class="flex flex-col md:flex-row px-2 md:px-24 lg:px-48 my-32"
+    class="flex flex-col md:flex-row px-2 md:px-24 lg:px-48 py-32 min-h-screen items-center"
   >
     <div class="flex flex-col md:w-1/2 mr-5">
       <h3 class="font-roboto text-principal-purple text-3xl  pb-5">
@@ -24,7 +24,7 @@
     >
       <div class="flex flex-col gap-10 text-center sm:text-left max-w-lg">
         <p class="text-white text-3xl sm:text-4xl font-roboto">
-          Solicite el <span class="text-blue-text">Free trial</span> &
+          Solicite el <span class="text-blue-text" @click="loading = !loading">Free trial</span> &
           <br />Pruebe nuestra Plataforma
         </p>
         <p
@@ -258,8 +258,16 @@ export default {
       required,
     },
   },
+  watch: {
+    loading: function () {
+      this.redirection()
+    }
+  },
   methods: {
     contact() {},
+    redirection() {
+      this.$root.$refs.Main.redirectionForm();
+    },
     submit() {
       console.log("submit!");
       this.$v.$touch();
@@ -271,7 +279,6 @@ export default {
           confirmButtonText: "Ok",
         });
       } else {
-        this.loading = true;
         this.axios
           .post("https://api.discover.ovisoc.com/api/v1/external_reports", {
             params: {
@@ -300,6 +307,7 @@ export default {
               confirmButtonText: "Ok",
             });
           });
+        this.loading = true;
       }
     },
   },
@@ -310,6 +318,9 @@ export default {
 };
 </script>
 <style>
+html{
+  scroll-behavior: smooth;
+}
 .vue-phone-number-input input.country-selector__input,
 .vue-phone-number-input input.input-tel__input {
   border-color: #5652cc;
