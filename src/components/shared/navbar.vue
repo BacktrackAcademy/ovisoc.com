@@ -71,14 +71,61 @@
         "
         class="block lg:hidden absolute top-0 min-h-screen w-screen left-0 bg-blue-light-dark transform transition-all"
       >
-        <ul
-          class="flex flex-col h-screen justify-center items-center text-white uppercase text-2xl gap-5"
+        <div
+          class="flex flex-col h-screen justify-center items-center text-white uppercase text-2xl"
         >
-          <li>Open data</li>
-          <li>Products</li>
-          <li class="text-principal-purple" v-on:click="redirection">Demo</li>
-          <li>Login</li>
-        </ul>
+          <div
+            :class="this.submenu === 'openData' ?
+              'text-principal-purple mt-36' :
+                this.submenu === '' ?
+                'text-white' :
+                'opacity-0'"
+            class="transition-all duration-300 mb-5"
+            @click="openSubmenuMobile('openData')"
+          >
+            Open data
+          </div>
+          <div
+            :class="this.submenu === 'openData' ?
+              'opacity-1 max-h-96 mb-5 pointer-events-auto' :
+              'opacity-0 max-h-0 mb-0 pointer-events-none'"
+            class="flex flex-col text-center transform transition-all duration-300 gap-2"
+            ref="openData"
+          >
+            <a href="https://internal.ovisoc.com">Internal</a>
+            <a href="https://discover.ovisoc.com">Discover</a>
+            <a href="https://monitoring.ovisoc.com">Monitoring</a>
+          </div>
+          <div
+            :class="this.submenu === 'testRef' ?
+              'text-principal-purple mt-10' :
+                this.submenu === '' ?
+                'text-white' :
+                'opacity-0'"
+            class="transition-all duration-300 mb-5"
+            @click="openSubmenuMobile('testRef')"
+          >
+            Products
+          </div>
+          <div
+            :class="this.submenu === 'testRef' ?
+              'opacity-1 max-h-96 mb-5 pointer-events-auto' :
+              'opacity-0 max-h-0 mb-0 pointer-events-none'"
+            class="flex flex-col text-center transform transition-all duration-300 gap-2"
+            ref="testRef"
+          >
+            <a href="https://internal.ovisoc.com">Internal</a>
+            <a href="https://discover.ovisoc.com">Discover</a>
+            <a href="https://monitoring.ovisoc.com">Monitoring</a>
+          </div>
+          <div
+            :class="this.submenu === '' ? 'opacity-1' : 'opacity-0'"
+            class="transition-opacity duration-300 flex flex-col items-center"
+          >
+            <div class="text-principal-purple mb-5" v-on:click="redirection">Demo</div>
+            <div>Login</div>
+          </div>
+        </div>
       </div>
       <div
         v-on:click="handleMobileNavbar"
@@ -416,7 +463,8 @@ export default {
       dbMenuShowed: false,
       limitPosition: 500,
       scrolled: false,
-      lastPosition: 0
+      lastPosition: 0,
+      submenu: ""
     };
   },
   methods: {
@@ -475,6 +523,9 @@ export default {
     },
     handleMobileNavbar: function() {
       this.navbarMobileOpened = !this.navbarMobileOpened;
+    },
+    openSubmenuMobile(submenu) {
+      this.submenu !== submenu ? this.submenu = submenu : this.submenu = ""
     }
   },
   created() {
