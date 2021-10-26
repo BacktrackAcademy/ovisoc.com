@@ -49,18 +49,18 @@
           <div class="dropdown relative py-4 mx-3 flex">
             <button class="font-ibm" @click="redirection">
               <div
-                class="text-white mr-1 bg-principal-purple hover:bg-blue-text transition px-6 py-1 rounded-full"
+                class="text-white mr-1 bg-principal-purple hover:bg-blue-text transition px-6 py-1 rounded-full cursor-pointer"
               >
                 Demo
               </div>
             </button>
           </div>
           <div class="dropdown relative py-4 mx-3 flex items-center">
-            <router-link to="/login">
+            <a href="https://discover.ovisoc.com/login">
               <button class="font-ibm">
                 <span class="text-white mr-1">Login</span>
               </button>
-            </router-link>
+            </a>
           </div>
         </div>
       </ul>
@@ -122,8 +122,8 @@
             :class="this.submenu === '' ? 'opacity-1' : 'opacity-0'"
             class="transition-opacity duration-300 flex flex-col items-center"
           >
-            <div class="text-principal-purple mb-5" v-on:click="redirection">Demo</div>
-            <div>Login</div>
+            <div class="text-principal-purple mb-5" @click="redirection">Demo</div>
+            <a href="https://discover.ovisoc.com/login" class="font-roboto">Login</a>
           </div>
         </div>
       </div>
