@@ -103,7 +103,8 @@ module.exports = {
       width: ["hover", "group-hover"],
       scale: ["hover","group-hover"],
       animation: ["hover", "group-hover"],
-      maxHeight: ["hover", "group-hover"]
+      maxHeight: ["hover", "group-hover"],
+      borderWidth: ['hover', 'focus']
     }
   },
   plugins: []
