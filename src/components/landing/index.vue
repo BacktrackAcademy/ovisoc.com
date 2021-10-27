@@ -153,7 +153,7 @@
       </div>
     </section>
 
-    <section class="bg-total-back">
+    <!--<section class="bg-total-back">
       <div
         class="flex flex-col md:flex-row justify-between m-auto max-w-screen-2xl pt-20 pb-10 overflow-hidden"
       >
@@ -356,6 +356,199 @@
           />
         </div>
       </div>
+    </section>-->
+
+    <section class="bg-total-back">
+      <div class="flex flex-col md:flex-row justify-between py-48 px-10">
+        <div class="p-5 flex flex-col flex-shrink-0 justify-center text-left w-1/2 mobile:px-20 mb-10 md:mb-20">
+          <div class="px-10 font-ibm">
+            <h2 class="text-principal-purple text-3xl sm:text-4xl ">
+              Marketplace
+            </h2>
+            <p class="text-white text-xl mt-4">
+              OVISOC cuenta con la mayor cantidad de aplicaciones de
+              pago y de código abierto destinadas a la ciberseguridad
+              corporativa y empresarial para obtener el análisis de 
+              datos que necesitas para la toma de decisiones.
+            </p>
+          </div>
+        </div>
+        <div class="p-5 grid grid-cols-5 w-full gap-12">
+          <div v-for="(icon, index) in iconTools" :key="index" class="h-24 w-24 bg-white flex justify-self-center items-center rounded-full border-4 border-principal-purple overflow-hidden hover:border-8 cursor-pointer">
+            <img
+              class="p-4"
+              :src="icon.path"
+              :alt="icon.name"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-blue-light-dark flex justify-center items-center p-14">
+      <div>
+        <div class="uppercase text-center font-roboto font-bold text-4xl mb-5">
+          Cumplimiento y certificaciones
+        </div>
+        <div class="p-5 grid grid-cols-4 w-full gap-12">
+          <div v-for="(icon, index) in iconCertified" :key="index" class="justify-center items-center text-center">
+            <div class="h-32 w-32 bg-white flex justify-self-center items-center rounded-full border-8 border-principal-purple overflow-hidden">
+              <img
+                class="p-3"
+                :src="icon.path"
+                :alt="icon.name"
+              />
+            </div>
+            <p class="pt-4 uppercase font-roboto font-bold text-white text-xl">{{ icon.name }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-total-back py-36">
+      <div>
+        <div
+          class="flex flex-col items-center px-5 mobile:px-20 mb-10 md:mb-20"
+        >
+          <span
+            class="font-roboto text-white text-5xl font-bold text-center mobile:text-left"
+            >Nuestros Servicios</span
+          >
+          <p
+            class="font-ibm text-white text-xl max-w-3xl text-center font-light"
+          >
+            Y no esperes a ser víctima de un ciberataque, conoce nuestras
+            soluciones de ciberseguridad
+          </p>
+        </div>
+        <div
+          class="flex flex-col md:flex-row justify-center items-center md:px-10"
+        >
+          <div class="flex flex-col gap-20 font-light mb-10 md:mb-0">
+            <div
+              class="flex gap-8 flex-col mobile:flex-row items-center ml-1"
+            >
+              <svg class="w-20" viewBox="0 0 51.717 38.473">
+                <g
+                  id="Group_1725"
+                  data-name="Group 1725"
+                  transform="translate(-1.458 -4)"
+                >
+                  <path
+                    id="Path_1557"
+                    data-name="Path 1557"
+                    d="M24.631,16.816A7.816,7.816,0,1,1,16.816,9a7.816,7.816,0,0,1,7.816,7.816Z"
+                    transform="translate(10.501 6.421)"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                  <path
+                    id="Path_1558"
+                    data-name="Path 1558"
+                    d="M2.458,23.236a26.061,26.061,0,0,1,49.717,0,26.061,26.061,0,0,1-49.717,0Z"
+                    transform="translate(0)"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </g>
+              </svg>
+              <div @click="toggleTool('ovi-discover')" class="flex flex-col gap-3 text-center mobile:text-left">
+                <h2 class="text-principal-purple text-xl font-ibm leading-7 cursor-pointer">
+                  OVI Discover
+                </h2>
+                <p class="text-white text-xl font-ibm w-60 leading-5">
+                  Descubre activos en tiempo real
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex gap-8 flex-col mobile:flex-row items-center ml-1"
+            >
+              <svg class="w-16 px-2 box-content" viewBox="0 0 45.687 45.687">
+                <path
+                  id="Path_1559"
+                  data-name="Path 1559"
+                  d="M25.843,9.461V4m0,5.461a5.461,5.461,0,0,0,0,10.922m0-10.922a5.461,5.461,0,1,1,0,10.922M9.461,42.226a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,1,1,0-10.922m0,10.922v5.461m0-16.382V4M25.843,20.382v27.3m16.382-5.461a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,0,1,0-10.922m0,10.922v5.461m0-16.382V4"
+                  transform="translate(-3 -3)"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <div @click="toggleTool('ovi-assetment')" class="flex flex-col gap-3 text-center mobile:text-left">
+                <h2 class="text-principal-purple text-xl font-ibm leading-7 cursor-pointer">
+                  OVI Assetment
+                </h2>
+                <p class="text-white text-xl font-ibm w-60 leading-5">
+                  Transforma datos en respuestas
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex gap-8 flex-col mobile:flex-row items-center ml-1"
+            >
+              <svg class="w-16 px-2 box-content" viewBox="0 0 45.687 45.687">
+                <path
+                  id="Path_1560"
+                  data-name="Path 1560"
+                  d="M3,5.427A2.427,2.427,0,0,1,5.427,3H44.259a2.427,2.427,0,0,1,2.427,2.427V11.7a2.427,2.427,0,0,1-.711,1.716L30.408,28.986A2.427,2.427,0,0,0,29.7,30.7v6.276l-9.708,9.708V30.7a2.427,2.427,0,0,0-.711-1.716L3.711,13.419A2.427,2.427,0,0,1,3,11.7Z"
+                  transform="translate(-2 -2)"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <div @click="toggleTool('ovi-validate')" class="flex flex-col gap-3 text-center mobile:text-left">
+                <h2 class="text-principal-purple text-xl font-ibm leading-7 cursor-pointer">
+                  OVI Validate
+                </h2>
+                <p class="text-white text-xl font-ibm w-60 md:w-72 leading-5">
+                  El riesgo cuantitativo arroja escenarios de ataque reales
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="relative w-full box-content h-96 pb-32 max-w-7xl xl:max-w-screen-md"
+          >
+            <img
+              :class="
+                this.lastToolClicked === 'ovi-discover' ? 'opacity-1' : ' opacity-0'
+              "
+              class="transition-all absolute w-full"
+              src="../../assets/img/hero-ovisoc.png"
+              alt="ovi-discover"
+            />
+            <img
+              :class="
+                this.lastToolClicked === 'ovi-assetment' ? 'opacity-1' : ' opacity-0'
+              "
+              class="transition-all absolute w-full"
+              src="../../assets/img/mockup-monitoring-hq.png"
+              alt="ovi-assetment"
+            />
+            <img
+              :class="
+                this.lastToolClicked === 'ovi-validate' ? 'opacity-1' : ' opacity-0'
+              "
+              class="transition-all absolute w-full"
+              src="../../assets/img/mockup-research-hq.png"
+              alt="ovi-validate"
+            />
+          </div>
+        </div>
+      </div>
     </section>
 
     <section
@@ -460,136 +653,7 @@
       </div>
     </section>
 
-    <section class="bg-total-back py-36">
-      <div>
-        <div
-          class="flex flex-col items-center px-5 mobile:px-20 mb-10 md:mb-20"
-        >
-          <span
-            class="font-roboto text-white text-5xl font-bold text-center mobile:text-left"
-            >Nuestros Servicios</span
-          >
-          <p
-            class="font-ibm text-white text-xl max-w-3xl text-center font-light"
-          >
-            Y no esperes a ser víctima de un ciberataque, conoce nuestras
-            soluciones de ciberseguridad
-          </p>
-        </div>
-        <div
-          class="flex flex-col md:flex-row justify-center items-center md:px-10"
-        >
-          <div class="flex flex-col gap-20 font-light mb-10 md:mb-0">
-            <a
-              class="flex gap-8 flex-col mobile:flex-row items-center ml-1"
-              href="#"
-            >
-              <svg class="w-20" viewBox="0 0 51.717 38.473">
-                <g
-                  id="Group_1725"
-                  data-name="Group 1725"
-                  transform="translate(-1.458 -4)"
-                >
-                  <path
-                    id="Path_1557"
-                    data-name="Path 1557"
-                    d="M24.631,16.816A7.816,7.816,0,1,1,16.816,9a7.816,7.816,0,0,1,7.816,7.816Z"
-                    transform="translate(10.501 6.421)"
-                    fill="none"
-                    stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                  />
-                  <path
-                    id="Path_1558"
-                    data-name="Path 1558"
-                    d="M2.458,23.236a26.061,26.061,0,0,1,49.717,0,26.061,26.061,0,0,1-49.717,0Z"
-                    transform="translate(0)"
-                    fill="none"
-                    stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                  />
-                </g>
-              </svg>
-              <div class="flex flex-col gap-3 text-center mobile:text-left">
-                <h2 class="text-principal-purple text-xl font-ibm leading-7">
-                  OVI Discover
-                </h2>
-                <p class="text-white text-xl font-ibm w-60 leading-5">
-                  Descubre activos en tiempo real
-                </p>
-              </div>
-            </a>
-            <a
-              class="flex gap-8 flex-col mobile:flex-row items-center ml-1"
-              href="#"
-            >
-              <svg class="w-16 px-2 box-content" viewBox="0 0 45.687 45.687">
-                <path
-                  id="Path_1559"
-                  data-name="Path 1559"
-                  d="M25.843,9.461V4m0,5.461a5.461,5.461,0,0,0,0,10.922m0-10.922a5.461,5.461,0,1,1,0,10.922M9.461,42.226a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,1,1,0-10.922m0,10.922v5.461m0-16.382V4M25.843,20.382v27.3m16.382-5.461a5.461,5.461,0,1,0,0-10.922m0,10.922a5.461,5.461,0,0,1,0-10.922m0,10.922v5.461m0-16.382V4"
-                  transform="translate(-3 -3)"
-                  fill="none"
-                  stroke="#fff"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                />
-              </svg>
-              <div class="flex flex-col gap-3 text-center mobile:text-left">
-                <h2 class="text-principal-purple text-xl font-ibm leading-7">
-                  OVI Assetment
-                </h2>
-                <p class="text-white text-xl font-ibm w-60 leading-5">
-                  Transforma datos en respuestas
-                </p>
-              </div>
-            </a>
-            <a
-              class="flex gap-8 flex-col mobile:flex-row items-center ml-1"
-              href="#"
-            >
-              <svg class="w-16 px-2 box-content" viewBox="0 0 45.687 45.687">
-                <path
-                  id="Path_1560"
-                  data-name="Path 1560"
-                  d="M3,5.427A2.427,2.427,0,0,1,5.427,3H44.259a2.427,2.427,0,0,1,2.427,2.427V11.7a2.427,2.427,0,0,1-.711,1.716L30.408,28.986A2.427,2.427,0,0,0,29.7,30.7v6.276l-9.708,9.708V30.7a2.427,2.427,0,0,0-.711-1.716L3.711,13.419A2.427,2.427,0,0,1,3,11.7Z"
-                  transform="translate(-2 -2)"
-                  fill="none"
-                  stroke="#fff"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                />
-              </svg>
-              <div class="flex flex-col gap-3 text-center mobile:text-left">
-                <h2 class="text-principal-purple text-xl font-ibm leading-7">
-                  OVI Validate
-                </h2>
-                <p class="text-white text-xl font-ibm w-60 md:w-72 leading-5">
-                  El riesgo cuantitativo arroja escenarios de ataque reales
-                </p>
-              </div>
-            </a>
-          </div>
-          <div
-            class="relative max-w-7xl xl:max-w-screen-md w-full px-8 mobile:px-0"
-          >
-            <img
-              class="w-full"
-              src="../../assets/img/hero-ovisoc.png"
-              alt="mockup-ovisoc"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-total-back py-20">
+    <!--<section class="bg-total-back py-20">
       <div class="flex flex-col items-center gap-14">
         <span
           class="text-principal-purple text-center text-xl font-ibm uppercase"
@@ -680,7 +744,7 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section>-->
 
     <section class="bg-total-back pt-20 pb-40">
       <div class="max-w-screen-lg flex flex-col items-center m-auto">
@@ -835,13 +899,17 @@ export default {
       cpes: [],
       vendors: [],
       data: [],
+      iconTools: [],
+      iconCertified: [],
       currentTool: "",
-      lastToolClicked: "internal"
+      lastToolClicked: "ovi-discover"
     };
   },
   mounted() {
     this.loadInfo();
     this.scrollTop();
+    this.getIconTools();
+    this.getIconCertified();
   },
   created() {
     this.$root.$refs.Main = this;
@@ -861,6 +929,25 @@ export default {
     },
     numberWithCommas(number) {
       return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    },
+    getIconTools(){
+      this.importTools(require.context('../../assets/img/icon-tools/', true, /\.png$/));
+    },
+    importTools(req) {
+      req.keys().forEach(key => {
+        let name = key.split('.')[1].split('/')[1].replace ("-", " ");
+        this.iconTools.push({ path: req(key), name: name })
+      });
+    },
+    getIconCertified(){
+      this.importCertified(require.context('../../assets/img/icon-certified/', true, /\.png$/));
+    },
+    importCertified(req) {
+      req.keys().forEach(key => {
+        let name = key.split('.')[1].split('/')[1].replace ("-", " ");
+        this.iconCertified.push({ path: req(key), name: name })
+      });
+      console.log(this.iconCertified);
     },
     loadInfo() {
       const cur = this;
